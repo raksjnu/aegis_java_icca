@@ -1,0 +1,54 @@
+2026-01-10 17:25:39 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-10 17:25:39 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-10 17:25:50 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ArchiveExtractor - Extracting ZIP file: C:\Users\raksj\AppData\Local\Temp\muleguard-upload-119873297614670396muleapp1.zip
+2026-01-10 17:25:50 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ArchiveExtractor - ZIP extracted successfully. Project root: C:\raks\apiguard\muleguard\temp\muleguard-sessions\827b2c0e-ae6b-4a82-8b05-8f50fab0c6ba\muleapp1
+2026-01-10 17:25:50 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\827b2c0e-ae6b-4a82-8b05-8f50fab0c6ba\muleapp1
+2026-01-10 17:25:50 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Starting MuleGuard validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\827b2c0e-ae6b-4a82-8b05-8f50fab0c6ba\muleapp1
+2026-01-10 17:25:50 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Scanning for Mule API projects...
+2026-01-10 17:25:50 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Searching for Mule projects in: C:\raks\apiguard\muleguard\temp\muleguard-sessions\827b2c0e-ae6b-4a82-8b05-8f50fab0c6ba\muleapp1
+2026-01-10 17:25:50 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Maximum search depth: 5
+2026-01-10 17:25:50 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 1 Mule project(s):
+2026-01-10 17:25:50 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery -   1. C:\raks\apiguard\muleguard\temp\muleguard-sessions\827b2c0e-ae6b-4a82-8b05-8f50fab0c6ba\muleapp1
+2026-01-10 17:25:50 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-10 17:25:50 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1
+2026-01-10 17:25:53 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to muleapp1
+2026-01-10 17:25:53 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Passed: 5 | Failed: 11 | Skipped: 0
+2026-01-10 17:25:53 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Consolidated report generated: C:\raks\apiguard\muleguard\temp\muleguard-sessions\827b2c0e-ae6b-4a82-8b05-8f50fab0c6ba\muleapp1\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-10 17:25:53 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Help file copied
+2026-01-10 17:25:53 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied
+2026-01-10 17:25:53 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Consolidated Excel report generated
+2026-01-10 17:25:53 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Checklist generated
+2026-01-10 17:25:53 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Rule guide generated
+2026-01-10 17:25:53 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - BATCH VALIDATION COMPLETE!
+2026-01-10 17:25:53 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: C:\raks\apiguard\muleguard\temp\muleguard-sessions\827b2c0e-ae6b-4a82-8b05-8f50fab0c6ba\muleapp1\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-10 17:25:53 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Individual reports in: C:\raks\apiguard\muleguard\temp\muleguard-sessions\827b2c0e-ae6b-4a82-8b05-8f50fab0c6ba\muleapp1\muleguard-reports
+2026-01-10 17:30:27 [Thread-1] INFO  c.raks.muleguard.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
+2026-01-10 17:33:44 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-10 17:33:44 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-10 17:45:53 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-10 17:45:53 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-10 17:46:05 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ArchiveExtractor - Extracting ZIP file: C:\Users\raksj\AppData\Local\Temp\muleguard-upload-18203391549683105086muleapp1.zip
+2026-01-10 17:46:05 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ArchiveExtractor - ZIP extracted successfully. Project root: C:\raks\apiguard\muleguard\temp\muleguard-sessions\9504ecbe-fe26-4c1c-b3e9-83aad94d807b\muleapp1
+2026-01-10 17:46:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\9504ecbe-fe26-4c1c-b3e9-83aad94d807b\muleapp1
+2026-01-10 17:46:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Starting MuleGuard validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\9504ecbe-fe26-4c1c-b3e9-83aad94d807b\muleapp1
+2026-01-10 17:46:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Scanning for Mule API projects...
+2026-01-10 17:46:05 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Searching for Mule projects in: C:\raks\apiguard\muleguard\temp\muleguard-sessions\9504ecbe-fe26-4c1c-b3e9-83aad94d807b\muleapp1
+2026-01-10 17:46:05 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Maximum search depth: 5
+2026-01-10 17:46:05 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 1 Mule project(s):
+2026-01-10 17:46:05 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery -   1. C:\raks\apiguard\muleguard\temp\muleguard-sessions\9504ecbe-fe26-4c1c-b3e9-83aad94d807b\muleapp1
+2026-01-10 17:46:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-10 17:46:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1
+2026-01-10 17:46:08 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to muleapp1
+2026-01-10 17:46:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Passed: 5 | Failed: 11 | Skipped: 0
+2026-01-10 17:46:08 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Consolidated report generated: C:\raks\apiguard\muleguard\temp\muleguard-sessions\9504ecbe-fe26-4c1c-b3e9-83aad94d807b\muleapp1\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-10 17:46:08 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Help file copied
+2026-01-10 17:46:08 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied
+2026-01-10 17:46:08 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Consolidated Excel report generated
+2026-01-10 17:46:08 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Checklist generated
+2026-01-10 17:46:08 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Rule guide generated
+2026-01-10 17:46:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - BATCH VALIDATION COMPLETE!
+2026-01-10 17:46:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: C:\raks\apiguard\muleguard\temp\muleguard-sessions\9504ecbe-fe26-4c1c-b3e9-83aad94d807b\muleapp1\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-10 17:46:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Individual reports in: C:\raks\apiguard\muleguard\temp\muleguard-sessions\9504ecbe-fe26-4c1c-b3e9-83aad94d807b\muleapp1\muleguard-reports
+2026-01-10 17:46:22 [Thread-1] INFO  c.raks.muleguard.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
+2026-01-10 17:50:33 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-10 17:50:33 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop

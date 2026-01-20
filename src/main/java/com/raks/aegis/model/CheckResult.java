@@ -1,0 +1,64 @@
+package com.raks.aegis.model;
+public class CheckResult {
+    public final String ruleId;
+    public final String checkDescription;
+    public final boolean passed;
+    public final String message;
+    public final String checkedFiles; 
+    public final String foundItems;
+    public final String matchingFiles;
+
+    public CheckResult(String ruleId, String checkDescription, boolean passed, String message, String checkedFiles, String foundItems, String matchingFiles) {
+        this.ruleId = ruleId;
+        this.checkDescription = checkDescription;
+        this.passed = passed;
+        this.message = message;
+        this.checkedFiles = checkedFiles != null ? checkedFiles : "";
+        this.foundItems = foundItems != null ? foundItems : "";
+        this.matchingFiles = matchingFiles != null ? matchingFiles : "";
+    }
+
+    public CheckResult(String ruleId, String checkDescription, boolean passed, String message, String checkedFiles, String foundItems) {
+        this(ruleId, checkDescription, passed, message, checkedFiles, foundItems, null);
+    }
+
+    public CheckResult(String ruleId, String checkDescription, boolean passed, String message, String checkedFiles) {
+        this(ruleId, checkDescription, passed, message, checkedFiles, null, null);
+    }
+
+    public CheckResult(String ruleId, String checkDescription, boolean passed, String message) {
+        this(ruleId, checkDescription, passed, message, null, null, null);
+    }
+
+    public static CheckResult pass(String ruleId, String description, String message) {
+        return new CheckResult(ruleId, description, true, message, null, null, null);
+    }
+
+    public static CheckResult pass(String ruleId, String description, String message, String checkedFiles) {
+        return new CheckResult(ruleId, description, true, message, checkedFiles, null, null);
+    }
+
+    public static CheckResult pass(String ruleId, String description, String message, String checkedFiles, String matchingFiles) {
+        return new CheckResult(ruleId, description, true, message, checkedFiles, null, matchingFiles);
+    }
+
+    public static CheckResult pass(String ruleId, String description, String message, String checkedFiles, String foundItems, String matchingFiles) {
+        return new CheckResult(ruleId, description, true, message, checkedFiles, foundItems, matchingFiles);
+    }
+
+    public static CheckResult fail(String ruleId, String description, String message) {
+        return new CheckResult(ruleId, description, false, message, null, null, null);
+    }
+
+    public static CheckResult fail(String ruleId, String description, String message, String checkedFiles) {
+        return new CheckResult(ruleId, description, false, message, checkedFiles, null, null);
+    }
+
+    public static CheckResult fail(String ruleId, String description, String message, String checkedFiles, String foundItems) {
+        return new CheckResult(ruleId, description, false, message, checkedFiles, foundItems, null);
+    }
+
+    public static CheckResult fail(String ruleId, String description, String message, String checkedFiles, String foundItems, String matchingFiles) {
+        return new CheckResult(ruleId, description, false, message, checkedFiles, foundItems, matchingFiles);
+    }
+}

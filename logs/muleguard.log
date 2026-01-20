@@ -1,0 +1,1233 @@
+2026-01-15 10:20:44 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 10:20:44 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 10:20:44 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 10:41:35 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 10:41:35 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 10:41:35 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 10:50:48 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 10:50:48 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 10:50:48 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 10:56:15 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 10:56:15 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 10:56:15 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 11:09:11 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 11:09:11 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 11:09:11 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 11:16:10 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 11:16:10 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 11:16:10 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 11:22:32 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 11:22:32 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 11:22:32 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 11:25:55 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 11:25:55 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 11:25:55 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 11:26:03 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raks-group, Filter: repo1
+2026-01-15 11:26:03 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raks-group/projects?include_subgroups=true&per_page=100&search=repo1
+2026-01-15 11:26:03 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Token present.
+2026-01-15 11:26:04 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 200
+2026-01-15 11:26:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 2 GitLab repos.
+2026-01-15 11:26:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: gitlab, Repo: https://gitlab.com/raksjnu/muleapp1_muleguard.git
+2026-01-15 11:26:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Branches. URL: https://gitlab.com/api/v4/projects/raksjnu%2Fmuleapp1_muleguard/repository/branches
+2026-01-15 11:26:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitLab Branch Response: 200
+2026-01-15 11:26:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryu2o4MrqMRLo6u0vw
+2026-01-15 11:26:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundaryu2o4MrqMRLo6u0vw'
+2026-01-15 11:26:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 935
+2026-01-15 11:26:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 11:26:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitUrls', filename='null'
+2026-01-15 11:26:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitBranch', filename='null'
+2026-01-15 11:26:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitToken', filename='null'
+2026-01-15 11:26:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 11:26:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 11:26:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 11:26:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, attachProject, attachInput, gitToken, attachReports, gitBranch, gitUrls]
+2026-01-15 11:26:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Cloning Git Repo: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api_config.git to C:\raks\apiguard\muleguard\temp\muleguard-sessions\cf9c73e0-ce17-4e88-8dc4-c7c06a2fe43c\repo1-mule-api_config
+2026-01-15 11:26:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Cloning repository: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api_config.git (Branch: main) to C:\raks\apiguard\muleguard\temp\muleguard-sessions\cf9c73e0-ce17-4e88-8dc4-c7c06a2fe43c\repo1-mule-api_config
+2026-01-15 11:26:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Using Auth Token: gl***td
+2026-01-15 11:26:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Detected GitLab URL. Using 'oauth2' username strategy.
+2026-01-15 11:26:19 [HTTP-Dispatcher] ERROR com.raks.muleguard.util.GitHelper - Git clone failed: Remote branch 'main' not found in upstream origin
+2026-01-15 11:26:19 [HTTP-Dispatcher] ERROR com.raks.muleguard.gui.MuleGuardGUI - Validation error
+java.lang.Exception: Failed to clone repository: Remote branch 'main' not found in upstream origin
+	at com.raks.muleguard.util.GitHelper.cloneRepository(GitHelper.java:112)
+	at com.raks.muleguard.gui.MuleGuardGUI$ValidationHandler.handle(MuleGuardGUI.java:218)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:853)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:820)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:201)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:562)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:527)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.eclipse.jgit.api.errors.TransportException: Remote branch 'main' not found in upstream origin
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:249)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:325)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:191)
+	at com.raks.muleguard.util.GitHelper.cloneRepository(GitHelper.java:99)
+	... 11 common frames omitted
+Caused by: org.eclipse.jgit.errors.TransportException: Remote branch 'main' not found in upstream origin
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:157)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:105)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1462)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:238)
+	... 14 common frames omitted
+2026-01-15 11:26:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundarySEpza1Up0M7Hqc9M
+2026-01-15 11:26:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundarySEpza1Up0M7Hqc9M'
+2026-01-15 11:26:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 935
+2026-01-15 11:26:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 11:26:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitUrls', filename='null'
+2026-01-15 11:26:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitBranch', filename='null'
+2026-01-15 11:26:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitToken', filename='null'
+2026-01-15 11:26:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 11:26:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 11:26:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 11:26:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, attachProject, attachInput, gitToken, attachReports, gitBranch, gitUrls]
+2026-01-15 11:26:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Cloning Git Repo: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api_config.git to C:\raks\apiguard\muleguard\temp\muleguard-sessions\6c30a5ed-0e26-43f5-bad8-ff7fb8c2bb0c\repo1-mule-api_config
+2026-01-15 11:26:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Cloning repository: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api_config.git (Branch: main) to C:\raks\apiguard\muleguard\temp\muleguard-sessions\6c30a5ed-0e26-43f5-bad8-ff7fb8c2bb0c\repo1-mule-api_config
+2026-01-15 11:26:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Using Auth Token: gl***td
+2026-01-15 11:26:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Detected GitLab URL. Using 'oauth2' username strategy.
+2026-01-15 11:26:41 [HTTP-Dispatcher] ERROR com.raks.muleguard.util.GitHelper - Git clone failed: Remote branch 'main' not found in upstream origin
+2026-01-15 11:26:41 [HTTP-Dispatcher] ERROR com.raks.muleguard.gui.MuleGuardGUI - Validation error
+java.lang.Exception: Failed to clone repository: Remote branch 'main' not found in upstream origin
+	at com.raks.muleguard.util.GitHelper.cloneRepository(GitHelper.java:112)
+	at com.raks.muleguard.gui.MuleGuardGUI$ValidationHandler.handle(MuleGuardGUI.java:218)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:853)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:820)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:201)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:562)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:527)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.eclipse.jgit.api.errors.TransportException: Remote branch 'main' not found in upstream origin
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:249)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:325)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:191)
+	at com.raks.muleguard.util.GitHelper.cloneRepository(GitHelper.java:99)
+	... 11 common frames omitted
+Caused by: org.eclipse.jgit.errors.TransportException: Remote branch 'main' not found in upstream origin
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:157)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:105)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1462)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:238)
+	... 14 common frames omitted
+2026-01-15 11:27:37 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: github, Group: raksjnu, Filter: 
+2026-01-15 11:27:37 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Repos (Org). URL: https://api.github.com/orgs/raksjnu/repos?per_page=100
+2026-01-15 11:27:37 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Org Response: 401
+2026-01-15 11:27:37 [HTTP-Dispatcher] ERROR com.raks.muleguard.gui.MuleGuardGUI - Git discovery (repos) failed
+java.lang.Exception: GitHub Authentication Failed (401). Check your Token.
+	at com.raks.muleguard.util.GitHelper.listGitHubRepos(GitHelper.java:329)
+	at com.raks.muleguard.util.GitHelper.listRepositories(GitHelper.java:206)
+	at com.raks.muleguard.gui.MuleGuardGUI$GitDiscoveryReposHandler.handle(MuleGuardGUI.java:700)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:853)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:820)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:201)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:562)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:527)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-01-15 11:27:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: github, Group: raksjnu, Filter: 
+2026-01-15 11:27:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Repos (Org). URL: https://api.github.com/orgs/raksjnu/repos?per_page=100
+2026-01-15 11:27:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Org Response: 401
+2026-01-15 11:27:57 [HTTP-Dispatcher] ERROR com.raks.muleguard.gui.MuleGuardGUI - Git discovery (repos) failed
+java.lang.Exception: GitHub Authentication Failed (401). Check your Token.
+	at com.raks.muleguard.util.GitHelper.listGitHubRepos(GitHelper.java:329)
+	at com.raks.muleguard.util.GitHelper.listRepositories(GitHelper.java:206)
+	at com.raks.muleguard.gui.MuleGuardGUI$GitDiscoveryReposHandler.handle(MuleGuardGUI.java:700)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:853)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:820)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:201)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:562)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:527)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-01-15 11:29:03 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raks-group, Filter: repo1
+2026-01-15 11:29:03 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raks-group/projects?include_subgroups=true&per_page=100&search=repo1
+2026-01-15 11:29:03 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Token present.
+2026-01-15 11:29:03 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 200
+2026-01-15 11:29:03 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 2 GitLab repos.
+2026-01-15 11:29:06 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: gitlab, Repo: raks-group/raks-group-legacy/repo1-mule-api_config
+2026-01-15 11:29:06 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Branches. URL: https://gitlab.com/api/v4/projects/raks-group%2Fraks-group-legacy%2Frepo1-mule-api_config/repository/branches
+2026-01-15 11:29:09 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitLab Branch Response: 200
+2026-01-15 11:29:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundary0hXwNTIpY6QawYKN
+2026-01-15 11:29:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundary0hXwNTIpY6QawYKN'
+2026-01-15 11:29:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 937
+2026-01-15 11:29:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 11:29:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitUrls', filename='null'
+2026-01-15 11:29:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitBranch', filename='null'
+2026-01-15 11:29:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitToken', filename='null'
+2026-01-15 11:29:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 11:29:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 11:29:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 11:29:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, attachProject, attachInput, gitToken, attachReports, gitBranch, gitUrls]
+2026-01-15 11:29:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Cloning Git Repo: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api_config.git to C:\raks\apiguard\muleguard\temp\muleguard-sessions\b6832628-887e-4934-bacc-bd716a899be3\repo1-mule-api_config
+2026-01-15 11:29:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Cloning repository: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api_config.git (Branch: master) to C:\raks\apiguard\muleguard\temp\muleguard-sessions\b6832628-887e-4934-bacc-bd716a899be3\repo1-mule-api_config
+2026-01-15 11:29:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Using Auth Token: gl***td
+2026-01-15 11:29:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Detected GitLab URL. Using 'oauth2' username strategy.
+2026-01-15 11:29:12 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-15 11:29:12 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Restriction check complete. Final Repo Size: 218 bytes
+2026-01-15 11:29:12 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\apiguard\muleguard\temp\muleguard-sessions\b6832628-887e-4934-bacc-bd716a899be3\repo1-mule-api_config\.git]
+2026-01-15 11:29:12 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Cloning Git Repo: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api.git to C:\raks\apiguard\muleguard\temp\muleguard-sessions\b6832628-887e-4934-bacc-bd716a899be3\repo1-mule-api
+2026-01-15 11:29:12 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Cloning repository: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api.git (Branch: master) to C:\raks\apiguard\muleguard\temp\muleguard-sessions\b6832628-887e-4934-bacc-bd716a899be3\repo1-mule-api
+2026-01-15 11:29:12 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Using Auth Token: gl***td
+2026-01-15 11:29:12 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Detected GitLab URL. Using 'oauth2' username strategy.
+2026-01-15 11:29:13 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-15 11:29:13 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Restriction check complete. Final Repo Size: 2606 bytes
+2026-01-15 11:29:13 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\apiguard\muleguard\temp\muleguard-sessions\b6832628-887e-4934-bacc-bd716a899be3\repo1-mule-api\.git]
+2026-01-15 11:29:13 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\b6832628-887e-4934-bacc-bd716a899be3
+2026-01-15 11:29:13 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard started for project: C:\raks\apiguard\muleguard\temp\muleguard-sessions\b6832628-887e-4934-bacc-bd716a899be3
+2026-01-15 11:29:14 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 2 Mule project(s)
+2026-01-15 11:29:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-15 11:29:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: repo1-mule-api
+2026-01-15 11:29:15 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to repo1-mule-api
+2026-01-15 11:29:15 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 11 | Failed: 8
+2026-01-15 11:29:15 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating Config: repo1-mule-api_config
+2026-01-15 11:29:16 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to repo1-mule-api_config
+2026-01-15 11:29:16 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 17 | Passed: 15 | Failed: 2
+2026-01-15 11:29:16 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard Validation Complete | Total APIs: 2 | Passed: 26 | Failed: 10
+2026-01-15 11:29:16 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: C:\raks\apiguard\muleguard\temp\muleguard-sessions\b6832628-887e-4934-bacc-bd716a899be3\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-15 11:29:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: gitlab, Repo: https://gitlab.com/raksjnu/muleapp1_muleguard.git
+2026-01-15 11:29:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Branches. URL: https://gitlab.com/api/v4/projects/raksjnu%2Fmuleapp1_muleguard/repository/branches
+2026-01-15 11:29:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitLab Branch Response: 200
+2026-01-15 11:30:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundarylZjaAtAA79NiwBhR
+2026-01-15 11:30:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundarylZjaAtAA79NiwBhR'
+2026-01-15 11:30:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 844
+2026-01-15 11:30:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 11:30:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitUrls', filename='null'
+2026-01-15 11:30:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitBranch', filename='null'
+2026-01-15 11:30:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitToken', filename='null'
+2026-01-15 11:30:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 11:30:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 11:30:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 11:30:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, attachProject, attachInput, gitToken, attachReports, gitBranch, gitUrls]
+2026-01-15 11:30:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Cloning Git Repo: https://gitlab.com/raksjnu/muleapp1_muleguard.git to C:\raks\apiguard\muleguard\temp\muleguard-sessions\d091005e-ffc1-4a18-87d7-83b894954ad3\muleapp1_muleguard
+2026-01-15 11:30:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Cloning repository: https://gitlab.com/raksjnu/muleapp1_muleguard.git (Branch: main) to C:\raks\apiguard\muleguard\temp\muleguard-sessions\d091005e-ffc1-4a18-87d7-83b894954ad3\muleapp1_muleguard
+2026-01-15 11:30:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Using Auth Token: gl***td
+2026-01-15 11:30:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Detected GitLab URL. Using 'oauth2' username strategy.
+2026-01-15 11:30:02 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-15 11:30:02 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Restriction check complete. Final Repo Size: 195249 bytes
+2026-01-15 11:30:02 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\apiguard\muleguard\temp\muleguard-sessions\d091005e-ffc1-4a18-87d7-83b894954ad3\muleapp1_muleguard\.git]
+2026-01-15 11:30:02 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\d091005e-ffc1-4a18-87d7-83b894954ad3
+2026-01-15 11:30:02 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard started for project: C:\raks\apiguard\muleguard\temp\muleguard-sessions\d091005e-ffc1-4a18-87d7-83b894954ad3
+2026-01-15 11:30:02 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 1 Mule project(s)
+2026-01-15 11:30:02 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-15 11:30:02 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1_muleguard
+2026-01-15 11:30:03 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 11:30:03 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 9 | Failed: 10
+2026-01-15 11:30:03 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard Validation Complete | Total APIs: 1 | Passed: 9 | Failed: 10
+2026-01-15 11:30:03 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: C:\raks\apiguard\muleguard\temp\muleguard-sessions\d091005e-ffc1-4a18-87d7-83b894954ad3\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-15 11:30:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: github, Repo: https://github.com/raksjnu/muleapp1_muleguard.git
+2026-01-15 11:30:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Branches. URL: https://api.github.com/repos/raksjnu/muleapp1_muleguard/branches
+2026-01-15 11:30:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Branch Response: 200
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBa2PkY6l6Z0AINf1
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundaryBa2PkY6l6Z0AINf1'
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 827
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitUrls', filename='null'
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitBranch', filename='null'
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitToken', filename='null'
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, attachProject, attachInput, gitToken, attachReports, gitBranch, gitUrls]
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Cloning Git Repo: https://github.com/raksjnu/muleapp1_muleguard.git to C:\raks\apiguard\muleguard\temp\muleguard-sessions\f961963c-df8c-4bb1-bde5-5ac059a5ca8d\muleapp1_muleguard
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Cloning repository: https://github.com/raksjnu/muleapp1_muleguard.git (Branch: main) to C:\raks\apiguard\muleguard\temp\muleguard-sessions\f961963c-df8c-4bb1-bde5-5ac059a5ca8d\muleapp1_muleguard
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Using Auth Token: gh***AI
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Detected GitHub URL. Using token-as-username strategy.
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Restriction check complete. Final Repo Size: 195249 bytes
+2026-01-15 11:30:14 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\apiguard\muleguard\temp\muleguard-sessions\f961963c-df8c-4bb1-bde5-5ac059a5ca8d\muleapp1_muleguard\.git]
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\f961963c-df8c-4bb1-bde5-5ac059a5ca8d
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard started for project: C:\raks\apiguard\muleguard\temp\muleguard-sessions\f961963c-df8c-4bb1-bde5-5ac059a5ca8d
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 1 Mule project(s)
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-15 11:30:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1_muleguard
+2026-01-15 11:30:15 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 11:30:15 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 9 | Failed: 10
+2026-01-15 11:30:15 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard Validation Complete | Total APIs: 1 | Passed: 9 | Failed: 10
+2026-01-15 11:30:15 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: C:\raks\apiguard\muleguard\temp\muleguard-sessions\f961963c-df8c-4bb1-bde5-5ac059a5ca8d\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-15 11:33:55 [Thread-1] INFO  c.raks.muleguard.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
+2026-01-15 11:36:38 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 11:36:38 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 11:36:38 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 11:37:09 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raks-group, Filter: 
+2026-01-15 11:37:09 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raks-group/projects?include_subgroups=true&per_page=100
+2026-01-15 11:37:09 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Token present.
+2026-01-15 11:37:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 200
+2026-01-15 11:37:14 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 27 GitLab repos.
+2026-01-15 11:37:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: gitlab, Repo: https://gitlab.com/raksjnu/muleapp1_muleguard.git
+2026-01-15 11:37:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Branches. URL: https://gitlab.com/api/v4/projects/raksjnu%2Fmuleapp1_muleguard/repository/branches
+2026-01-15 11:37:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitLab Branch Response: 200
+2026-01-15 11:37:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: github, Repo: https://github.com/raksjnu/muleapp1_muleguard.git
+2026-01-15 11:37:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Branches. URL: https://api.github.com/repos/raksjnu/muleapp1_muleguard/branches
+2026-01-15 11:37:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Branch Response: 200
+2026-01-15 11:37:51 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: github, Repo: https://github.com/raksjnu/muleapp1_muleguard.git
+2026-01-15 11:37:51 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Branches. URL: https://api.github.com/repos/raksjnu/muleapp1_muleguard/branches
+2026-01-15 11:37:51 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Branch Response: 200
+2026-01-15 11:37:59 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: github, Group: raksjnu, Filter: 
+2026-01-15 11:37:59 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Repos (Org). URL: https://api.github.com/orgs/raksjnu/repos?per_page=100
+2026-01-15 11:37:59 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Org Response: 401
+2026-01-15 11:37:59 [HTTP-Dispatcher] ERROR com.raks.muleguard.gui.MuleGuardGUI - Git discovery (repos) failed
+java.lang.Exception: GitHub Authentication Failed (401). Check your Token.
+	at com.raks.muleguard.util.GitHelper.listGitHubRepos(GitHelper.java:333)
+	at com.raks.muleguard.util.GitHelper.listRepositories(GitHelper.java:206)
+	at com.raks.muleguard.gui.MuleGuardGUI$GitDiscoveryReposHandler.handle(MuleGuardGUI.java:700)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:853)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:820)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:201)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:562)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:527)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-01-15 11:38:21 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: github, Group: raksjnu, Filter: 
+2026-01-15 11:38:21 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Repos (Org). URL: https://api.github.com/orgs/raksjnu/repos?per_page=100
+2026-01-15 11:38:21 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Org Response: 401
+2026-01-15 11:38:21 [HTTP-Dispatcher] ERROR com.raks.muleguard.gui.MuleGuardGUI - Git discovery (repos) failed
+java.lang.Exception: GitHub Authentication Failed (401). Check your Token.
+	at com.raks.muleguard.util.GitHelper.listGitHubRepos(GitHelper.java:333)
+	at com.raks.muleguard.util.GitHelper.listRepositories(GitHelper.java:206)
+	at com.raks.muleguard.gui.MuleGuardGUI$GitDiscoveryReposHandler.handle(MuleGuardGUI.java:700)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:853)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:820)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:201)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:562)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:527)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-01-15 11:38:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: github, Group: raksjnu, Filter: 
+2026-01-15 11:38:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Repos (Org). URL: https://api.github.com/orgs/raksjnu/repos?per_page=100
+2026-01-15 11:38:30 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Org Response: 401
+2026-01-15 11:38:30 [HTTP-Dispatcher] ERROR com.raks.muleguard.gui.MuleGuardGUI - Git discovery (repos) failed
+java.lang.Exception: GitHub Authentication Failed (401). Check your Token.
+	at com.raks.muleguard.util.GitHelper.listGitHubRepos(GitHelper.java:333)
+	at com.raks.muleguard.util.GitHelper.listRepositories(GitHelper.java:206)
+	at com.raks.muleguard.gui.MuleGuardGUI$GitDiscoveryReposHandler.handle(MuleGuardGUI.java:700)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:853)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:820)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:201)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:562)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:527)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-01-15 11:46:53 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 11:46:53 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 11:46:53 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 11:47:12 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: gitlab, Repo: https://gitlab.com/raksjnu/muleapp1_muleguard.git
+2026-01-15 11:47:12 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Branches. URL: https://gitlab.com/api/v4/projects/raksjnu%2Fmuleapp1_muleguard/repository/branches
+2026-01-15 11:47:13 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitLab Branch Response: 200
+2026-01-15 11:47:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raks-group, Filter: 
+2026-01-15 11:47:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raks-group/projects?include_subgroups=true&per_page=100
+2026-01-15 11:47:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Token present.
+2026-01-15 11:47:26 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 200
+2026-01-15 11:47:26 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 27 GitLab repos.
+2026-01-15 11:47:32 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raksjnu, Filter: 
+2026-01-15 11:47:32 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raksjnu/projects?include_subgroups=true&per_page=100
+2026-01-15 11:47:32 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Token present.
+2026-01-15 11:47:32 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 404
+2026-01-15 11:47:32 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Group not found (404). Attempting User Lookup for: raksjnu
+2026-01-15 11:47:32 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup URL: https://gitlab.com/api/v4/users?username=raksjnu
+2026-01-15 11:47:32 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup Response: 200
+2026-01-15 11:47:32 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found User ID: 32580000. Fetching User Projects...
+2026-01-15 11:47:32 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Projects URL: https://gitlab.com/api/v4/users/32580000/projects?per_page=100
+2026-01-15 11:47:35 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Projects Response: 200
+2026-01-15 11:47:35 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 14 GitLab repos.
+2026-01-15 11:47:42 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: gitlab, Repo: raksjnu/muleapp1_muleguard
+2026-01-15 11:47:42 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Branches. URL: https://gitlab.com/api/v4/projects/raksjnu%2Fmuleapp1_muleguard/repository/branches
+2026-01-15 11:47:43 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitLab Branch Response: 200
+2026-01-15 11:47:45 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryMGNWmZTFmtDyYGGc
+2026-01-15 11:47:45 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundaryMGNWmZTFmtDyYGGc'
+2026-01-15 11:47:45 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 844
+2026-01-15 11:47:45 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 11:47:45 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitUrls', filename='null'
+2026-01-15 11:47:45 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitBranch', filename='null'
+2026-01-15 11:47:45 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitToken', filename='null'
+2026-01-15 11:47:45 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 11:47:45 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 11:47:45 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 11:47:45 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, attachProject, attachInput, gitToken, attachReports, gitBranch, gitUrls]
+2026-01-15 11:47:45 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Cloning Git Repo: https://gitlab.com/raksjnu/muleapp1_muleguard.git to C:\raks\apiguard\muleguard\temp\muleguard-sessions\80777afc-b555-454c-b543-b64fe83180ea\muleapp1_muleguard
+2026-01-15 11:47:45 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Cloning repository: https://gitlab.com/raksjnu/muleapp1_muleguard.git (Branch: main) to C:\raks\apiguard\muleguard\temp\muleguard-sessions\80777afc-b555-454c-b543-b64fe83180ea\muleapp1_muleguard
+2026-01-15 11:47:45 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Using Auth Token: gl***td
+2026-01-15 11:47:45 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Detected GitLab URL. Using 'oauth2' username strategy.
+2026-01-15 11:47:46 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-15 11:47:46 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Restriction check complete. Final Repo Size: 195249 bytes
+2026-01-15 11:47:46 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\apiguard\muleguard\temp\muleguard-sessions\80777afc-b555-454c-b543-b64fe83180ea\muleapp1_muleguard\.git]
+2026-01-15 11:47:46 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\80777afc-b555-454c-b543-b64fe83180ea
+2026-01-15 11:47:46 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard started for project: C:\raks\apiguard\muleguard\temp\muleguard-sessions\80777afc-b555-454c-b543-b64fe83180ea
+2026-01-15 11:47:47 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 1 Mule project(s)
+2026-01-15 11:47:47 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-15 11:47:47 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1_muleguard
+2026-01-15 11:47:48 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 11:47:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 9 | Failed: 10
+2026-01-15 11:47:49 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard Validation Complete | Total APIs: 1 | Passed: 9 | Failed: 10
+2026-01-15 11:47:49 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: C:\raks\apiguard\muleguard\temp\muleguard-sessions\80777afc-b555-454c-b543-b64fe83180ea\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-15 11:48:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: github, Group: raksjnu, Filter: 
+2026-01-15 11:48:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Repos (Org). URL: https://api.github.com/orgs/raksjnu/repos?per_page=100
+2026-01-15 11:48:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Org Response: 404
+2026-01-15 11:48:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Org not found. Trying User URL: https://api.github.com/users/raksjnu/repos?per_page=100
+2026-01-15 11:48:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub User Response: 200
+2026-01-15 11:48:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 8 GitHub repos.
+2026-01-15 11:48:07 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: github, Repo: raksjnu/muleapp1_muleguard_config
+2026-01-15 11:48:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Branches. URL: https://api.github.com/repos/raksjnu/muleapp1_muleguard_config/branches
+2026-01-15 11:48:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Branch Response: 200
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypAB7YlmYGP864XdK
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundarypAB7YlmYGP864XdK'
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 834
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitUrls', filename='null'
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitBranch', filename='null'
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitToken', filename='null'
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, attachProject, attachInput, gitToken, attachReports, gitBranch, gitUrls]
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Cloning Git Repo: https://github.com/raksjnu/muleapp1_muleguard_config.git to C:\raks\apiguard\muleguard\temp\muleguard-sessions\02f6ee4a-9c3e-4cbe-a376-098559ecff3d\muleapp1_muleguard_config
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Cloning repository: https://github.com/raksjnu/muleapp1_muleguard_config.git (Branch: main) to C:\raks\apiguard\muleguard\temp\muleguard-sessions\02f6ee4a-9c3e-4cbe-a376-098559ecff3d\muleapp1_muleguard_config
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Using Auth Token: gh***AI
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Detected GitHub URL. Using token-as-username strategy.
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Restriction check complete. Final Repo Size: 1107 bytes
+2026-01-15 11:48:10 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\apiguard\muleguard\temp\muleguard-sessions\02f6ee4a-9c3e-4cbe-a376-098559ecff3d\muleapp1_muleguard_config\.git]
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\02f6ee4a-9c3e-4cbe-a376-098559ecff3d
+2026-01-15 11:48:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard started for project: C:\raks\apiguard\muleguard\temp\muleguard-sessions\02f6ee4a-9c3e-4cbe-a376-098559ecff3d
+2026-01-15 11:48:11 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 1 Mule project(s)
+2026-01-15 11:48:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-15 11:48:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 11:48:11 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 11:48:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 17 | Passed: 15 | Failed: 2
+2026-01-15 11:48:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard Validation Complete | Total APIs: 1 | Passed: 15 | Failed: 2
+2026-01-15 11:48:11 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: C:\raks\apiguard\muleguard\temp\muleguard-sessions\02f6ee4a-9c3e-4cbe-a376-098559ecff3d\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-15 11:48:22 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: github, Repo: https://github.com/raksjnu/muleapp1_muleguard.git
+2026-01-15 11:48:22 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Branches. URL: https://api.github.com/repos/raksjnu/muleapp1_muleguard/branches
+2026-01-15 11:48:22 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Branch Response: 200
+2026-01-15 11:48:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryDjBtH7P22bBk6OZd
+2026-01-15 11:48:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundaryDjBtH7P22bBk6OZd'
+2026-01-15 11:48:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 827
+2026-01-15 11:48:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 11:48:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitUrls', filename='null'
+2026-01-15 11:48:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitBranch', filename='null'
+2026-01-15 11:48:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitToken', filename='null'
+2026-01-15 11:48:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 11:48:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 11:48:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 11:48:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, attachProject, attachInput, gitToken, attachReports, gitBranch, gitUrls]
+2026-01-15 11:48:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Cloning Git Repo: https://github.com/raksjnu/muleapp1_muleguard.git to C:\raks\apiguard\muleguard\temp\muleguard-sessions\c38b3210-42ca-4b14-9b68-06f1a6aaa85b\muleapp1_muleguard
+2026-01-15 11:48:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Cloning repository: https://github.com/raksjnu/muleapp1_muleguard.git (Branch: main) to C:\raks\apiguard\muleguard\temp\muleguard-sessions\c38b3210-42ca-4b14-9b68-06f1a6aaa85b\muleapp1_muleguard
+2026-01-15 11:48:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Using Auth Token: gh***AI
+2026-01-15 11:48:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Detected GitHub URL. Using token-as-username strategy.
+2026-01-15 11:48:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-15 11:48:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Restriction check complete. Final Repo Size: 195249 bytes
+2026-01-15 11:48:25 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\apiguard\muleguard\temp\muleguard-sessions\c38b3210-42ca-4b14-9b68-06f1a6aaa85b\muleapp1_muleguard\.git]
+2026-01-15 11:48:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\c38b3210-42ca-4b14-9b68-06f1a6aaa85b
+2026-01-15 11:48:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard started for project: C:\raks\apiguard\muleguard\temp\muleguard-sessions\c38b3210-42ca-4b14-9b68-06f1a6aaa85b
+2026-01-15 11:48:25 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 1 Mule project(s)
+2026-01-15 11:48:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-15 11:48:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1_muleguard
+2026-01-15 11:48:26 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 11:48:26 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 9 | Failed: 10
+2026-01-15 11:48:26 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard Validation Complete | Total APIs: 1 | Passed: 9 | Failed: 10
+2026-01-15 11:48:26 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: C:\raks\apiguard\muleguard\temp\muleguard-sessions\c38b3210-42ca-4b14-9b68-06f1a6aaa85b\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-15 11:51:04 [Thread-1] INFO  c.raks.muleguard.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
+2026-01-15 11:52:22 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 11:52:22 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 11:52:22 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 11:52:46 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: github, Group: raks-group, Filter: 
+2026-01-15 11:52:46 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Repos (Org). URL: https://api.github.com/orgs/raks-group/repos?per_page=100
+2026-01-15 11:52:47 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Org Response: 404
+2026-01-15 11:52:47 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Org not found. Trying User URL: https://api.github.com/users/raks-group/repos?per_page=100
+2026-01-15 11:52:47 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub User Response: 200
+2026-01-15 11:52:47 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 0 GitHub repos.
+2026-01-15 11:52:51 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: github, Group: raks-group, Filter: repo1
+2026-01-15 11:52:51 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Repos (Org). URL: https://api.github.com/orgs/raks-group/repos?per_page=100
+2026-01-15 11:52:51 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Org Response: 404
+2026-01-15 11:52:51 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Org not found. Trying User URL: https://api.github.com/users/raks-group/repos?per_page=100
+2026-01-15 11:52:51 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub User Response: 200
+2026-01-15 11:52:51 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 0 GitHub repos.
+2026-01-15 11:52:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: github, Group: raks-group, Filter: 
+2026-01-15 11:52:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Repos (Org). URL: https://api.github.com/orgs/raks-group/repos?per_page=100
+2026-01-15 11:52:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Org Response: 404
+2026-01-15 11:52:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Org not found. Trying User URL: https://api.github.com/users/raks-group/repos?per_page=100
+2026-01-15 11:52:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub User Response: 200
+2026-01-15 11:52:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 0 GitHub repos.
+2026-01-15 11:54:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raks-group, Filter: 
+2026-01-15 11:54:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raks-group/projects?include_subgroups=true&per_page=100
+2026-01-15 11:54:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Token present.
+2026-01-15 11:54:28 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 200
+2026-01-15 11:54:28 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 27 GitLab repos.
+2026-01-15 11:54:32 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raks-group, Filter: repo1
+2026-01-15 11:54:32 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raks-group/projects?include_subgroups=true&per_page=100&search=repo1
+2026-01-15 11:54:32 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Token present.
+2026-01-15 11:54:33 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 200
+2026-01-15 11:54:33 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 2 GitLab repos.
+2026-01-15 11:54:36 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: gitlab, Repo: raks-group/raks-group-legacy/repo1-mule-api_config
+2026-01-15 11:54:36 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Branches. URL: https://gitlab.com/api/v4/projects/raks-group%2Fraks-group-legacy%2Frepo1-mule-api_config/repository/branches
+2026-01-15 11:54:37 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitLab Branch Response: 200
+2026-01-15 11:54:38 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVQi0SaCzKDPaOS06
+2026-01-15 11:54:38 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundaryVQi0SaCzKDPaOS06'
+2026-01-15 11:54:38 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 937
+2026-01-15 11:54:38 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 11:54:38 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitUrls', filename='null'
+2026-01-15 11:54:38 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitBranch', filename='null'
+2026-01-15 11:54:38 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitToken', filename='null'
+2026-01-15 11:54:38 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 11:54:38 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 11:54:38 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 11:54:38 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, attachProject, attachInput, gitToken, attachReports, gitBranch, gitUrls]
+2026-01-15 11:54:38 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Cloning Git Repo: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api_config.git to C:\raks\apiguard\muleguard\temp\muleguard-sessions\fd960a99-97d0-4f84-96e6-a2ce1c45b29a\repo1-mule-api_config
+2026-01-15 11:54:38 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Cloning repository: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api_config.git (Branch: master) to C:\raks\apiguard\muleguard\temp\muleguard-sessions\fd960a99-97d0-4f84-96e6-a2ce1c45b29a\repo1-mule-api_config
+2026-01-15 11:54:38 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Using Auth Token: gl***td
+2026-01-15 11:54:38 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Detected GitLab URL. Using 'oauth2' username strategy.
+2026-01-15 11:54:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-15 11:54:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Restriction check complete. Final Repo Size: 218 bytes
+2026-01-15 11:54:40 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\apiguard\muleguard\temp\muleguard-sessions\fd960a99-97d0-4f84-96e6-a2ce1c45b29a\repo1-mule-api_config\.git]
+2026-01-15 11:54:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Cloning Git Repo: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api.git to C:\raks\apiguard\muleguard\temp\muleguard-sessions\fd960a99-97d0-4f84-96e6-a2ce1c45b29a\repo1-mule-api
+2026-01-15 11:54:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Cloning repository: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api.git (Branch: master) to C:\raks\apiguard\muleguard\temp\muleguard-sessions\fd960a99-97d0-4f84-96e6-a2ce1c45b29a\repo1-mule-api
+2026-01-15 11:54:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Using Auth Token: gl***td
+2026-01-15 11:54:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Detected GitLab URL. Using 'oauth2' username strategy.
+2026-01-15 11:54:41 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-15 11:54:41 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Restriction check complete. Final Repo Size: 2606 bytes
+2026-01-15 11:54:41 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\apiguard\muleguard\temp\muleguard-sessions\fd960a99-97d0-4f84-96e6-a2ce1c45b29a\repo1-mule-api\.git]
+2026-01-15 11:54:41 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\fd960a99-97d0-4f84-96e6-a2ce1c45b29a
+2026-01-15 11:54:41 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard started for project: C:\raks\apiguard\muleguard\temp\muleguard-sessions\fd960a99-97d0-4f84-96e6-a2ce1c45b29a
+2026-01-15 11:54:41 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 2 Mule project(s)
+2026-01-15 11:54:41 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-15 11:54:41 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: repo1-mule-api
+2026-01-15 11:54:43 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to repo1-mule-api
+2026-01-15 11:54:43 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 11 | Failed: 8
+2026-01-15 11:54:43 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating Config: repo1-mule-api_config
+2026-01-15 11:54:43 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to repo1-mule-api_config
+2026-01-15 11:54:43 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 17 | Passed: 15 | Failed: 2
+2026-01-15 11:54:43 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard Validation Complete | Total APIs: 2 | Passed: 26 | Failed: 10
+2026-01-15 11:54:43 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: C:\raks\apiguard\muleguard\temp\muleguard-sessions\fd960a99-97d0-4f84-96e6-a2ce1c45b29a\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-15 11:56:04 [Thread-1] INFO  c.raks.muleguard.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
+2026-01-15 11:57:20 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 11:57:20 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 11:57:20 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 11:58:07 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 11:58:07 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 11:58:07 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 12:04:18 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 12:04:18 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 12:04:18 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 12:05:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raksjnu-group, Filter: 
+2026-01-15 12:05:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raksjnu-group/projects?include_subgroups=true&per_page=100
+2026-01-15 12:05:41 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 404
+2026-01-15 12:05:41 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Group not found (404). Attempting User Lookup for: raksjnu-group
+2026-01-15 12:05:41 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup URL: https://gitlab.com/api/v4/users?username=raksjnu-group
+2026-01-15 12:05:41 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup Response: 200
+2026-01-15 12:05:42 [HTTP-Dispatcher] WARN  com.raks.muleguard.util.GitHelper - [GitHelper] User lookup returned empty array.
+2026-01-15 12:05:42 [HTTP-Dispatcher] ERROR com.raks.muleguard.gui.MuleGuardGUI - Git discovery (repos) failed
+java.lang.Exception: GitLab Group/User not found (404). Check your search query.
+	at com.raks.muleguard.util.GitHelper.listGitLabRepos(GitHelper.java:273)
+	at com.raks.muleguard.util.GitHelper.listRepositories(GitHelper.java:208)
+	at com.raks.muleguard.gui.MuleGuardGUI$GitDiscoveryReposHandler.handle(MuleGuardGUI.java:700)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:853)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:820)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:201)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:562)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:527)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-01-15 12:05:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raks-group, Filter: 
+2026-01-15 12:05:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raks-group/projects?include_subgroups=true&per_page=100
+2026-01-15 12:05:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 404
+2026-01-15 12:05:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Group not found (404). Attempting User Lookup for: raks-group
+2026-01-15 12:05:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup URL: https://gitlab.com/api/v4/users?username=raks-group
+2026-01-15 12:06:02 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup Response: 200
+2026-01-15 12:06:02 [HTTP-Dispatcher] WARN  com.raks.muleguard.util.GitHelper - [GitHelper] User lookup returned empty array.
+2026-01-15 12:06:02 [HTTP-Dispatcher] ERROR com.raks.muleguard.gui.MuleGuardGUI - Git discovery (repos) failed
+java.lang.Exception: GitLab Group/User not found (404). Check your search query.
+	at com.raks.muleguard.util.GitHelper.listGitLabRepos(GitHelper.java:273)
+	at com.raks.muleguard.util.GitHelper.listRepositories(GitHelper.java:208)
+	at com.raks.muleguard.gui.MuleGuardGUI$GitDiscoveryReposHandler.handle(MuleGuardGUI.java:700)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:853)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:820)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:201)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:562)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:527)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-01-15 12:06:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raks-group, Filter: 
+2026-01-15 12:06:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raks-group/projects?include_subgroups=true&per_page=100
+2026-01-15 12:06:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 404
+2026-01-15 12:06:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Group not found (404). Attempting User Lookup for: raks-group
+2026-01-15 12:06:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup URL: https://gitlab.com/api/v4/users?username=raks-group
+2026-01-15 12:06:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup Response: 200
+2026-01-15 12:06:25 [HTTP-Dispatcher] WARN  com.raks.muleguard.util.GitHelper - [GitHelper] User lookup returned empty array.
+2026-01-15 12:06:25 [HTTP-Dispatcher] ERROR com.raks.muleguard.gui.MuleGuardGUI - Git discovery (repos) failed
+java.lang.Exception: GitLab Group/User not found (404). Check your search query.
+	at com.raks.muleguard.util.GitHelper.listGitLabRepos(GitHelper.java:273)
+	at com.raks.muleguard.util.GitHelper.listRepositories(GitHelper.java:208)
+	at com.raks.muleguard.gui.MuleGuardGUI$GitDiscoveryReposHandler.handle(MuleGuardGUI.java:700)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:853)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:820)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:201)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:562)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:527)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-01-15 12:09:54 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 12:09:54 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 12:09:54 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 12:10:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raks-group, Filter: 
+2026-01-15 12:10:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raks-group/projects?include_subgroups=true&per_page=100
+2026-01-15 12:10:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 404
+2026-01-15 12:10:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Group not found (404). Attempting User Lookup for: raks-group
+2026-01-15 12:10:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup URL: https://gitlab.com/api/v4/users?username=raks-group
+2026-01-15 12:10:59 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup Response: 200
+2026-01-15 12:10:59 [HTTP-Dispatcher] WARN  com.raks.muleguard.util.GitHelper - [GitHelper] User lookup returned empty array.
+2026-01-15 12:10:59 [HTTP-Dispatcher] ERROR com.raks.muleguard.gui.MuleGuardGUI - Git discovery (repos) failed
+java.lang.Exception: GitLab Group/User not found (404). Check your search query.
+	at com.raks.muleguard.util.GitHelper.listGitLabRepos(GitHelper.java:282)
+	at com.raks.muleguard.util.GitHelper.listRepositories(GitHelper.java:208)
+	at com.raks.muleguard.gui.MuleGuardGUI$GitDiscoveryReposHandler.handle(MuleGuardGUI.java:700)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:853)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:820)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:201)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:562)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:527)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-01-15 12:13:14 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 12:13:14 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 12:13:14 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 12:14:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raks-group, Filter: 
+2026-01-15 12:14:01 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raks-group/projects?include_subgroups=true&per_page=100
+2026-01-15 12:14:02 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 404
+2026-01-15 12:14:02 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Group not found (404). Attempting User Lookup for: raks-group
+2026-01-15 12:14:02 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup URL: https://gitlab.com/api/v4/users?username=raks-group
+2026-01-15 12:14:02 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup Response: 200
+2026-01-15 12:14:02 [HTTP-Dispatcher] WARN  com.raks.muleguard.util.GitHelper - [GitHelper] User lookup returned empty array.
+2026-01-15 12:14:02 [HTTP-Dispatcher] ERROR com.raks.muleguard.gui.MuleGuardGUI - Git discovery (repos) failed
+java.lang.Exception: GitLab Group/User not found (404). Check your search query.
+	at com.raks.muleguard.util.GitHelper.listGitLabRepos(GitHelper.java:282)
+	at com.raks.muleguard.util.GitHelper.listRepositories(GitHelper.java:208)
+	at com.raks.muleguard.gui.MuleGuardGUI$GitDiscoveryReposHandler.handle(MuleGuardGUI.java:700)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:853)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:820)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:201)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:562)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:527)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-01-15 12:14:17 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raks-group, Filter: 
+2026-01-15 12:14:17 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raks-group/projects?include_subgroups=true&per_page=100
+2026-01-15 12:14:17 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 404
+2026-01-15 12:14:17 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Group not found (404). Attempting User Lookup for: raks-group
+2026-01-15 12:14:17 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup URL: https://gitlab.com/api/v4/users?username=raks-group
+2026-01-15 12:14:17 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup Response: 200
+2026-01-15 12:14:17 [HTTP-Dispatcher] WARN  com.raks.muleguard.util.GitHelper - [GitHelper] User lookup returned empty array.
+2026-01-15 12:14:17 [HTTP-Dispatcher] ERROR com.raks.muleguard.gui.MuleGuardGUI - Git discovery (repos) failed
+java.lang.Exception: GitLab Group/User not found (404). Check your search query.
+	at com.raks.muleguard.util.GitHelper.listGitLabRepos(GitHelper.java:282)
+	at com.raks.muleguard.util.GitHelper.listRepositories(GitHelper.java:208)
+	at com.raks.muleguard.gui.MuleGuardGUI$GitDiscoveryReposHandler.handle(MuleGuardGUI.java:700)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:82)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:853)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:95)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:820)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$DefaultExecutor.execute(ServerImpl.java:201)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.handle(ServerImpl.java:562)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Dispatcher.run(ServerImpl.java:527)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-01-15 12:14:39 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: github, Group: raksjnu, Filter: 
+2026-01-15 12:14:39 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Repos (Org). URL: https://api.github.com/orgs/raksjnu/repos?per_page=100
+2026-01-15 12:14:39 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Org Response: 404
+2026-01-15 12:14:39 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Org not found. Trying User URL: https://api.github.com/users/raksjnu/repos?per_page=100
+2026-01-15 12:14:39 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub User Response: 200
+2026-01-15 12:14:39 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 8 GitHub repos.
+2026-01-15 12:16:32 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 12:16:32 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 12:16:32 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 12:17:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raks-group, Filter: 
+2026-01-15 12:17:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raks-group/projects?include_subgroups=true&per_page=100
+2026-01-15 12:17:18 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Token present.
+2026-01-15 12:17:22 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 200
+2026-01-15 12:17:22 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 27 GitLab repos.
+2026-01-15 12:17:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raksjnu, Filter: 
+2026-01-15 12:17:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raksjnu/projects?include_subgroups=true&per_page=100
+2026-01-15 12:17:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Token present.
+2026-01-15 12:17:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 404
+2026-01-15 12:17:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Group not found (404). Attempting User Lookup for: raksjnu
+2026-01-15 12:17:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup URL: https://gitlab.com/api/v4/users?username=raksjnu
+2026-01-15 12:17:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup Response: 200
+2026-01-15 12:17:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found User ID: 32580000. Fetching User Projects...
+2026-01-15 12:17:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Projects URL: https://gitlab.com/api/v4/users/32580000/projects?per_page=100
+2026-01-15 12:17:30 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Projects Response: 200
+2026-01-15 12:17:30 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 14 GitLab repos.
+2026-01-15 12:17:36 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: github, Group: raksjnu, Filter: 
+2026-01-15 12:17:36 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Repos (Org). URL: https://api.github.com/orgs/raksjnu/repos?per_page=100
+2026-01-15 12:17:37 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Org Response: 404
+2026-01-15 12:17:37 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Org not found. Trying User URL: https://api.github.com/users/raksjnu/repos?per_page=100
+2026-01-15 12:17:37 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub User Response: 200
+2026-01-15 12:17:37 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 8 GitHub repos.
+2026-01-15 12:17:51 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: github, Repo: https://github.com/raksjnu/muleapp1_muleguard.git
+2026-01-15 12:17:51 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Branches. URL: https://api.github.com/repos/raksjnu/muleapp1_muleguard/branches
+2026-01-15 12:17:51 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Branch Response: 200
+2026-01-15 12:18:03 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: gitlab, Repo: https://gitlab.com/raksjnu/muleapp1_muleguard.git
+2026-01-15 12:18:03 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Branches. URL: https://gitlab.com/api/v4/projects/raksjnu%2Fmuleapp1_muleguard/repository/branches
+2026-01-15 12:18:03 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitLab Branch Response: 200
+2026-01-15 12:18:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVqsUFJNdqy4rVAQV
+2026-01-15 12:18:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundaryVqsUFJNdqy4rVAQV'
+2026-01-15 12:18:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 844
+2026-01-15 12:18:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 12:18:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitUrls', filename='null'
+2026-01-15 12:18:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitBranch', filename='null'
+2026-01-15 12:18:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitToken', filename='null'
+2026-01-15 12:18:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 12:18:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 12:18:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 12:18:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, attachProject, attachInput, gitToken, attachReports, gitBranch, gitUrls]
+2026-01-15 12:18:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Cloning Git Repo: https://gitlab.com/raksjnu/muleapp1_muleguard.git to C:\raks\apiguard\muleguard\temp\muleguard-sessions\50554fd2-a061-4460-8080-d44dce9a222e\muleapp1_muleguard
+2026-01-15 12:18:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Cloning repository: https://gitlab.com/raksjnu/muleapp1_muleguard.git (Branch: main) to C:\raks\apiguard\muleguard\temp\muleguard-sessions\50554fd2-a061-4460-8080-d44dce9a222e\muleapp1_muleguard
+2026-01-15 12:18:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Using Auth Token: gl***td
+2026-01-15 12:18:08 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Detected GitLab URL. Using 'oauth2' username strategy.
+2026-01-15 12:18:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-15 12:18:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Restriction check complete. Final Repo Size: 195249 bytes
+2026-01-15 12:18:10 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\apiguard\muleguard\temp\muleguard-sessions\50554fd2-a061-4460-8080-d44dce9a222e\muleapp1_muleguard\.git]
+2026-01-15 12:18:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\50554fd2-a061-4460-8080-d44dce9a222e
+2026-01-15 12:18:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard started for project: C:\raks\apiguard\muleguard\temp\muleguard-sessions\50554fd2-a061-4460-8080-d44dce9a222e
+2026-01-15 12:18:10 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 1 Mule project(s)
+2026-01-15 12:18:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-15 12:18:10 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1_muleguard
+2026-01-15 12:18:12 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 12:18:12 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 9 | Failed: 10
+2026-01-15 12:18:12 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard Validation Complete | Total APIs: 1 | Passed: 9 | Failed: 10
+2026-01-15 12:18:12 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: C:\raks\apiguard\muleguard\temp\muleguard-sessions\50554fd2-a061-4460-8080-d44dce9a222e\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-15 12:18:23 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: github, Repo: https://github.com/raksjnu/muleapp1_muleguard.git
+2026-01-15 12:18:23 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Branches. URL: https://api.github.com/repos/raksjnu/muleapp1_muleguard/branches
+2026-01-15 12:18:23 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Branch Response: 200
+2026-01-15 12:18:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundarykfJKv4ncMA53h3E2
+2026-01-15 12:18:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundarykfJKv4ncMA53h3E2'
+2026-01-15 12:18:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 827
+2026-01-15 12:18:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 12:18:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitUrls', filename='null'
+2026-01-15 12:18:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitBranch', filename='null'
+2026-01-15 12:18:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='gitToken', filename='null'
+2026-01-15 12:18:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 12:18:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 12:18:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 12:18:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, attachProject, attachInput, gitToken, attachReports, gitBranch, gitUrls]
+2026-01-15 12:18:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Cloning Git Repo: https://github.com/raksjnu/muleapp1_muleguard.git to C:\raks\apiguard\muleguard\temp\muleguard-sessions\8e1a34ae-7f09-40a9-a937-7d720f4d3299\muleapp1_muleguard
+2026-01-15 12:18:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Cloning repository: https://github.com/raksjnu/muleapp1_muleguard.git (Branch: main) to C:\raks\apiguard\muleguard\temp\muleguard-sessions\8e1a34ae-7f09-40a9-a937-7d720f4d3299\muleapp1_muleguard
+2026-01-15 12:18:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Using Auth Token: gh***AI
+2026-01-15 12:18:24 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Detected GitHub URL. Using token-as-username strategy.
+2026-01-15 12:18:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-15 12:18:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - Restriction check complete. Final Repo Size: 195249 bytes
+2026-01-15 12:18:25 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\apiguard\muleguard\temp\muleguard-sessions\8e1a34ae-7f09-40a9-a937-7d720f4d3299\muleapp1_muleguard\.git]
+2026-01-15 12:18:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\8e1a34ae-7f09-40a9-a937-7d720f4d3299
+2026-01-15 12:18:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard started for project: C:\raks\apiguard\muleguard\temp\muleguard-sessions\8e1a34ae-7f09-40a9-a937-7d720f4d3299
+2026-01-15 12:18:25 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 1 Mule project(s)
+2026-01-15 12:18:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-15 12:18:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1_muleguard
+2026-01-15 12:18:26 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 12:18:26 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 9 | Failed: 10
+2026-01-15 12:18:26 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard Validation Complete | Total APIs: 1 | Passed: 9 | Failed: 10
+2026-01-15 12:18:26 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: C:\raks\apiguard\muleguard\temp\muleguard-sessions\8e1a34ae-7f09-40a9-a937-7d720f4d3299\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryxECLTPqZAu39By39
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundaryxECLTPqZAu39By39'
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 35796
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='archive', filename='muleapp1.zip'
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, attachInput, archive, attachReports, attachProject]
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ArchiveExtractor - Extracting ZIP file: C:\Users\raksj\AppData\Local\Temp\muleguard-upload-6350667493710286659muleapp1.zip
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ArchiveExtractor - ZIP extracted successfully. Project root: C:\raks\apiguard\muleguard\temp\muleguard-sessions\42b5c9ab-c7cc-4852-8ebc-c6fe33860f46\muleapp1
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\42b5c9ab-c7cc-4852-8ebc-c6fe33860f46\muleapp1
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard started for project: C:\raks\apiguard\muleguard\temp\muleguard-sessions\42b5c9ab-c7cc-4852-8ebc-c6fe33860f46\muleapp1
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 1 Mule project(s)
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to muleapp1
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 10 | Failed: 9
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard Validation Complete | Total APIs: 1 | Passed: 10 | Failed: 9
+2026-01-15 12:18:40 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: C:\raks\apiguard\muleguard\temp\muleguard-sessions\42b5c9ab-c7cc-4852-8ebc-c6fe33860f46\muleapp1\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryMvgnKPWIW8Bvzb5A
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundaryMvgnKPWIW8Bvzb5A'
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 9544
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='archive', filename='muleapp1.jar'
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, attachInput, archive, attachReports, attachProject]
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ArchiveExtractor - Extracting JAR file: C:\Users\raksj\AppData\Local\Temp\muleguard-upload-1381924028940534570muleapp1.jar
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ArchiveExtractor - JAR extracted successfully. Project root: C:\raks\apiguard\muleguard\temp\muleguard-sessions\02443c9e-f90e-4a7d-8902-cbee94ee8c05\muleapp1
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\02443c9e-f90e-4a7d-8902-cbee94ee8c05\muleapp1
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard started for project: C:\raks\apiguard\muleguard\temp\muleguard-sessions\02443c9e-f90e-4a7d-8902-cbee94ee8c05\muleapp1
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 1 Mule project(s)
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to muleapp1
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 10 | Failed: 9
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard Validation Complete | Total APIs: 1 | Passed: 10 | Failed: 9
+2026-01-15 12:18:48 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: C:\raks\apiguard\muleguard\temp\muleguard-sessions\02443c9e-f90e-4a7d-8902-cbee94ee8c05\muleapp1\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryoX9x4W1izI32loOR
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundaryoX9x4W1izI32loOR'
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 554
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='path', filename='null'
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, path, attachInput, attachReports, attachProject]
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: c:\raks\temp
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard started for project: c:\raks\temp
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 6 Mule project(s)
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: my-batch-api
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to my-batch-api
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 15 | Failed: 4
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: my-regular-api
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to my-regular-api
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 15 | Failed: 4
+2026-01-15 12:18:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: test-exp-api
+2026-01-15 12:18:58 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to test-exp-api
+2026-01-15 12:18:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 8 | Failed: 11
+2026-01-15 12:18:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1
+2026-01-15 12:18:58 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to muleapp1
+2026-01-15 12:18:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 10 | Failed: 9
+2026-01-15 12:18:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1_muleguard
+2026-01-15 12:18:58 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 12:18:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 9 | Failed: 10
+2026-01-15 12:18:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 12:18:58 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 12:18:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 17 | Passed: 15 | Failed: 2
+2026-01-15 12:18:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard Validation Complete | Total APIs: 6 | Passed: 72 | Failed: 40
+2026-01-15 12:18:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: c:\raks\temp\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-15 12:19:33 [Thread-1] INFO  c.raks.muleguard.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
+2026-01-15 12:32:04 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 12:32:04 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 12:32:04 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 12:37:32 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 12:37:32 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 12:37:32 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundarynkX1vFjIfDemvXiU
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundarynkX1vFjIfDemvXiU'
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 35796
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='archive', filename='muleapp1.zip'
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, attachInput, archive, attachReports, attachProject]
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ArchiveExtractor - Extracting ZIP file: C:\Users\raksj\AppData\Local\Temp\muleguard-upload-9199624329058400647muleapp1.zip
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ArchiveExtractor - ZIP extracted successfully. Project root: C:\raks\apiguard\muleguard\temp\muleguard-sessions\1279ec84-fdc6-4382-a390-d97255ecdb63\muleapp1
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: C:\raks\apiguard\muleguard\temp\muleguard-sessions\1279ec84-fdc6-4382-a390-d97255ecdb63\muleapp1
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard started for project: C:\raks\apiguard\muleguard\temp\muleguard-sessions\1279ec84-fdc6-4382-a390-d97255ecdb63\muleapp1
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 1 Mule project(s)
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-15 12:38:05 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1
+2026-01-15 12:38:07 [HTTP-Dispatcher] INFO  c.r.muleguard.engine.ReportGenerator - Logo copied to muleapp1
+2026-01-15 12:38:07 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 10 | Failed: 9
+2026-01-15 12:38:07 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard Validation Complete | Total APIs: 1 | Passed: 10 | Failed: 9
+2026-01-15 12:38:07 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: C:\raks\apiguard\muleguard\temp\muleguard-sessions\1279ec84-fdc6-4382-a390-d97255ecdb63\muleapp1\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-15 12:38:28 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: github, Group: raksjnu, Filter: 
+2026-01-15 12:38:28 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Repos (Org). URL: https://api.github.com/orgs/raksjnu/repos?per_page=100
+2026-01-15 12:38:28 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Org Response: 404
+2026-01-15 12:38:28 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Org not found. Trying User URL: https://api.github.com/users/raksjnu/repos?per_page=100
+2026-01-15 12:38:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub User Response: 200
+2026-01-15 12:38:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 8 GitHub repos.
+2026-01-15 12:38:38 [Thread-1] INFO  c.raks.muleguard.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
+2026-01-15 12:49:10 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 12:49:10 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 12:49:10 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 13:07:48 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 13:07:48 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 13:07:48 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 13:16:26 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 13:16:26 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 13:16:26 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 13:16:55 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listRepositories invoked. Provider: gitlab, Group: raksjnu, Filter: 
+2026-01-15 13:16:55 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitLab Repos. URL: https://gitlab.com/api/v4/groups/raksjnu/projects?include_subgroups=true&per_page=100
+2026-01-15 13:16:55 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Token present.
+2026-01-15 13:16:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Initial GitLab Group Response: 404
+2026-01-15 13:16:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Group not found (404). Attempting User Lookup for: raksjnu
+2026-01-15 13:16:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup URL: https://gitlab.com/api/v4/users?username=raksjnu
+2026-01-15 13:16:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Lookup Response: 200
+2026-01-15 13:16:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found User ID: 32580000. Fetching User Projects...
+2026-01-15 13:16:57 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Projects URL: https://gitlab.com/api/v4/users/32580000/projects?per_page=100
+2026-01-15 13:16:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] User Projects Response: 200
+2026-01-15 13:16:58 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Found 14 GitLab repos.
+2026-01-15 13:30:18 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 13:30:19 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 13:30:19 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 14:17:51 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 14:17:51 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 14:17:51 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 14:51:58 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 14:51:58 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 14:51:58 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 14:52:19 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] listBranches invoked. Provider: github, Repo: https://github.com/raksjnu/muleapp1_muleguard.git
+2026-01-15 14:52:19 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] Fetching GitHub Branches. URL: https://api.github.com/repos/raksjnu/muleapp1_muleguard/branches
+2026-01-15 14:52:20 [HTTP-Dispatcher] INFO  com.raks.muleguard.util.GitHelper - [GitHelper] GitHub Branch Response: 200
+2026-01-15 16:25:43 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 16:25:43 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 16:25:43 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 16:35:14 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 16:35:14 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 16:35:14 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 16:46:54 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 16:46:54 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 16:46:54 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 17:06:28 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 17:06:28 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 17:06:28 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 17:12:57 [main] ERROR c.r.muleguard.engine.ReportGenerator - Failed to generate rule guide: Conversion = ';'
+java.util.UnknownFormatConversionException: Conversion = ';'
+	at java.base/java.util.Formatter.parse(Formatter.java:2750)
+	at java.base/java.util.Formatter.format(Formatter.java:2671)
+	at java.base/java.util.Formatter.format(Formatter.java:2625)
+	at java.base/java.lang.String.format(String.java:4147)
+	at com.raks.muleguard.engine.ReportGenerator.generateRuleGuide(ReportGenerator.java:1241)
+	at com.raks.muleguard.gui.MuleGuardGUI.start(MuleGuardGUI.java:52)
+	at com.raks.muleguard.gui.MuleGuardGUI.main(MuleGuardGUI.java:41)
+2026-01-15 17:12:57 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 17:12:57 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 17:12:57 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 17:15:30 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 17:15:30 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 17:15:30 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 17:17:52 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 17:17:52 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 17:17:52 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 17:26:52 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 17:26:52 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 17:26:52 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 18:40:44 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Rule Guide generated at startup in: C:\raks\apiguard\muleguard\temp
+2026-01-15 18:40:44 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - MuleGuard GUI started at http://localhost:8080
+2026-01-15 18:40:44 [main] INFO  com.raks.muleguard.gui.MuleGuardGUI - Press Ctrl+C to stop
+2026-01-15 18:41:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryJGpNuKvtEBJBQvBK
+2026-01-15 18:41:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundaryJGpNuKvtEBJBQvBK'
+2026-01-15 18:41:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Multipart details - Total Size: 29288
+2026-01-15 18:41:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 18:41:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='path', filename='null'
+2026-01-15 18:41:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='customRules', filename='bank_rules.yaml'
+2026-01-15 18:41:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 18:41:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 18:41:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 18:41:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - DEBUG: Parsed Params Keys: [mode, customRules, path, attachProject, attachInput, attachReports]
+2026-01-15 18:41:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.gui.MuleGuardGUI - Running validation on: C:\raks\apiguard\reference\truist\Muleguard\test
+2026-01-15 18:41:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard started for project: C:\raks\apiguard\reference\truist\Muleguard\test
+2026-01-15 18:41:25 [HTTP-Dispatcher] INFO  c.r.muleguard.util.ProjectDiscovery - Found 6 Mule project(s)
+2026-01-15 18:41:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - 
+2026-01-15 18:41:25 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1_muleguard
+2026-01-15 18:41:28 [HTTP-Dispatcher] WARN  c.r.muleguard.engine.ReportGenerator - Logo not found in resources for muleapp1_muleguard
+2026-01-15 18:41:28 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 9 | Failed: 10
+2026-01-15 18:41:28 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 18:41:28 [HTTP-Dispatcher] WARN  c.r.muleguard.engine.ReportGenerator - Logo not found in resources for muleapp1_muleguard_config
+2026-01-15 18:41:28 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 17 | Passed: 15 | Failed: 2
+2026-01-15 18:41:28 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating Config: muleapp1_muleguard_config_fail
+2026-01-15 18:41:28 [HTTP-Dispatcher] WARN  c.r.muleguard.engine.ReportGenerator - Logo not found in resources for muleapp1_muleguard_config_fail
+2026-01-15 18:41:28 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 17 | Passed: 15 | Failed: 2
+2026-01-15 18:41:28 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating Config: muleapp1_muleguard_config_pass
+2026-01-15 18:41:29 [HTTP-Dispatcher] WARN  c.r.muleguard.engine.ReportGenerator - Logo not found in resources for muleapp1_muleguard_config_pass
+2026-01-15 18:41:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 17 | Passed: 15 | Failed: 2
+2026-01-15 18:41:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1_muleguard_fail
+2026-01-15 18:41:29 [HTTP-Dispatcher] WARN  c.r.muleguard.engine.ReportGenerator - Logo not found in resources for muleapp1_muleguard_fail
+2026-01-15 18:41:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 8 | Failed: 11
+2026-01-15 18:41:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Validating API: muleapp1_muleguard_pass
+2026-01-15 18:41:29 [HTTP-Dispatcher] WARN  c.r.muleguard.engine.ReportGenerator - Logo not found in resources for muleapp1_muleguard_pass
+2026-01-15 18:41:29 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain -    FAIL | Files Scanned: 19 | Passed: 10 | Failed: 9
+2026-01-15 18:41:29 [HTTP-Dispatcher] WARN  c.r.muleguard.engine.ReportGenerator - Logo not found in resources
+2026-01-15 18:41:30 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - MuleGuard Validation Complete | Total APIs: 6 | Passed: 72 | Failed: 36
+2026-01-15 18:41:30 [HTTP-Dispatcher] INFO  com.raks.muleguard.MuleGuardMain - Consolidated report: C:\raks\apiguard\reference\truist\Muleguard\test\muleguard-reports\CONSOLIDATED-REPORT.html
+2026-01-15 18:55:45 [Thread-1] INFO  c.raks.muleguard.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
+2026-01-15 20:15:09 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:15:09 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: c:\raks\apiguard\reference\truist\Muleguard\test
+2026-01-15 20:15:09 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:16:15 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:16:15 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: c:\raks\apiguard\reference\truist\Muleguard\test
+2026-01-15 20:16:15 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:17:06 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:17:06 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: c:\raks\apiguard\reference\truist\Muleguard\test
+2026-01-15 20:17:06 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:19:36 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:19:36 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: c:\raks\apiguard\reference\truist\Muleguard\test
+2026-01-15 20:19:36 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:19:36 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 4 Mule project(s)
+2026-01-15 20:19:36 [main] INFO  com.raks.aegis.AegisMain - 
+2026-01-15 20:19:36 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard
+2026-01-15 20:19:38 [main] WARN  c.raks.aegis.engine.ReportGenerator - Logo not found in resources for muleapp1_muleguard
+2026-01-15 20:19:38 [main] INFO  com.raks.aegis.AegisMain -    PASS | Files Scanned: 0 | Passed: 0 | Failed: 0
+2026-01-15 20:19:38 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 20:19:38 [main] WARN  c.raks.aegis.engine.ReportGenerator - Logo not found in resources for muleapp1_muleguard_config
+2026-01-15 20:19:38 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 10 | Failed: 14
+2026-01-15 20:19:38 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_fail
+2026-01-15 20:19:39 [main] WARN  c.raks.aegis.engine.ReportGenerator - Logo not found in resources for muleapp1_muleguard_fail
+2026-01-15 20:19:39 [main] INFO  com.raks.aegis.AegisMain -    PASS | Files Scanned: 0 | Passed: 0 | Failed: 0
+2026-01-15 20:19:39 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_pass
+2026-01-15 20:19:39 [main] WARN  c.raks.aegis.engine.ReportGenerator - Logo not found in resources for muleapp1_muleguard_pass
+2026-01-15 20:19:39 [main] INFO  com.raks.aegis.AegisMain -    PASS | Files Scanned: 0 | Passed: 0 | Failed: 0
+2026-01-15 20:19:39 [main] WARN  c.raks.aegis.engine.ReportGenerator - Logo not found in resources
+2026-01-15 20:19:39 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 4 | Passed: 10 | Failed: 14
+2026-01-15 20:19:39 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: c:\raks\apiguard\reference\truist\Muleguard\test\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-15 20:23:55 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:23:55 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: c:\raks\apiguard\reference\truist\Muleguard\test
+2026-01-15 20:23:55 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:23:55 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 5 Mule project(s)
+2026-01-15 20:23:55 [main] INFO  com.raks.aegis.AegisMain - 
+2026-01-15 20:23:55 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 20:23:58 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 20:23:58 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 10 | Failed: 14
+2026-01-15 20:23:58 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard
+2026-01-15 20:24:00 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 20:24:00 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 8 | Failed: 16
+2026-01-15 20:24:00 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 20:24:00 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 20:24:00 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 10 | Failed: 14
+2026-01-15 20:24:00 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_fail
+2026-01-15 20:24:01 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_fail
+2026-01-15 20:24:01 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 8 | Failed: 16
+2026-01-15 20:24:01 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_pass
+2026-01-15 20:24:02 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_pass
+2026-01-15 20:24:02 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 13 | Failed: 11
+2026-01-15 20:24:02 [main] WARN  c.raks.aegis.engine.ReportGenerator - Logo not found in resources
+2026-01-15 20:24:02 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 5 | Passed: 49 | Failed: 71
+2026-01-15 20:24:02 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: c:\raks\apiguard\reference\truist\Muleguard\test\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-15 20:29:23 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:29:23 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: c:\raks\apiguard\reference\truist\Muleguard\test
+2026-01-15 20:29:23 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:29:23 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 5 Mule project(s)
+2026-01-15 20:29:23 [main] INFO  com.raks.aegis.AegisMain - 
+2026-01-15 20:29:23 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 20:29:25 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 20:29:25 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 10 | Failed: 14
+2026-01-15 20:29:25 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard
+2026-01-15 20:29:26 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 20:29:26 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 8 | Failed: 16
+2026-01-15 20:29:26 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 20:29:26 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 20:29:26 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 10 | Failed: 14
+2026-01-15 20:29:26 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_fail
+2026-01-15 20:29:27 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_fail
+2026-01-15 20:29:27 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 8 | Failed: 16
+2026-01-15 20:29:27 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_pass
+2026-01-15 20:29:27 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_pass
+2026-01-15 20:29:27 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 13 | Failed: 11
+2026-01-15 20:29:28 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 5 | Passed: 49 | Failed: 71
+2026-01-15 20:29:28 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: c:\raks\apiguard\reference\truist\Muleguard\test\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-15 20:35:14 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:35:14 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: c:\raks\apiguard\reference\truist\Muleguard\test
+2026-01-15 20:35:14 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:35:14 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 5 Mule project(s)
+2026-01-15 20:35:14 [main] INFO  com.raks.aegis.AegisMain - 
+2026-01-15 20:35:14 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 20:35:16 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 20:35:16 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 13 | Failed: 11
+2026-01-15 20:35:16 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard
+2026-01-15 20:35:17 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 20:35:17 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 12 | Failed: 12
+2026-01-15 20:35:17 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 20:35:18 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 20:35:18 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 13 | Failed: 11
+2026-01-15 20:35:18 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_fail
+2026-01-15 20:35:18 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_fail
+2026-01-15 20:35:18 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 12 | Failed: 12
+2026-01-15 20:35:18 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_pass
+2026-01-15 20:35:19 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_pass
+2026-01-15 20:35:19 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 19 | Failed: 5
+2026-01-15 20:35:19 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 5 | Passed: 69 | Failed: 51
+2026-01-15 20:35:19 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: c:\raks\apiguard\reference\truist\Muleguard\test\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-15 20:41:41 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:41:41 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: c:\raks\apiguard\reference\truist\Muleguard\test
+2026-01-15 20:41:41 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:41:41 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 5 Mule project(s)
+2026-01-15 20:41:41 [main] INFO  com.raks.aegis.AegisMain - 
+2026-01-15 20:41:41 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 20:41:43 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 20:41:43 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 13 | Failed: 11
+2026-01-15 20:41:43 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard
+2026-01-15 20:41:44 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 20:41:44 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 12 | Failed: 12
+2026-01-15 20:41:44 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 20:41:44 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 20:41:44 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 13 | Failed: 11
+2026-01-15 20:41:44 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_fail
+2026-01-15 20:41:45 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_fail
+2026-01-15 20:41:45 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 12 | Failed: 12
+2026-01-15 20:41:45 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_pass
+2026-01-15 20:41:46 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_pass
+2026-01-15 20:41:46 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 19 | Failed: 5
+2026-01-15 20:41:46 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 5 | Passed: 69 | Failed: 51
+2026-01-15 20:41:46 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: c:\raks\apiguard\reference\truist\Muleguard\test\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-15 20:42:20 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:42:20 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: c:\raks\apiguard\reference\truist\Muleguard\test
+2026-01-15 20:42:20 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: c:\raks\apiguard\reference\truist\Muleguard\bank_rules.yaml
+2026-01-15 20:42:21 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 5 Mule project(s)
+2026-01-15 20:42:21 [main] INFO  com.raks.aegis.AegisMain - 
+2026-01-15 20:42:21 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 20:42:22 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 20:42:22 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 13 | Failed: 11
+2026-01-15 20:42:22 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard
+2026-01-15 20:42:24 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 20:42:24 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 12 | Failed: 12
+2026-01-15 20:42:24 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 20:42:24 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 20:42:24 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 13 | Failed: 11
+2026-01-15 20:42:24 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_fail
+2026-01-15 20:42:25 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_fail
+2026-01-15 20:42:25 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 12 | Failed: 12
+2026-01-15 20:42:25 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_pass
+2026-01-15 20:42:25 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_pass
+2026-01-15 20:42:25 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 19 | Failed: 5
+2026-01-15 20:42:26 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 5 | Passed: 69 | Failed: 51
+2026-01-15 20:42:26 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: c:\raks\apiguard\reference\truist\Muleguard\test\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-15 20:46:40 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: C:\raks\temp\truist\bank_rules.yaml
+2026-01-15 20:46:40 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\test_projects
+2026-01-15 20:46:40 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\bank_rules.yaml
+2026-01-15 20:46:40 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 3 Mule project(s)
+2026-01-15 20:46:40 [main] INFO  com.raks.aegis.AegisMain - 
+2026-01-15 20:46:40 [main] INFO  com.raks.aegis.AegisMain - Validating API: invalid_app
+2026-01-15 20:46:42 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to invalid_app
+2026-01-15 20:46:42 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 12 | Failed: 12
+2026-01-15 20:46:42 [main] INFO  com.raks.aegis.AegisMain - Validating API: invalid_config_project
+2026-01-15 20:46:42 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to invalid_config_project
+2026-01-15 20:46:42 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 13 | Failed: 11
+2026-01-15 20:46:42 [main] INFO  com.raks.aegis.AegisMain - Validating API: valid_app
+2026-01-15 20:46:43 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to valid_app
+2026-01-15 20:46:43 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 18 | Failed: 6
+2026-01-15 20:46:43 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 3 | Passed: 43 | Failed: 29
+2026-01-15 20:46:43 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\test_projects\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-15 20:51:50 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: C:\raks\temp\truist\bank_rules.yaml
+2026-01-15 20:51:50 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\test_projects
+2026-01-15 20:51:50 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\bank_rules.yaml
+2026-01-15 20:51:50 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 3 Mule project(s)
+2026-01-15 20:51:50 [main] INFO  com.raks.aegis.AegisMain - 
+2026-01-15 20:51:50 [main] INFO  com.raks.aegis.AegisMain - Validating API: invalid_app
+2026-01-15 20:51:52 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to invalid_app
+2026-01-15 20:51:52 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 12 | Failed: 12
+2026-01-15 20:51:52 [main] INFO  com.raks.aegis.AegisMain - Validating API: invalid_config_project
+2026-01-15 20:51:53 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to invalid_config_project
+2026-01-15 20:51:53 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 13 | Failed: 11
+2026-01-15 20:51:53 [main] INFO  com.raks.aegis.AegisMain - Validating API: valid_app
+2026-01-15 20:51:53 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to valid_app
+2026-01-15 20:51:53 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 18 | Failed: 6
+2026-01-15 20:51:53 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 3 | Passed: 43 | Failed: 29
+2026-01-15 20:51:53 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\test_projects\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-15 20:58:04 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: C:\raks\temp\truist\bank_rules.yaml
+2026-01-15 20:58:04 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\test_projects
+2026-01-15 20:58:04 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\bank_rules.yaml
+2026-01-15 20:58:05 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 3 Mule project(s)
+2026-01-15 20:58:05 [main] INFO  com.raks.aegis.AegisMain - 
+2026-01-15 20:58:05 [main] INFO  com.raks.aegis.AegisMain - Validating API: invalid_app
+2026-01-15 20:58:06 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to invalid_app
+2026-01-15 20:58:06 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 10 | Failed: 14
+2026-01-15 20:58:06 [main] INFO  com.raks.aegis.AegisMain - Validating API: invalid_config_project
+2026-01-15 20:58:07 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to invalid_config_project
+2026-01-15 20:58:07 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 11 | Failed: 13
+2026-01-15 20:58:07 [main] INFO  com.raks.aegis.AegisMain - Validating API: valid_app
+2026-01-15 20:58:07 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to valid_app
+2026-01-15 20:58:07 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 14 | Failed: 10
+2026-01-15 20:58:07 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 3 | Passed: 35 | Failed: 37
+2026-01-15 20:58:07 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\test_projects\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-15 21:03:01 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: C:\raks\temp\truist\bank_rules.yaml
+2026-01-15 21:03:01 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\test_projects
+2026-01-15 21:03:01 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\bank_rules.yaml
+2026-01-15 21:03:01 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 3 Mule project(s)
+2026-01-15 21:03:01 [main] INFO  com.raks.aegis.AegisMain - 
+2026-01-15 21:03:01 [main] INFO  com.raks.aegis.AegisMain - Validating API: invalid_app
+2026-01-15 21:03:04 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to invalid_app
+2026-01-15 21:03:04 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 12 | Failed: 12
+2026-01-15 21:03:04 [main] INFO  com.raks.aegis.AegisMain - Validating API: invalid_config_project
+2026-01-15 21:03:04 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to invalid_config_project
+2026-01-15 21:03:04 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 13 | Failed: 11
+2026-01-15 21:03:04 [main] INFO  com.raks.aegis.AegisMain - Validating API: valid_app
+2026-01-15 21:03:04 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to valid_app
+2026-01-15 21:03:04 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 18 | Failed: 6
+2026-01-15 21:03:05 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 3 | Passed: 43 | Failed: 29
+2026-01-15 21:03:05 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\test_projects\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-15 21:10:50 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: C:\raks\temp\truist\bank_rules.yaml
+2026-01-15 21:10:50 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\test_projects
+2026-01-15 21:10:50 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\bank_rules.yaml
+2026-01-15 21:10:50 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 3 Mule project(s)
+2026-01-15 21:10:50 [main] INFO  com.raks.aegis.AegisMain - 
+2026-01-15 21:10:50 [main] INFO  com.raks.aegis.AegisMain - Validating API: invalid_app
+2026-01-15 21:10:52 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to invalid_app
+2026-01-15 21:10:52 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 15 | Failed: 9
+2026-01-15 21:10:52 [main] INFO  com.raks.aegis.AegisMain - Validating API: invalid_config_project
+2026-01-15 21:10:53 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to invalid_config_project
+2026-01-15 21:10:53 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 16 | Failed: 8
+2026-01-15 21:10:53 [main] INFO  com.raks.aegis.AegisMain - Validating API: valid_app
+2026-01-15 21:10:53 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to valid_app
+2026-01-15 21:10:53 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 21 | Failed: 3
+2026-01-15 21:10:53 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 3 | Passed: 52 | Failed: 20
+2026-01-15 21:10:53 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\test_projects\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-15 21:17:42 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: C:\raks\temp\truist\bank_rules.yaml
+2026-01-15 21:17:42 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\Muleguard\test
+2026-01-15 21:17:42 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\bank_rules.yaml
+2026-01-15 21:17:42 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 4 Mule project(s)
+2026-01-15 21:17:42 [main] INFO  com.raks.aegis.AegisMain - 
+2026-01-15 21:17:42 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard
+2026-01-15 21:17:46 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 21:17:46 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 16 | Failed: 8
+2026-01-15 21:17:46 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 21:17:46 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 21:17:46 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 17 | Failed: 7
+2026-01-15 21:17:46 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_fail
+2026-01-15 21:17:47 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_fail
+2026-01-15 21:17:47 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 16 | Failed: 8
+2026-01-15 21:17:47 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_pass
+2026-01-15 21:17:48 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_pass
+2026-01-15 21:17:48 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 23 | Failed: 1
+2026-01-15 21:17:48 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 4 | Passed: 72 | Failed: 24
+2026-01-15 21:17:48 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\Muleguard\test\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-15 21:22:10 [main] INFO  com.raks.aegis.AegisMain - Using custom config file: C:\raks\temp\truist\bank_rules.yaml
+2026-01-15 21:22:10 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\Muleguard\test
+2026-01-15 21:22:10 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\bank_rules.yaml
+2026-01-15 21:22:10 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 5 Mule project(s)
+2026-01-15 21:22:10 [main] INFO  com.raks.aegis.AegisMain - 
+2026-01-15 21:22:10 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 21:22:12 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 21:22:12 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 17 | Failed: 7
+2026-01-15 21:22:12 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard
+2026-01-15 21:22:13 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 21:22:13 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 16 | Failed: 8
+2026-01-15 21:22:13 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 21:22:13 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 21:22:13 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 17 | Failed: 7
+2026-01-15 21:22:13 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_fail
+2026-01-15 21:22:14 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_fail
+2026-01-15 21:22:14 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 16 | Failed: 8
+2026-01-15 21:22:14 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_pass
+2026-01-15 21:22:15 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_pass
+2026-01-15 21:22:15 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 23 | Failed: 1
+2026-01-15 21:22:15 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 5 | Passed: 89 | Failed: 31
+2026-01-15 21:22:15 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\Muleguard\test\Aegis-reports\CONSOLIDATED-REPORT.html

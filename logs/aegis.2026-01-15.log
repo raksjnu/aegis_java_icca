@@ -1,0 +1,139 @@
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\Muleguard\test
+2026-01-15 21:28:29 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 7 Mule project(s)
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.AegisMain - 
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions]
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Mapping xpathExpressions for null
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions]
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Mapping xpathExpressions for null
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions]
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Mapping xpathExpressions for null
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, elementName, attributeName, expectedValue, matchMode]
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions]
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Mapping xpathExpressions for null
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions]
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Mapping xpathExpressions for null
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions]
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Mapping xpathExpressions for null
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions]
+2026-01-15 21:28:29 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Mapping xpathExpressions for null
+2026-01-15 21:28:31 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 21:28:31 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 17 | Passed: 10 | Failed: 7
+2026-01-15 21:28:31 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard
+2026-01-15 21:28:31 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-005 Params: [filePatterns, propertyResolution, caseSensitive, elementAttributeSets]
+2026-01-15 21:28:31 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Synthesizing XPath for RULE-005 (elementAttributeSets)
+2026-01-15 21:28:31 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Synth XPath (sets): //ibm:connection[@cipherSuite='TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384']
+2026-01-15 21:28:31 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-013 Params: [filePatterns, elements, attributes]
+2026-01-15 21:28:31 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-015 Params: [filePatterns, propertyResolution, caseSensitive, elementAttributeSets]
+2026-01-15 21:28:31 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Synthesizing XPath for RULE-015 (elementAttributeSets)
+2026-01-15 21:28:31 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Synth XPath (sets): //http:listener[@path='/test']
+2026-01-15 21:28:31 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-010 Params: [filePatterns, elements, forbiddenAttributes]
+2026-01-15 21:28:31 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Synthesizing XPath for RULE-010
+2026-01-15 21:28:31 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Synth XPath: //request_in[@fromApplicationCode] | //request_in[@toApplicationCode] | //request_out[@fromApplicationCode] | //request_out[@toApplicationCode] | //response_in[@fromApplicationCode] | //response_in[@toApplicationCode] | //response_out[@fromApplicationCode] | //response_out[@toApplicationCode]
+2026-01-15 21:28:31 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-008 Params: [filePatterns, xpathExpressions]
+2026-01-15 21:28:31 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Mapping xpathExpressions for RULE-008
+2026-01-15 21:28:32 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 19 | Passed: 8 | Failed: 11
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, elementName, attributeName, expectedValue, matchMode, mode]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 17 | Passed: 10 | Failed: 7
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config_fail
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, elementName, attributeName, expectedValue, matchMode, mode]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config_fail
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 17 | Passed: 10 | Failed: 7
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.AegisMain - Validating Config: muleapp1_muleguard_config_pass
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, elementName, attributeName, expectedValue, matchMode, mode]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:32 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check null Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:33 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_config_pass
+2026-01-15 21:28:33 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 17 | Passed: 10 | Failed: 7
+2026-01-15 21:28:33 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_fail
+2026-01-15 21:28:33 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-005 Params: [filePatterns, propertyResolution, caseSensitive, elementAttributeSets, mode, xpath]
+2026-01-15 21:28:33 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-013 Params: [filePatterns, elements, attributes, mode]
+2026-01-15 21:28:33 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-015 Params: [filePatterns, propertyResolution, caseSensitive, elementAttributeSets, mode, xpath]
+2026-01-15 21:28:33 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-010 Params: [filePatterns, elements, forbiddenAttributes, mode, xpath]
+2026-01-15 21:28:33 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-008 Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:33 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_fail
+2026-01-15 21:28:33 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 19 | Passed: 8 | Failed: 11
+2026-01-15 21:28:33 [main] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard_pass
+2026-01-15 21:28:33 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-005 Params: [filePatterns, propertyResolution, caseSensitive, elementAttributeSets, mode, xpath]
+2026-01-15 21:28:33 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-013 Params: [filePatterns, elements, attributes, mode]
+2026-01-15 21:28:33 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-015 Params: [filePatterns, propertyResolution, caseSensitive, elementAttributeSets, mode, xpath]
+2026-01-15 21:28:33 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-010 Params: [filePatterns, elements, forbiddenAttributes, mode, xpath]
+2026-01-15 21:28:33 [main] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-008 Params: [filePatterns, xpathExpressions, mode, xpath]
+2026-01-15 21:28:34 [main] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard_pass
+2026-01-15 21:28:34 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 19 | Passed: 9 | Failed: 10
+2026-01-15 21:28:34 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 7 | Passed: 65 | Failed: 60
+2026-01-15 21:28:34 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\Muleguard\test\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-15 21:40:44 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\apiguard\aegis\temp
+2026-01-15 21:40:44 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
+2026-01-15 21:40:44 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
+2026-01-15 21:40:58 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\apiguard\aegis\temp
+2026-01-15 21:40:58 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
+2026-01-15 21:40:58 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
+2026-01-15 21:44:23 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\apiguard\aegis\temp
+2026-01-15 21:44:23 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
+2026-01-15 21:44:23 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
+2026-01-15 21:44:55 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] listBranches invoked. Provider: github, Repo: https://github.com/raksjnu/muleapp1_muleguard.git
+2026-01-15 21:44:55 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Fetching GitHub Branches. URL: https://api.github.com/repos/raksjnu/muleapp1_muleguard/branches
+2026-01-15 21:44:56 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] GitHub Branch Response: 200
+2026-01-15 21:44:58 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundarybqx6vVvWtHkqnTbV
+2026-01-15 21:44:58 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundarybqx6vVvWtHkqnTbV'
+2026-01-15 21:44:58 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Multipart details - Total Size: 827
+2026-01-15 21:44:58 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='mode', filename='null'
+2026-01-15 21:44:58 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='gitUrls', filename='null'
+2026-01-15 21:44:58 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='gitBranch', filename='null'
+2026-01-15 21:44:58 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='gitToken', filename='null'
+2026-01-15 21:44:58 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='attachReports', filename='null'
+2026-01-15 21:44:58 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='attachInput', filename='null'
+2026-01-15 21:44:58 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='attachProject', filename='null'
+2026-01-15 21:44:58 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Parsed Params Keys: [mode, attachProject, attachInput, gitToken, attachReports, gitBranch, gitUrls]
+2026-01-15 21:44:58 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Cloning Git Repo: https://github.com/raksjnu/muleapp1_muleguard.git to C:\raks\apiguard\aegis\temp\Aegis-sessions\bdea6d3e-29ed-4017-965d-7e7c6999f175\muleapp1_muleguard
+2026-01-15 21:44:58 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Cloning repository: https://github.com/raksjnu/muleapp1_muleguard.git (Branch: main) to C:\raks\apiguard\aegis\temp\Aegis-sessions\bdea6d3e-29ed-4017-965d-7e7c6999f175\muleapp1_muleguard
+2026-01-15 21:44:58 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Using Auth Token: gh***AI
+2026-01-15 21:44:58 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Detected GitHub URL. Using token-as-username strategy.
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - Restriction check complete. Final Repo Size: 195249 bytes
+2026-01-15 21:45:00 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\apiguard\aegis\temp\Aegis-sessions\bdea6d3e-29ed-4017-965d-7e7c6999f175\muleapp1_muleguard\.git]
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Running validation on: C:\raks\apiguard\aegis\temp\Aegis-sessions\bdea6d3e-29ed-4017-965d-7e7c6999f175
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\apiguard\aegis\temp\Aegis-sessions\bdea6d3e-29ed-4017-965d-7e7c6999f175
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ProjectDiscovery - Found 1 Mule project(s)
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - 
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating API: muleapp1_muleguard
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-005 Params: [filePatterns, propertyResolution, caseSensitive, elementAttributeSets]
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Synthesizing XPath for RULE-005 (elementAttributeSets)
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Synth XPath (sets): //ibm:connection[@cipherSuite='TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384']
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-013 Params: [filePatterns, elements, attributes]
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-015 Params: [filePatterns, propertyResolution, caseSensitive, elementAttributeSets]
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Synthesizing XPath for RULE-015 (elementAttributeSets)
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Synth XPath (sets): //http:listener[@path='/test']
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-010 Params: [filePatterns, elements, forbiddenAttributes]
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Synthesizing XPath for RULE-010
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Synth XPath: //request_in[@fromApplicationCode] | //request_in[@toApplicationCode] | //request_out[@fromApplicationCode] | //request_out[@toApplicationCode] | //response_in[@fromApplicationCode] | //response_in[@toApplicationCode] | //response_out[@fromApplicationCode] | //response_out[@toApplicationCode]
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: XML Check RULE-008 Params: [filePatterns, xpathExpressions]
+2026-01-15 21:45:00 [HTTP-Dispatcher] INFO  com.raks.aegis.checks.CheckFactory - DEBUG: Mapping xpathExpressions for RULE-008
+2026-01-15 21:45:02 [HTTP-Dispatcher] INFO  c.raks.aegis.engine.ReportGenerator - Logo copied to muleapp1_muleguard
+2026-01-15 21:45:02 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 19 | Passed: 8 | Failed: 11
+2026-01-15 21:45:02 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 1 | Passed: 8 | Failed: 11
+2026-01-15 21:45:02 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\apiguard\aegis\temp\Aegis-sessions\bdea6d3e-29ed-4017-965d-7e7c6999f175\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-15 21:46:49 [Thread-1] INFO  com.raks.aegis.util.SessionManager - Shutdown hook triggered - cleaning up all sessions

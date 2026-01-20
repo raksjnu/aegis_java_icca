@@ -1,0 +1,16 @@
+# Passes BANK-109 (Correct Version)
+truist.compositeauthn.policy.version=3.0.0
+truist.authz.policy.version=3.0.0
+noname.policy.version=5.1.0
+ratelimit.policy.version=1.4.1
+headerinjection.policy.version=1.3.2
+headerremoval.policy.version=1.1.2
+truist.wssencdec.policy.version=3.0.0
+truist.jsonencdec.policy.version=3.0.0
+
+# Passes BANK-006 (Correct Value)
+headerinjection.policy.inboundheadermap.x-tfc-request-out=WARN
+headerinjection.policy.inboundheadermap.x-tfc-response-in=WARN
+
+# Passes BANK-008 (No Forbidden Tokens)
+# Policy Name: CompositeAuth

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Aegis Report - aegisapptest_config (C:\raks\apiguard\aegis\temp\6cefbf02-7294-4db7-9c5c-3e610b9b5a09\aegisapptest_config)</title>
+    <style>
+        :root {
+            --raks-purple: #663399;
+            --raks-purple-light: #7d4fb2;
+            --text-white: #FFFFFF;
+        }
+        body {font-family: Arial, sans-serif; margin: 0; background-color: #f5f5f5;}
+        .report-container { border: 5px solid var(--raks-purple); padding: 20px 40px; margin: 20px; border-radius: 8px; background-color: white; position: relative; }
+        h1 {color: var(--raks-purple);}
+        .summary {background: #e3f2fd; padding: 20px; border-radius: 8px; margin-bottom: 20px;}
+        .search-box { margin-bottom: 20px; width: 100%; }
+        #searchInput { width: 100%; padding: 12px; border: 2px solid var(--raks-purple); border-radius: 5px; font-size: 16px; box-sizing: border-box; }
+        table {width: 100%; border-collapse: collapse; box-shadow: 0 4px 12px rgba(0,0,0,0.1); table-layout: fixed; }
+        th, td {border: 1px solid #ddd; padding: 12px; text-align: left; word-wrap: break-word; overflow-wrap: break-word; }
+        th {background-color: var(--raks-purple); color: var(--text-white); cursor: pointer; position: sticky; top: 0; z-index: 10; }
+        th:hover { background-color: var(--raks-purple-light); }
+        th::after { content: ' ↕'; font-size: 0.8em; }
+        .top-nav-container { position: absolute; top: 20px; right: 40px; display: flex; gap: 10px; }
+        .top-nav-button {
+            background-color: var(--raks-purple); color: var(--text-white);
+            border: none; padding: 8px 16px; text-align: center; text-decoration: none;
+            display: inline-block; font-size: 14px; font-weight: bold;
+            cursor: pointer; border-radius: 5px; transition: background-color 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .top-nav-button:hover { background-color: var(--raks-purple-light); }
+    </style>
+</head>
+<body>
+    <div class="report-container">
+            <div class="top-nav-container">
+            <a href="../CONSOLIDATED-REPORT.html" class="top-nav-button" title="Return to main dashboard">← Dashboard</a>
+            <a href="report.xlsx" class="top-nav-button" style="background-color: #217346;">Excel Report</a>
+        </div>
+        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <img src="logo.svg" alt="Aegis Logo" style="height: 40px; margin-right: 15px;">
+            <h1 style="margin: 0;">Aegis Report</h1>
+        </div>
+        <div class="summary">
+            <strong>Project:</strong> aegisapptest_config (C:\raks\apiguard\aegis\temp\6cefbf02-7294-4db7-9c5c-3e610b9b5a09\aegisapptest_config)<br>
+            <strong>Generated:</strong> 2026-01-18 13:53:32 CST<br>
+            <strong>Total Rules:</strong> 7 | <strong style="color:green">PASS:</strong> 4 | <strong style="color:red">FAIL:</strong> 3
+        </div>
+
+        <div class="search-box" style="display:flex; gap:10px; align-items:center;">
+            <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="Search by name, status, or details..." style="flex-grow:1;">
+            <button class="top-nav-button" onclick="toggleAllConfigs(true)" style="width:150px; font-size:12px; white-space:nowrap;">Expand All Configs</button>
+            <button class="top-nav-button" onclick="toggleAllConfigs(false)" style="width:120px; font-size:12px; background:#999; white-space:nowrap;">Collapse All</button>
+        </div>
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <th style="width: 5%;" onclick="sortTable(0)">Rule #</th>
+                    <th style="width: 25%;" onclick="sortTable(1)">Name</th>
+                    <th style="width: 5%;" onclick="sortTable(2)">Severity</th>
+                    <th style="width: 5%;" onclick="sortTable(3)">Status</th>
+                    <th style="width: 60%;" onclick="sortTable(4)">Details</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr style='background-color:#fff5f5; border-bottom: 4px solid white;'> <td style='border-left: 6px solid #dc3545;'>001</td><td>Forbid Legacy Auth Policies</td><td>HIGH</td><td><strong style='color:#721c24'>FAIL</strong></td><td><div style='word-wrap: break-word; white-space: pre-wrap;'>• ✗ Legacy Auth policy detected (Truist-AAA or TruistBasicAuthnPolicy). Upgrade to CompositeAuth. Validation failed for FORBIDDEN. (MatchMode: ALL_FILES, Passed: 1/2). Details:
+• Policies\01\invalid_test.policy [Found: [Truist-AAA-SOAP]]</div><div style='margin-top:5px; padding-top:5px; border-top:1px dashed #ccc; font-size:0.85rem; color:#666;'><a href='javascript:void(0)' id='config-BANK-008-6d46ea33-link' class='config-toggle' onclick="toggleConfig('config-BANK-008-6d46ea33')" style='text-decoration:none; color:#663399; font-weight:bold;'>[+] Show Rule Config</a><div id='config-BANK-008-6d46ea33' class='rule-config' style='display:none; margin-top:10px; margin-left:20px; padding:12px; background:#e3f2fd; border:1px solid #90caf9; border-left: 5px solid #2196f3; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius:4px; font-family: Consolas, monospace; white-space: pre-wrap; color: #0d47a1;'>id: BANK-008
+name: Forbid Legacy Auth Policies
+description: Detects old AAA or Basic Auth policies.
+enabled: true
+severity: HIGH
+successMessage: ✓ No legacy Auth policies found {DEFAULT_MESSAGE}
+errorMessage: ✗ Legacy Auth policy detected (Truist-AAA or TruistBasicAuthnPolicy). Upgrade to CompositeAuth. {DEFAULT_MESSAGE}
+checks:
+- type: GENERIC_TOKEN_SEARCH_FORBIDDEN
+  params:
+    filePatterns:
+    - '**/Policies/**/*.policy'
+    tokens:
+    - Truist-AAA-SOAP
+    - Truist-AAA-HTTP
+    - TruistBasicAuthnPolicy</div></div></td></tr><tr style='background-color:#fff5f5; border-bottom: 4px solid white;'> <td style='border-left: 6px solid #dc3545;'>002</td><td>Enforce Policy Versions</td><td>HIGH</td><td><strong style='color:#721c24'>FAIL</strong></td><td><div style='word-wrap: break-word; white-space: pre-wrap;'>• ✗ Policy version mismatch found (Check report for details). Property Check failed for VALUE_MATCH. (Mode: ALL_FILES, Passed: 1/2). Failures:
+• Policies\01\invalid_test.policy [
+Invalid value for 'truist.compositeauthn.policy.version'. Found: '2.0.0', Expected one of: [3.0.0]
+Missing Key: truist.authz.policy.version
+Missing Key: noname.policy.version
+Missing Key: ratelimit.policy.version
+Missing Key: headerinjection.policy.version
+Missing Key: headerremoval.policy.version
+Missing Key: truist.wssencdec.policy.version
+Missing Key: truist.jsonencdec.policy.version
+] 
+ Files Checked: Policies\01\invalid_test.policy, Policies\valid_test.policy</div><div style='margin-top:5px; padding-top:5px; border-top:1px dashed #ccc; font-size:0.85rem; color:#666;'><a href='javascript:void(0)' id='config-BANK-109-d0841b13-link' class='config-toggle' onclick="toggleConfig('config-BANK-109-d0841b13')" style='text-decoration:none; color:#663399; font-weight:bold;'>[+] Show Rule Config</a><div id='config-BANK-109-d0841b13' class='rule-config' style='display:none; margin-top:10px; margin-left:20px; padding:12px; background:#e3f2fd; border:1px solid #90caf9; border-left: 5px solid #2196f3; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius:4px; font-family: Consolas, monospace; white-space: pre-wrap; color: #0d47a1;'>id: BANK-109
+name: Enforce Policy Versions
+description: Validates all Truist policy versions.
+enabled: true
+severity: HIGH
+successMessage: &quot;✓ All policy versions are correct {DEFAULT_MESSAGE} \n Files Checked: {CHECKED_FILES}&quot;
+errorMessage: &quot;✗ Policy version mismatch found (Check report for details). {DEFAULT_MESSAGE} \n Files Checked: {CHECKED_FILES}&quot;
+checks:
+- type: MANDATORY_PROPERTY_VALUE_CHECK
+  params:
+    filePatterns:
+    - '**/Policies/**/*.policy'
+    properties:
+    - name: truist.compositeauthn.policy.version
+      values:
+      - 3.0.0
+    - name: truist.authz.policy.version
+      values:
+      - 3.0.0
+    - name: noname.policy.version
+      values:
+      - 5.1.0
+    - name: ratelimit.policy.version
+      values:
+      - 1.4.1
+    - name: headerinjection.policy.version
+      values:
+      - 1.3.2
+    - name: headerremoval.policy.version
+      values:
+      - 1.1.2
+    - name: truist.wssencdec.policy.version
+      values:
+      - 3.0.0
+    - name: truist.jsonencdec.policy.version
+      values:
+      - 3.0.0</div></div></td></tr><tr style='background-color:#fff5f5; border-bottom: 4px solid white;'> <td style='border-left: 6px solid #dc3545;'>003</td><td>Header Injection Policy (Mandatory)</td><td>HIGH</td><td><strong style='color:#721c24'>FAIL</strong></td><td><div style='word-wrap: break-word; white-space: pre-wrap;'>• ✗ Header Injection policy values must be 'WARN mode logging'. Property Check failed for VALUE_MATCH. (Mode: ALL_FILES, Passed: 1/2). Failures:
+• Policies\01\invalid_test.policy [
+Invalid value for 'headerinjection.policy.inboundheadermap.x-tfc-request-out'. Found: 'INFO', Expected one of: [WARN]
+Missing Key: headerinjection.policy.inboundheadermap.x-tfc-response-in
+] 
+ Files Checked: Policies\01\invalid_test.policy, Policies\valid_test.policy</div><div style='margin-top:5px; padding-top:5px; border-top:1px dashed #ccc; font-size:0.85rem; color:#666;'><a href='javascript:void(0)' id='config-RULE-006-06b1097e-link' class='config-toggle' onclick="toggleConfig('config-RULE-006-06b1097e')" style='text-decoration:none; color:#663399; font-weight:bold;'>[+] Show Rule Config</a><div id='config-RULE-006-06b1097e' class='rule-config' style='display:none; margin-top:10px; margin-left:20px; padding:12px; background:#e3f2fd; border:1px solid #90caf9; border-left: 5px solid #2196f3; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius:4px; font-family: Consolas, monospace; white-space: pre-wrap; color: #0d47a1;'>id: RULE-006
+name: Header Injection Policy (Mandatory)
+description: null
+enabled: true
+severity: HIGH
+successMessage: &quot;✓ Header Injection policy configured correctly (WARN mode logging) {DEFAULT_MESSAGE} \n Files Checked: {CHECKED_FILES}&quot;
+errorMessage: &quot;✗ Header Injection policy values must be 'WARN mode logging'. {DEFAULT_MESSAGE} \n Files Checked: {CHECKED_FILES}&quot;
+checks:
+- type: MANDATORY_PROPERTY_VALUE_CHECK
+  params:
+    filePatterns:
+    - '**/Policies/**/*.policy'
+    properties:
+    - name: headerinjection.policy.inboundheadermap.x-tfc-request-out
+      values:
+      - WARN
+    - name: headerinjection.policy.inboundheadermap.x-tfc-response-in
+      values:
+      - WARN</div></div></td></tr><tr style='background-color:#f0fff4; border-bottom: 4px solid white;'> <td style='border-left: 6px solid #28a745;'>004</td><td>Validate mule-artifact.json</td><td>HIGH</td><td><strong style='color:#155724'>PASS</strong></td><td><div style='word-wrap: break-word; white-space: pre-wrap;'>✓ mule-artifact.json is valid (Version: 4.9.7+, Java: 17) JSON Check passed for EXISTS files. (Mode: ALL_FILES, Passed: 0/0) 
+ None</div><div style='margin-top:5px; padding-top:5px; border-top:1px dashed #ccc; font-size:0.85rem; color:#666;'><a href='javascript:void(0)' id='config-BANK-001-41958151-link' class='config-toggle' onclick="toggleConfig('config-BANK-001-41958151')" style='text-decoration:none; color:#663399; font-weight:bold;'>[+] Show Rule Config</a><div id='config-BANK-001-41958151' class='rule-config' style='display:none; margin-top:10px; margin-left:20px; padding:12px; background:#e3f2fd; border:1px solid #90caf9; border-left: 5px solid #2196f3; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius:4px; font-family: Consolas, monospace; white-space: pre-wrap; color: #0d47a1;'>id: BANK-001
+name: Validate mule-artifact.json
+description: Enforces minMuleVersion 4.9.7, Java 17, and secureProperties.
+enabled: true
+severity: HIGH
+successMessage: &quot;✓ mule-artifact.json is valid (Version: 4.9.7+, Java: 17) {DEFAULT_MESSAGE} \n {CHECKED_FILES}&quot;
+errorMessage: &quot;✗ mule-artifact.json failed validation. Check minMuleVersion (4.9.7+), javaSpecificationVersions (17), or secureProperties.\
+  \ {DEFAULT_MESSAGE} \n {CHECKED_FILES}&quot;
+checks:
+- type: JSON_VALIDATION_REQUIRED
+  params:
+    filePattern: mule-artifact.json
+    minVersions:
+      minMuleVersion: 4.9.7
+    requiredFields:
+      javaSpecificationVersions: '17'
+    requiredElements:
+    - secureProperties</div></div></td></tr><tr style='background-color:#f0fff4; border-bottom: 4px solid white;'> <td style='border-left: 6px solid #28a745;'>005</td><td>Forbid Legacy Logger Attributes</td><td>HIGH</td><td><strong style='color:#155724'>PASS</strong></td><td><div style='word-wrap: break-word; white-space: pre-wrap;'>✓ No legacy logger attributes found XML Check passed for NOT_EXISTS files. (Mode: ALL_FILES, Passed: 0/0); Checked Files: None</div><div style='margin-top:5px; padding-top:5px; border-top:1px dashed #ccc; font-size:0.85rem; color:#666;'><a href='javascript:void(0)' id='config-BANK-002-6625276c-link' class='config-toggle' onclick="toggleConfig('config-BANK-002-6625276c')" style='text-decoration:none; color:#663399; font-weight:bold;'>[+] Show Rule Config</a><div id='config-BANK-002-6625276c' class='rule-config' style='display:none; margin-top:10px; margin-left:20px; padding:12px; background:#e3f2fd; border:1px solid #90caf9; border-left: 5px solid #2196f3; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius:4px; font-family: Consolas, monospace; white-space: pre-wrap; color: #0d47a1;'>id: BANK-002
+name: Forbid Legacy Logger Attributes
+description: Ensures toApplicationCode and fromApplicationCode are NOT used.
+enabled: true
+severity: HIGH
+successMessage: '✓ No legacy logger attributes found {DEFAULT_MESSAGE}; Checked Files: {CHECKED_FILES}'
+errorMessage: '✗ Forbidden attribute found in Logger: {FOUND_ITEMS}; {DEFAULT_MESSAGE} ; Checked Files: {CHECKED_FILES}'
+checks:
+- type: XML_ATTRIBUTE_NOT_EXISTS
+  params:
+    filePatterns:
+    - src/main/mule/*.xml
+    elements:
+    - set-payload
+    forbiddenAttributes:
+    - toApplicationCode
+    - fromApplicationCode</div></div></td></tr><tr style='background-color:#f0fff4; border-bottom: 4px solid white;'> <td style='border-left: 6px solid #28a745;'>006</td><td>Forbid jce-encrypt Token</td><td>HIGH</td><td><strong style='color:#155724'>PASS</strong></td><td><div style='word-wrap: break-word; white-space: pre-wrap;'>✓ No jce-encrypt tokens found Passed FORBIDDEN check in 0/0 files (Mode: REGEX); Checked Files: None</div><div style='margin-top:5px; padding-top:5px; border-top:1px dashed #ccc; font-size:0.85rem; color:#666;'><a href='javascript:void(0)' id='config-BANK-004-35e5db80-link' class='config-toggle' onclick="toggleConfig('config-BANK-004-35e5db80')" style='text-decoration:none; color:#663399; font-weight:bold;'>[+] Show Rule Config</a><div id='config-BANK-004-35e5db80' class='rule-config' style='display:none; margin-top:10px; margin-left:20px; padding:12px; background:#e3f2fd; border:1px solid #90caf9; border-left: 5px solid #2196f3; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius:4px; font-family: Consolas, monospace; white-space: pre-wrap; color: #0d47a1;'>id: BANK-004
+name: Forbid jce-encrypt Token
+description: Detects usage of legacy jce-encrypt.
+enabled: true
+severity: HIGH
+successMessage: '✓ No jce-encrypt tokens found {DEFAULT_MESSAGE}; Checked Files: {CHECKED_FILES}'
+errorMessage: '✗ Found forbidden token: {FOUND_ITEMS}. Use EncUtil. {DEFAULT_MESSAGE} ; Checked Files: {CHECKED_FILES}'
+checks:
+- type: GENERIC_TOKEN_SEARCH_FORBIDDEN
+  params:
+    filePatterns:
+    - src/main/mule/*.xml
+    tokens:
+    - \bjce-encrypt\b
+    matchMode: REGEX</div></div></td></tr><tr style='background-color:#f0fff4; border-bottom: 4px solid white;'> <td style='border-left: 6px solid #28a745;'>007</td><td>Validate SOAP Version</td><td>HIGH</td><td><strong style='color:#155724'>PASS</strong></td><td><div style='word-wrap: break-word; white-space: pre-wrap;'>✓ SOAP configuration uses valid version (1.1 or 1.2) XML Check passed for EXISTS files. (Mode: ALL_FILES, Passed: 0/0)</div><div style='margin-top:5px; padding-top:5px; border-top:1px dashed #ccc; font-size:0.85rem; color:#666;'><a href='javascript:void(0)' id='config-BANK-005-d13f520d-link' class='config-toggle' onclick="toggleConfig('config-BANK-005-d13f520d')" style='text-decoration:none; color:#663399; font-weight:bold;'>[+] Show Rule Config</a><div id='config-BANK-005-d13f520d' class='rule-config' style='display:none; margin-top:10px; margin-left:20px; padding:12px; background:#e3f2fd; border:1px solid #90caf9; border-left: 5px solid #2196f3; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius:4px; font-family: Consolas, monospace; white-space: pre-wrap; color: #0d47a1;'>id: BANK-005
+name: Validate SOAP Version
+description: null
+enabled: true
+severity: HIGH
+successMessage: ✓ SOAP configuration uses valid version (1.1 or 1.2) {DEFAULT_MESSAGE}
+errorMessage: ✗ Invalid SOAP version detected. Must be SOAP_11 or SOAP_12. {DEFAULT_MESSAGE}
+checks:
+- type: XML_ATTRIBUTE_EXISTS
+  params:
+    filePatterns:
+    - src/main/mule/*-config.xml
+    elementAttributeSets:
+    - element: apikit-soap:config
+      attributes:
+        soapVersion: SOAP_11
+    - element: apikit-soap:config
+      attributes:
+        soapVersion: SOAP_12</div></div></td></tr>
+            </tbody>
+        </table>
+    </div>
+    <script>
+        function toggleConfig(id) {
+            var x = document.getElementById(id);
+            var link = document.getElementById(id + '-link');
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                if(link) link.innerHTML = "[-] Hide Rule Config";
+            } else {
+                x.style.display = "none";
+                if(link) link.innerHTML = "[+] Show Rule Config";
+            }
+        }
+
+        function toggleAllConfigs(expand) {
+            var configs = document.getElementsByClassName("rule-config");
+            for (var i = 0; i < configs.length; i++) {
+                var div = configs[i];
+                var id = div.id;
+                var link = document.getElementById(id + '-link');
+                if (expand) {
+                    div.style.display = "block";
+                    if (link) link.innerHTML = "[-] Hide Rule Config";
+                } else {
+                    div.style.display = "none";
+                    if (link) link.innerHTML = "[+] Show Rule Config";
+                }
+            }
+        }
+
+        function filterTable() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("searchInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("resultsTable");
+            tr = table.getElementsByTagName("tr");
+
+            // Remove existing highlights first
+            removeHighlights();
+
+            for (i = 1; i < tr.length; i++) {
+                var found = false;
+                var tds = tr[i].getElementsByTagName("td");
+                for (var j = 0; j < tds.length; j++) {
+                    if (tds[j]) {
+                        txtValue = tds[j].textContent || tds[j].innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            found = true;
+                            break;
+                        }
+                    }
+                }
+                tr[i].style.display = found ? "" : "none";
+            }
+
+            // Apply highlighting if there is a filter
+            if (filter.length > 0) {
+                highlightSearch(input.value);
+            }
+        }
+
+        function removeHighlights() {
+            var highlighted = document.querySelectorAll('span.search-highlight');
+            highlighted.forEach(function(span) {
+                var parent = span.parentNode;
+                parent.replaceChild(document.createTextNode(span.textContent), span);
+                parent.normalize();
+            });
+        }
+
+        function highlightSearch(term) {
+            if (!term) return;
+            // Escape regex special characters in the term
+            // We use a simplified character set to avoid Java escaping hell
+            // [-.[]{}()...] -> escaped with double backslash for Java string literal
+            var escapedTerm = term.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
+            var regex;
+            try {
+                regex = new RegExp("(" + escapedTerm + ")", "gi");
+            } catch (e) {
+                return;
+            }
+            var body = document.getElementById("tableBody");
+            recursiveHighlight(body, regex);
+        }
+
+        function recursiveHighlight(node, regex) {
+            if (node.nodeType === 3) { // Text node
+                 if (node.nodeValue.trim().length > 0 && regex.test(node.nodeValue)) {
+                     var span = document.createElement("span");
+                     span.innerHTML = node.nodeValue.replace(regex, "<span class='search-highlight' style='background-color: #ffeb3b; color: black; font-weight: bold; padding: 2px 4px; border-radius: 2px;'>$1</span>");
+                     node.parentNode.replaceChild(span, node);
+                 }
+            } else if (node.nodeType === 1 && node.nodeName !== "SCRIPT" && node.nodeName !== "STYLE" && !node.classList.contains("search-highlight")) {
+                 // Clone children to avoid iteration issues if we modify DOM
+                 var children = Array.from(node.childNodes);
+                 for (var i = 0; i < children.length; i++) {
+                     recursiveHighlight(children[i], regex);
+                 }
+            }
+        }
+
+        function sortTable(n) {
+            var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+            table = document.getElementById("resultsTable");
+            switching = true;
+            dir = "asc";
+            while (switching) {
+                switching = false;
+                rows = table.rows;
+                for (i = 1; i < (rows.length - 1); i++) {
+                    shouldSwitch = false;
+                    x = rows[i].getElementsByTagName("TD")[n];
+                    y = rows[i + 1].getElementsByTagName("TD")[n];
+                    if (dir == "asc") {
+                        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    } else if (dir == "desc") {
+                        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+                }
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                    switchcount++;
+                } else {
+                    if (switchcount == 0 && dir == "asc") {
+                        dir = "desc";
+                        switching = true;
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

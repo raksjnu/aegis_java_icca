@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mule xmlns:apikit-soap="http://www.mulesoft.org/schema/mule/apikit-soap" xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/apikit-soap http://www.mulesoft.org/schema/mule/apikit-soap/current/mule-apikit-soap.xsd">
+
+    <!-- FAIL: HTTP Listener with blank Path -->
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" >
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
+
+    <!-- FAIL: Legacy SOAP Version -->
+    <apikit-soap:config name="soap-config" soapVersion="${soapversion}" service="MyService" port="80" />
+
+	<flow name="fail-flow">
+        <!-- FAIL: Blank Path -->
+        <http:listener doc:name="Listener" config-ref="HTTP_Listener_config" path=""/>
+
+        <!-- FAIL: Legacy Logger Attributes -->
+		<logger level="INFO" doc:name="Logger" message="Test" toApplicationCode="true" fromApplicationCode="false"/>
+        
+        <!-- FAIL: Legacy Encryption Token -->
+        <set-variable value="jce-encrypt::somevalue" variableName="legacyEncrypt"/>
+        
+        <!-- FAIL: Legacy Auth Policy Ref (Simulated) -->
+        <http:policy-ref ref="Truist-AAA-SOAP"/>
+        
+        <!-- FAIL: Missing EncUtil Logic (Legacy PBE) -->
+        <set-variable value="secure::jce-encrypt-pbe" variableName="oldCrypto"/>
+
+        <!-- FAIL: DLQ Logic -->
+        <choice doc:name="Choice">
+			<when expression="#[vars.flag == 'north.bound.dlp.flag']">
+                <logger level="WARN" message="DLP Found"/>
+			</when>
+		</choice>
+
+        <!-- FAIL: Java 17 Migration (Old Error Syntax) -->
+        <error-handler>
+            <on-error-continue>
+                <logger level="ERROR" message="#[error.muleMessage]"/>
+                <logger level="ERROR" message="#[error.exception.cause.detailMessage]"/>
+            </on-error-continue>
+        </error-handler>
+	</flow>
+    
+    <!-- FAIL: Missing Autodiscovery -->
+
+</mule>

@@ -1,0 +1,8 @@
+# Fails BANK-109 (Wrong Version)
+truist.compositeauthn.policy.version=2.0.0
+
+# Fails BANK-006 (Wrong Value)
+headerinjection.policy.inboundheadermap.x-tfc-request-out=INFO
+
+# Fails BANK-008 (Forbidden Token)
+# Policy Name: Truist-AAA-SOAP

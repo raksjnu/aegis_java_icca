@@ -1,0 +1,10 @@
+truist.compositeauthn.policy.version: "1.0.0"
+truist.authz.policy.version: "2.0.0"
+headerinjection.policy.version: "1.0.0"
+headerremoval.policy.version: "1.0.0"
+truist.wssencdec.policy.version: "1.0.0"
+truist.jsonencdec.policy.version: "1.0.0"
+
+# FAIL: Header Injection Values
+headerinjection.policy.inboundheadermap.x-tfc-request-out: "INFO"
+headerinjection.policy.inboundheadermap.x-tfc-response-in: "ERROR"

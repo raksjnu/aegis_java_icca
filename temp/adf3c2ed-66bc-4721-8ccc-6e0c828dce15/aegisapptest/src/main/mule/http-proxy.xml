@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mule xmlns="http://www.mulesoft.org/schema/mule/core"
+      xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+      xmlns:anypoint-mq="http://www.mulesoft.org/schema/mule/anypoint-mq"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+                          http://www.mulesoft.org/schema/mule/anypoint-mq http://www.mulesoft.org/schema/mule/anypoint-mq/current/mule-anypoint-mq.xsd">
+
+    <flow name="http-proxy-flow">
+        <choice doc:name="Choice">
+            <when expression="#[vars.'1north.bound.dlp.flag' == true]">
+                <logger level="INFO" doc:name="Logger" message="DLP Logic Triggered"/>
+            </when>
+            <otherwise>
+                <logger level="INFO" doc:name="Logger" message="Normal Flow"/>
+            </otherwise>
+        </choice>
+        
+        <!-- MQ Publish with Property Placeholder -->
+        <anypoint-mq:publish doc:name="Publish" config-ref="Anypoint_MQ_Config" destination="${1dlp.queue}"/>
+
+        <anypoint-mq:config name="Anypoint_MQ_Config" doc:name="Anypoint MQ Config">
+            <anypoint-mq:connection url="https://mq-us-east-1.anypoint.mulesoft.com/api/v1" />
+        </anypoint-mq:config>
+    </flow>
+</mule>
