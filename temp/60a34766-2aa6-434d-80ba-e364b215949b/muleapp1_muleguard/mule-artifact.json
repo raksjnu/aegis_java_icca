@@ -1,7 +1,0 @@
-{
-  "minMuleVersion": "4.9.7",
-  "secureProperties": ["secure.key", "db.password"],
-  "javaSpecificationVersions": [
-    "17"
-  ]
-}

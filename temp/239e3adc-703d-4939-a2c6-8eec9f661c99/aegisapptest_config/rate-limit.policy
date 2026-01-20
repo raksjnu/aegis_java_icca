@@ -1,6 +1,0 @@
-# FAIL: Incorrect Version
-ratelimit.policy.version: "1.0.0"
-
-# FAIL: Missing Properties (Simulated)
-Truist-AAA-SOAP.version=1.0.0
-Truist-AAA-SOAP.enabled=true

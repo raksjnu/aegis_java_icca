@@ -1,4 +1,0 @@
-# FAIL: Incorrect Version
-ratelimit.policy.version: "1.0.0"
-
-# FAIL: Missing Properties (Simulated)

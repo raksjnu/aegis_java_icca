@@ -1,7 +1,41 @@
-2026-01-20 00:16:10 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist
-2026-01-20 00:16:10 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\truist_aegis_RK_v1.0.yaml
-2026-01-20 00:16:10 [main] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 00:16:10 [main] INFO  com.raks.aegis.AegisMain - # =============================================================================
+2026-01-20 10:22:14 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Attempting to generate Rule Guide at: C:\raks\aegis_java_icca\temp\rule_guide.html
+2026-01-20 10:22:15 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide generated successfully at: C:\raks\aegis_java_icca\temp\rule_guide.html
+2026-01-20 10:22:15 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide also written to resources: C:\raks\aegis_java_icca\src\main\resources\web\aegis\rule_guide.html
+2026-01-20 10:22:15 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\aegis_java_icca\temp
+2026-01-20 10:22:15 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
+2026-01-20 10:22:15 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
+2026-01-20 10:27:15 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Attempting to generate Rule Guide at: C:\raks\aegis_java_icca\temp\rule_guide.html
+2026-01-20 10:27:15 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide generated successfully at: C:\raks\aegis_java_icca\temp\rule_guide.html
+2026-01-20 10:27:15 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide also written to resources: C:\raks\aegis_java_icca\src\main\resources\web\aegis\rule_guide.html
+2026-01-20 10:27:15 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\aegis_java_icca\temp
+2026-01-20 10:27:15 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
+2026-01-20 10:27:15 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
+2026-01-20 10:29:51 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\aegis_java_icca\temp
+2026-01-20 10:29:51 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
+2026-01-20 10:29:51 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
+2026-01-20 10:30:14 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - Extracting ZIP file: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-15201390461513537099aegisapptest.zip
+2026-01-20 10:30:14 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ZIP extracted successfully to: C:\raks\aegis_java_icca\temp\95ffd492-666e-4eeb-a7e2-4eb51ed25483
+2026-01-20 10:30:14 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ProjectDiscovery will scan for all projects in this directory
+2026-01-20 10:30:14 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Running validation on: C:\raks\aegis_java_icca\temp\95ffd492-666e-4eeb-a7e2-4eb51ed25483
+2026-01-20 10:30:15 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\aegis_java_icca\temp\95ffd492-666e-4eeb-a7e2-4eb51ed25483
+2026-01-20 10:30:15 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Total rules loaded from config: 43
+2026-01-20 10:30:15 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ProjectDiscovery - Found 2 project(s)
+2026-01-20 10:30:15 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
+2026-01-20 10:30:15 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - 
+2026-01-20 10:30:15 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating API: aegisapptest
+2026-01-20 10:30:18 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 25 | Passed: 15 | Failed: 10
+2026-01-20 10:30:18 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating Config: aegisapptest_config
+2026-01-20 10:30:18 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 25 | Passed: 14 | Failed: 11
+2026-01-20 10:30:18 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 2 | Passed: 29 | Failed: 21
+2026-01-20 10:30:18 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\aegis_java_icca\temp\95ffd492-666e-4eeb-a7e2-4eb51ed25483\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - Extracting ZIP file: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-9494807224359899859aegisapptest.zip
+2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ZIP extracted successfully to: C:\raks\aegis_java_icca\temp\995dabe1-b2a5-4430-b432-4e1b94ede9d1
+2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ProjectDiscovery will scan for all projects in this directory
+2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Running validation on: C:\raks\aegis_java_icca\temp\995dabe1-b2a5-4430-b432-4e1b94ede9d1
+2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\aegis_java_icca\temp\995dabe1-b2a5-4430-b432-4e1b94ede9d1
+2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-9851722893540810726truist_aegis_RK_v1.0.yaml
+2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
+2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - # =============================================================================
 # Aegis Rules Configuration - Truist
 # Targeted for Technical Checklist Compliance
 # Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
@@ -12,20 +46,45 @@
 # RULE TYPES QUICK REFERENCE
 # =============================================================================
 # 
-2026-01-20 00:16:10 [main] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 00:16:11 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 2 project(s)
-2026-01-20 00:16:11 [main] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 00:16:11 [main] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 00:16:11 [main] INFO  com.raks.aegis.AegisMain - Validating API: aegisapptest
-2026-01-20 00:16:13 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 9 | Failed: 11
-2026-01-20 00:16:13 [main] INFO  com.raks.aegis.AegisMain - Validating Config: aegisapptest_config
-2026-01-20 00:16:14 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 8 | Passed: 0 | Failed: 8
-2026-01-20 00:16:14 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 2 | Passed: 9 | Failed: 19
-2026-01-20 00:16:14 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\aegis-report\CONSOLIDATED-REPORT.html
-2026-01-20 00:18:39 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\rules_verify
-2026-01-20 00:18:39 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\truist_aegis_RK_v1.0.yaml
-2026-01-20 00:18:39 [main] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 00:18:39 [main] INFO  com.raks.aegis.AegisMain - # =============================================================================
+2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
+2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Total rules loaded from config: 24
+2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ProjectDiscovery - Found 2 project(s)
+2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
+2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - 
+2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating API: aegisapptest
+2026-01-20 10:30:37 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 8 | Failed: 12
+2026-01-20 10:30:37 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating Config: aegisapptest_config
+2026-01-20 10:30:37 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 8 | Passed: 0 | Failed: 8
+2026-01-20 10:30:38 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 2 | Passed: 8 | Failed: 20
+2026-01-20 10:30:38 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\aegis_java_icca\temp\995dabe1-b2a5-4430-b432-4e1b94ede9d1\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-20 10:31:03 [Thread-1] INFO  com.raks.aegis.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
+2026-01-20 10:31:31 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\aegis_java_icca\temp
+2026-01-20 10:31:31 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
+2026-01-20 10:31:31 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
+2026-01-20 10:32:06 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - [GitDiscoveryReposHandler] START. Headers -> Token: gl***, Provider: gitlab
+2026-01-20 10:32:07 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - [GitDiscoveryReposHandler] Resolved Params -> Group: raks-group, Provider: gitlab, Filter: repo1
+2026-01-20 10:32:07 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] listRepositories: Provider=gitlab, Group=raks-group, Filter=repo1
+2026-01-20 10:32:07 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] GitLab API Request: https://gitlab.com/api/v4/groups/raks-group/projects?include_subgroups=true&per_page=100&search=repo1
+2026-01-20 10:32:08 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Found 2 GitLab repos.
+2026-01-20 10:32:18 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Cloning Git Repo: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api_config.git to C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39\repo1-mule-api_config
+2026-01-20 10:32:18 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Cloning repository: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api_config.git (Branch: master) to C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39\repo1-mule-api_config
+2026-01-20 10:32:18 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Using Auth Token: gl***td
+2026-01-20 10:32:18 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Detected GitLab URL. Using 'oauth2' username strategy.
+2026-01-20 10:32:20 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-20 10:32:20 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - Restriction check complete. Final Repo Size: 218 bytes
+2026-01-20 10:32:20 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39\repo1-mule-api_config\.git]
+2026-01-20 10:32:20 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Cloning Git Repo: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api.git to C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39\repo1-mule-api
+2026-01-20 10:32:20 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Cloning repository: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api.git (Branch: master) to C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39\repo1-mule-api
+2026-01-20 10:32:20 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Using Auth Token: gl***td
+2026-01-20 10:32:20 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Detected GitLab URL. Using 'oauth2' username strategy.
+2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - Restriction check complete. Final Repo Size: 2606 bytes
+2026-01-20 10:32:21 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39\repo1-mule-api\.git]
+2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Running validation on: C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39
+2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39
+2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-9128296232847964436truist_aegis_RK_v1.0.yaml
+2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
+2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - # =============================================================================
 # Aegis Rules Configuration - Truist
 # Targeted for Technical Checklist Compliance
 # Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
@@ -36,395 +95,15 @@
 # RULE TYPES QUICK REFERENCE
 # =============================================================================
 # 
-2026-01-20 00:18:39 [main] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 00:18:39 [main] INFO  c.raks.aegis.util.ProjectDiscovery - No projects found in: C:\raks\temp\truist\rules_verify
-2026-01-20 00:18:39 [main] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 00:18:39 [main] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 00:18:39 [main] WARN  c.raks.aegis.engine.ReportGenerator - No results to generate consolidated report
-2026-01-20 00:18:39 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 0 | Passed: 0 | Failed: 0
-2026-01-20 00:18:39 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\rules_verify\report\CONSOLIDATED-REPORT.html
-2026-01-20 00:20:37 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\rules_verify
-2026-01-20 00:20:37 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\truist_aegis_RK_v1.0.yaml
-2026-01-20 00:20:37 [main] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 00:20:37 [main] INFO  com.raks.aegis.AegisMain - # =============================================================================
-# Aegis Rules Configuration - Truist
-# Targeted for Technical Checklist Compliance
-# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
-# Date: 2026-01-18
-# =============================================================================
-
-# =============================================================================
-# RULE TYPES QUICK REFERENCE
-# =============================================================================
-# 
-2026-01-20 00:20:37 [main] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 00:20:37 [main] INFO  c.raks.aegis.util.ProjectDiscovery - No projects found in: C:\raks\temp\truist\rules_verify
-2026-01-20 00:20:37 [main] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 00:20:37 [main] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 00:20:37 [main] WARN  c.raks.aegis.engine.ReportGenerator - No results to generate consolidated report
-2026-01-20 00:20:37 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 0 | Passed: 0 | Failed: 0
-2026-01-20 00:20:37 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\rules_verify\report\CONSOLIDATED-REPORT.html
-2026-01-20 00:23:26 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\rules_verify
-2026-01-20 00:23:26 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\truist_aegis_RK_v1.0.yaml
-2026-01-20 00:23:26 [main] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 00:23:26 [main] INFO  com.raks.aegis.AegisMain - # =============================================================================
-# Aegis Rules Configuration - Truist
-# Targeted for Technical Checklist Compliance
-# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
-# Date: 2026-01-18
-# =============================================================================
-
-# =============================================================================
-# RULE TYPES QUICK REFERENCE
-# =============================================================================
-# 
-2026-01-20 00:23:26 [main] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 00:23:26 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 1 project(s)
-2026-01-20 00:23:26 [main] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 00:23:26 [main] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 00:23:26 [main] INFO  com.raks.aegis.AegisMain - Validating API: rules_verify
-2026-01-20 00:23:29 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 14 | Failed: 6
-2026-01-20 00:23:29 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 1 | Passed: 14 | Failed: 6
-2026-01-20 00:23:29 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\rules_verify\report\CONSOLIDATED-REPORT.html
-2026-01-20 00:24:45 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\rules_verify
-2026-01-20 00:24:45 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\truist_aegis_RK_v1.0.yaml
-2026-01-20 00:24:45 [main] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 00:24:45 [main] INFO  com.raks.aegis.AegisMain - # =============================================================================
-# Aegis Rules Configuration - Truist
-# Targeted for Technical Checklist Compliance
-# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
-# Date: 2026-01-18
-# =============================================================================
-
-# =============================================================================
-# RULE TYPES QUICK REFERENCE
-# =============================================================================
-# 
-2026-01-20 00:24:45 [main] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 00:24:45 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 1 project(s)
-2026-01-20 00:24:45 [main] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 00:24:45 [main] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 00:24:45 [main] INFO  com.raks.aegis.AegisMain - Validating API: rules_verify
-2026-01-20 00:24:47 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 14 | Failed: 6
-2026-01-20 00:24:47 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 1 | Passed: 14 | Failed: 6
-2026-01-20 00:24:47 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\rules_verify\report\CONSOLIDATED-REPORT.html
-2026-01-20 00:26:57 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\rules_verify
-2026-01-20 00:26:57 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\truist_aegis_RK_v1.0.yaml
-2026-01-20 00:26:57 [main] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 00:26:57 [main] INFO  com.raks.aegis.AegisMain - # =============================================================================
-# Aegis Rules Configuration - Truist
-# Targeted for Technical Checklist Compliance
-# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
-# Date: 2026-01-18
-# =============================================================================
-
-# =============================================================================
-# RULE TYPES QUICK REFERENCE
-# =============================================================================
-# 
-2026-01-20 00:26:57 [main] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 00:26:58 [main] ERROR com.raks.aegis.AegisMain - 
-2026-01-20 00:26:58 [main] ERROR com.raks.aegis.AegisMain - ****************************************************************
-2026-01-20 00:26:58 [main] ERROR com.raks.aegis.AegisMain - FATAL ERROR: Invalid YAML Configuration in: C:\raks\temp\truist\truist_aegis_RK_v1.0.yaml
-2026-01-20 00:26:58 [main] ERROR com.raks.aegis.AegisMain - Reason: while constructing a mapping
- in 'string', line 370, column 15:
-                  xpath: "//*[local-name()='jce-co ... 
-                  ^
-found duplicate key filePattern
- in 'string', line 374, column 15:
-                  filePattern: "**/*.xml"
-                  ^
-
-2026-01-20 00:26:58 [main] ERROR com.raks.aegis.AegisMain - ****************************************************************
-2026-01-20 00:27:20 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\rules_verify
-2026-01-20 00:27:20 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\truist_aegis_RK_v1.0.yaml
-2026-01-20 00:27:20 [main] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 00:27:20 [main] INFO  com.raks.aegis.AegisMain - # =============================================================================
-# Aegis Rules Configuration - Truist
-# Targeted for Technical Checklist Compliance
-# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
-# Date: 2026-01-18
-# =============================================================================
-
-# =============================================================================
-# RULE TYPES QUICK REFERENCE
-# =============================================================================
-# 
-2026-01-20 00:27:20 [main] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 00:27:21 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 1 project(s)
-2026-01-20 00:27:21 [main] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 00:27:21 [main] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 00:27:21 [main] INFO  com.raks.aegis.AegisMain - Validating API: rules_verify
-2026-01-20 00:27:23 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 14 | Failed: 6
-2026-01-20 00:27:23 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 1 | Passed: 14 | Failed: 6
-2026-01-20 00:27:23 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\rules_verify\report\CONSOLIDATED-REPORT.html
-2026-01-20 00:28:59 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\rules_verify
-2026-01-20 00:28:59 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\truist_aegis_RK_v1.0.yaml
-2026-01-20 00:28:59 [main] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 00:28:59 [main] INFO  com.raks.aegis.AegisMain - # =============================================================================
-# Aegis Rules Configuration - Truist
-# Targeted for Technical Checklist Compliance
-# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
-# Date: 2026-01-18
-# =============================================================================
-
-# =============================================================================
-# RULE TYPES QUICK REFERENCE
-# =============================================================================
-# 
-2026-01-20 00:28:59 [main] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 00:28:59 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 1 project(s)
-2026-01-20 00:28:59 [main] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 00:28:59 [main] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 00:28:59 [main] INFO  com.raks.aegis.AegisMain - Validating API: rules_verify
-2026-01-20 00:29:02 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 14 | Failed: 6
-2026-01-20 00:29:02 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 1 | Passed: 14 | Failed: 6
-2026-01-20 00:29:02 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\rules_verify\report\CONSOLIDATED-REPORT.html
-2026-01-20 00:30:58 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\rules_verify
-2026-01-20 00:30:58 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\truist_aegis_RK_v1.0.yaml
-2026-01-20 00:30:58 [main] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 00:30:58 [main] INFO  com.raks.aegis.AegisMain - # =============================================================================
-# Aegis Rules Configuration - Truist
-# Targeted for Technical Checklist Compliance
-# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
-# Date: 2026-01-18
-# =============================================================================
-
-# =============================================================================
-# RULE TYPES QUICK REFERENCE
-# =============================================================================
-# 
-2026-01-20 00:30:58 [main] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 00:30:58 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 1 project(s)
-2026-01-20 00:30:58 [main] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 00:30:58 [main] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 00:30:58 [main] INFO  com.raks.aegis.AegisMain - Validating API: rules_verify
-2026-01-20 00:31:00 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 12 | Failed: 8
-2026-01-20 00:31:00 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 1 | Passed: 12 | Failed: 8
-2026-01-20 00:31:00 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\rules_verify\report\CONSOLIDATED-REPORT.html
-2026-01-20 00:41:38 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\rules_verify
-2026-01-20 00:41:38 [main] ERROR com.raks.aegis.AegisMain - FATAL ERROR: Could not read custom config file: C:\raks\non_existent_config.yaml
-2026-01-20 00:41:46 [main] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\temp\truist\rules_verify
-2026-01-20 00:41:46 [main] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\raks\temp\truist\truist_aegis_RK_v1.0.yaml
-2026-01-20 00:41:46 [main] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 00:41:46 [main] INFO  com.raks.aegis.AegisMain - # =============================================================================
-# Aegis Rules Configuration - Truist
-# Targeted for Technical Checklist Compliance
-# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
-# Date: 2026-01-18
-# =============================================================================
-
-# =============================================================================
-# RULE TYPES QUICK REFERENCE
-# =============================================================================
-# 
-2026-01-20 00:41:46 [main] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 00:41:46 [main] INFO  c.raks.aegis.util.ProjectDiscovery - Found 1 project(s)
-2026-01-20 00:41:46 [main] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 00:41:46 [main] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 00:41:46 [main] INFO  com.raks.aegis.AegisMain - Validating API: rules_verify
-2026-01-20 00:41:48 [main] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 12 | Failed: 8
-2026-01-20 00:41:49 [main] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 1 | Passed: 12 | Failed: 8
-2026-01-20 00:41:49 [main] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\temp\truist\rules_verify\Aegis-reports\CONSOLIDATED-REPORT.html
-2026-01-20 00:42:52 [com.raks.aegis.util.GenerateRuleGuide.main()] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Attempting to generate Rule Guide at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 00:42:52 [com.raks.aegis.util.GenerateRuleGuide.main()] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide generated successfully at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 00:42:52 [com.raks.aegis.util.GenerateRuleGuide.main()] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide also written to resources: C:\raks\apiguard\aegis\src\main\resources\web\aegis\rule_guide.html
-2026-01-20 00:47:35 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Attempting to generate Rule Guide at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 00:47:35 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide generated successfully at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 00:47:35 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide also written to resources: C:\raks\apiguard\aegis\src\main\resources\web\aegis\rule_guide.html
-2026-01-20 00:47:35 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\apiguard\aegis\temp
-2026-01-20 00:47:35 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
-2026-01-20 00:47:35 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
-2026-01-20 00:47:48 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryniVT1ketFcMBr8Cf
-2026-01-20 00:47:48 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundaryniVT1ketFcMBr8Cf'
-2026-01-20 00:47:48 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Multipart details - Total Size: 182572
-2026-01-20 00:47:48 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='mode', filename='null'
-2026-01-20 00:47:48 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='archive', filename='aegisapptest.zip'
-2026-01-20 00:47:48 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='customRules', filename='truist_aegis_RK_v1.0.yaml'
-2026-01-20 00:47:48 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='attachReports', filename='null'
-2026-01-20 00:47:48 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='attachInput', filename='null'
-2026-01-20 00:47:48 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='attachProject', filename='null'
-2026-01-20 00:47:48 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Parsed Params Keys: [mode, customRules, attachProject, attachInput, archive, attachReports]
-2026-01-20 00:47:48 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - Extracting ZIP file: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-11553825153292416761aegisapptest.zip
-2026-01-20 00:47:49 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ZIP extracted successfully to: C:\raks\apiguard\aegis\temp\9ad4e847-ec53-4f14-bdd1-0c3fbb2c8801
-2026-01-20 00:47:49 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ProjectDiscovery will scan for all projects in this directory
-2026-01-20 00:47:49 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Running validation on: C:\raks\apiguard\aegis\temp\9ad4e847-ec53-4f14-bdd1-0c3fbb2c8801
-2026-01-20 00:47:49 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\apiguard\aegis\temp\9ad4e847-ec53-4f14-bdd1-0c3fbb2c8801
-2026-01-20 00:47:49 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-3194644732975260024truist_aegis_RK_v1.0.yaml
-2026-01-20 00:47:49 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 00:47:49 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - # =============================================================================
-# Aegis Rules Configuration - Truist
-# Targeted for Technical Checklist Compliance
-# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
-# Date: 2026-01-18
-# =============================================================================
-
-# =============================================================================
-# RULE TYPES QUICK REFERENCE
-# =============================================================================
-# 
-2026-01-20 00:47:49 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 00:47:49 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ProjectDiscovery - Found 2 project(s)
-2026-01-20 00:47:49 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 00:47:49 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 00:47:49 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating API: aegisapptest
-2026-01-20 00:47:52 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 8 | Failed: 12
-2026-01-20 00:47:52 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating Config: aegisapptest_config
-2026-01-20 00:47:52 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 8 | Passed: 0 | Failed: 8
-2026-01-20 00:47:52 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 2 | Passed: 8 | Failed: 20
-2026-01-20 00:47:52 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\apiguard\aegis\temp\9ad4e847-ec53-4f14-bdd1-0c3fbb2c8801\Aegis-reports\CONSOLIDATED-REPORT.html
-2026-01-20 07:59:43 [Thread-1] INFO  com.raks.aegis.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
-2026-01-20 08:02:58 [com.raks.aegis.util.GenerateRuleGuide.main()] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Attempting to generate Rule Guide at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 08:02:58 [com.raks.aegis.util.GenerateRuleGuide.main()] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide generated successfully at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 08:02:58 [com.raks.aegis.util.GenerateRuleGuide.main()] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide also written to resources: C:\raks\apiguard\aegis\src\main\resources\web\aegis\rule_guide.html
-2026-01-20 08:29:18 [com.raks.aegis.util.GenerateRuleGuide.main()] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Attempting to generate Rule Guide at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 08:29:18 [com.raks.aegis.util.GenerateRuleGuide.main()] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide generated successfully at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 08:29:18 [com.raks.aegis.util.GenerateRuleGuide.main()] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide also written to resources: C:\raks\apiguard\aegis\src\main\resources\web\aegis\rule_guide.html
-2026-01-20 08:58:27 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Attempting to generate Rule Guide at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 08:58:27 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide generated successfully at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 08:58:27 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide also written to resources: C:\raks\apiguard\aegis\src\main\resources\web\aegis\rule_guide.html
-2026-01-20 08:58:27 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\apiguard\aegis\temp
-2026-01-20 08:58:27 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
-2026-01-20 08:58:27 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryDGLmR2Ckdu9ABfz4
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundaryDGLmR2Ckdu9ABfz4'
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Multipart details - Total Size: 182572
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='mode', filename='null'
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='archive', filename='aegisapptest.zip'
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='customRules', filename='truist_aegis_RK_v1.0.yaml'
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='attachReports', filename='null'
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='attachInput', filename='null'
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='attachProject', filename='null'
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Parsed Params Keys: [mode, customRules, attachProject, attachInput, archive, attachReports]
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - Extracting ZIP file: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-3025396388622455562aegisapptest.zip
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ZIP extracted successfully to: C:\raks\apiguard\aegis\temp\8fba756c-cbbe-40e9-92e6-97ca8241e9f5
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ProjectDiscovery will scan for all projects in this directory
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Running validation on: C:\raks\apiguard\aegis\temp\8fba756c-cbbe-40e9-92e6-97ca8241e9f5
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\apiguard\aegis\temp\8fba756c-cbbe-40e9-92e6-97ca8241e9f5
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-13057236525278089199truist_aegis_RK_v1.0.yaml
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - # =============================================================================
-# Aegis Rules Configuration - Truist
-# Targeted for Technical Checklist Compliance
-# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
-# Date: 2026-01-18
-# =============================================================================
-
-# =============================================================================
-# RULE TYPES QUICK REFERENCE
-# =============================================================================
-# 
-2026-01-20 08:58:41 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 08:58:42 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Total rules loaded from config: 24
-2026-01-20 08:58:42 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ProjectDiscovery - Found 2 project(s)
-2026-01-20 08:58:42 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 08:58:42 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 08:58:42 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating API: aegisapptest
-2026-01-20 08:58:44 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 8 | Failed: 12
-2026-01-20 08:58:44 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating Config: aegisapptest_config
-2026-01-20 08:58:45 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 8 | Passed: 0 | Failed: 8
-2026-01-20 08:58:45 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 2 | Passed: 8 | Failed: 20
-2026-01-20 08:58:45 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\apiguard\aegis\temp\8fba756c-cbbe-40e9-92e6-97ca8241e9f5\Aegis-reports\CONSOLIDATED-REPORT.html
-2026-01-20 09:08:48 [Thread-1] INFO  com.raks.aegis.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
-2026-01-20 09:13:17 [main] INFO  com.raks.aegis.AegisMain - No folder selected. Exiting.
-2026-01-20 09:17:01 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Attempting to generate Rule Guide at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 09:17:01 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide generated successfully at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 09:17:01 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide also written to resources: C:\raks\apiguard\aegis\src\main\resources\web\aegis\rule_guide.html
-2026-01-20 09:17:01 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\apiguard\aegis\temp
-2026-01-20 09:17:01 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
-2026-01-20 09:17:01 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
-2026-01-20 09:18:57 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Attempting to generate Rule Guide at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 09:18:57 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide generated successfully at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 09:18:57 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide also written to resources: C:\raks\apiguard\aegis\src\main\resources\web\aegis\rule_guide.html
-2026-01-20 09:18:57 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\apiguard\aegis\temp
-2026-01-20 09:18:57 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
-2026-01-20 09:18:57 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryK6hQUBT8d51BAoKW
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundaryK6hQUBT8d51BAoKW'
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Multipart details - Total Size: 182572
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='mode', filename='null'
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='archive', filename='aegisapptest.zip'
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='customRules', filename='truist_aegis_RK_v1.0.yaml'
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='attachReports', filename='null'
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='attachInput', filename='null'
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='attachProject', filename='null'
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Parsed Params Keys: [mode, customRules, attachProject, attachInput, archive, attachReports]
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - Extracting ZIP file: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-7770208866558739397aegisapptest.zip
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ZIP extracted successfully to: C:\raks\apiguard\aegis\temp\adf3c2ed-66bc-4721-8ccc-6e0c828dce15
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ProjectDiscovery will scan for all projects in this directory
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Running validation on: C:\raks\apiguard\aegis\temp\adf3c2ed-66bc-4721-8ccc-6e0c828dce15
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\apiguard\aegis\temp\adf3c2ed-66bc-4721-8ccc-6e0c828dce15
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-10373425816420488392truist_aegis_RK_v1.0.yaml
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - # =============================================================================
-# Aegis Rules Configuration - Truist
-# Targeted for Technical Checklist Compliance
-# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
-# Date: 2026-01-18
-# =============================================================================
-
-# =============================================================================
-# RULE TYPES QUICK REFERENCE
-# =============================================================================
-# 
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Total rules loaded from config: 24
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ProjectDiscovery - Found 2 project(s)
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 09:19:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating API: aegisapptest
-2026-01-20 09:19:11 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 8 | Failed: 12
-2026-01-20 09:19:11 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating Config: aegisapptest_config
-2026-01-20 09:19:12 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 8 | Passed: 0 | Failed: 8
-2026-01-20 09:19:12 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 2 | Passed: 8 | Failed: 20
-2026-01-20 09:19:12 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\apiguard\aegis\temp\adf3c2ed-66bc-4721-8ccc-6e0c828dce15\Aegis-reports\CONSOLIDATED-REPORT.html
-2026-01-20 09:21:14 [Thread-1] INFO  com.raks.aegis.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
-2026-01-20 09:25:38 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Attempting to generate Rule Guide at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 09:25:38 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide generated successfully at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 09:25:38 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide also written to resources: C:\raks\apiguard\aegis\src\main\resources\web\aegis\rule_guide.html
-2026-01-20 09:25:38 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\apiguard\aegis\temp
-2026-01-20 09:25:39 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
-2026-01-20 09:25:39 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Received Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryViuJfQJJWQMAm6ct
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Parsed Boundary: '----WebKitFormBoundaryViuJfQJJWQMAm6ct'
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Multipart details - Total Size: 182572
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='mode', filename='null'
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='archive', filename='aegisapptest.zip'
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='customRules', filename='truist_aegis_RK_v1.0.yaml'
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='attachReports', filename='null'
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='attachInput', filename='null'
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Found Part: name='attachProject', filename='null'
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - DEBUG: Parsed Params Keys: [mode, customRules, attachProject, attachInput, archive, attachReports]
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - Extracting ZIP file: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-14789682785041608305aegisapptest.zip
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ZIP extracted successfully to: C:\raks\apiguard\aegis\temp\3c42e0cd-2229-44e7-b7a6-ff95830ed40e
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ProjectDiscovery will scan for all projects in this directory
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Running validation on: C:\raks\apiguard\aegis\temp\3c42e0cd-2229-44e7-b7a6-ff95830ed40e
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\apiguard\aegis\temp\3c42e0cd-2229-44e7-b7a6-ff95830ed40e
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-3135533094386907540truist_aegis_RK_v1.0.yaml
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - # =============================================================================
-# Aegis Rules Configuration - Truist
-# Targeted for Technical Checklist Compliance
-# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
-# Date: 2026-01-18
-# =============================================================================
-
-# =============================================================================
-# RULE TYPES QUICK REFERENCE
-# =============================================================================
-# 
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Total rules loaded from config: 24
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ProjectDiscovery - Found 2 project(s)
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 09:26:14 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating API: aegisapptest
-2026-01-20 09:26:17 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 8 | Failed: 12
-2026-01-20 09:26:17 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating Config: aegisapptest_config
-2026-01-20 09:26:17 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 8 | Passed: 0 | Failed: 8
-2026-01-20 09:26:17 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 2 | Passed: 8 | Failed: 20
-2026-01-20 09:26:17 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\apiguard\aegis\temp\3c42e0cd-2229-44e7-b7a6-ff95830ed40e\Aegis-reports\CONSOLIDATED-REPORT.html
-2026-01-20 09:26:58 [Thread-1] INFO  com.raks.aegis.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
-2026-01-20 09:38:33 [com.raks.aegis.util.GenerateRuleGuide.main()] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Attempting to generate Rule Guide at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 09:38:33 [com.raks.aegis.util.GenerateRuleGuide.main()] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide generated successfully at: C:\raks\apiguard\aegis\temp\rule_guide.html
-2026-01-20 09:38:33 [com.raks.aegis.util.GenerateRuleGuide.main()] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide also written to resources: C:\raks\apiguard\aegis\src\main\resources\web\aegis\rule_guide.html
+2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
+2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Total rules loaded from config: 24
+2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ProjectDiscovery - Found 2 project(s)
+2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
+2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - 
+2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating API: repo1-mule-api
+2026-01-20 10:32:23 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 14 | Failed: 6
+2026-01-20 10:32:23 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating Config: repo1-mule-api_config
+2026-01-20 10:32:23 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 8 | Passed: 6 | Failed: 2
+2026-01-20 10:32:23 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 2 | Passed: 20 | Failed: 8
+2026-01-20 10:32:23 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-20 10:33:08 [Thread-1] INFO  com.raks.aegis.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
