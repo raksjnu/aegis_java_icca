@@ -345,7 +345,7 @@ public class AegisGUI {
         private Map<String, Object> parseRequest(HttpExchange exchange) throws IOException {
             Map<String, Object> params = new HashMap<>();
             String contentType = exchange.getRequestHeaders().getFirst("Content-Type");
-
+            
 
             if (contentType != null && contentType.startsWith("multipart/form-data")) {
                 String boundary = contentType.substring(contentType.indexOf("boundary=") + 9);
@@ -354,7 +354,7 @@ public class AegisGUI {
                 boundary = boundary.trim();
                 if (boundary.startsWith("\"") && boundary.endsWith("\"")) boundary = boundary.substring(1, boundary.length() - 1);
 
-
+                
 
                 try (InputStream is = exchange.getRequestBody()) {
                     MultipartParser parser = new MultipartParser(is, boundary);
@@ -362,7 +362,7 @@ public class AegisGUI {
                 }
             } else {
                 String query = new String(readAllBytes(exchange.getRequestBody()), StandardCharsets.UTF_8);
-
+                
                 if (!query.isEmpty()) {
                     String[] pairs = query.split("&");
                     for (String pair : pairs) {
@@ -371,7 +371,7 @@ public class AegisGUI {
                     }
                 }
             }
-
+            
             return params;
         }
     }
@@ -417,7 +417,7 @@ public class AegisGUI {
                 if (disposition != null) {
                     String name = extractAttribute(disposition, "name");
                     String filename = extractAttribute(disposition, "filename");
-
+                    
 
                     int nextBoundary = indexOf(data, boundaryBytes, offset);
                     if (nextBoundary == -1) nextBoundary = data.length;
