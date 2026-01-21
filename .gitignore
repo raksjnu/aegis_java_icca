@@ -1,0 +1,8 @@
+target/
+temp/
+*.class
+aegis_run_log.txt
+run_log*.txt
+output.log
+security_scan/
+Aegis-reports/

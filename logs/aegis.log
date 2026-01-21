@@ -107,3 +107,36 @@
 2026-01-20 10:32:23 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 2 | Passed: 20 | Failed: 8
 2026-01-20 10:32:23 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39\Aegis-reports\CONSOLIDATED-REPORT.html
 2026-01-20 10:33:08 [Thread-1] INFO  com.raks.aegis.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
+2026-01-20 17:23:52 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\aegis_java_icca\temp
+2026-01-20 17:23:52 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
+2026-01-20 17:23:52 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
+2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - Extracting ZIP file: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-14286390306505364118aegisapptest.zip
+2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ZIP extracted successfully to: C:\raks\aegis_java_icca\temp\c42c34bd-88e8-4f7b-8d6d-3419b2104ab8
+2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ProjectDiscovery will scan for all projects in this directory
+2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Running validation on: C:\raks\aegis_java_icca\temp\c42c34bd-88e8-4f7b-8d6d-3419b2104ab8
+2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\aegis_java_icca\temp\c42c34bd-88e8-4f7b-8d6d-3419b2104ab8
+2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-7857332074941571704truist_aegis_RK_v1.0.yaml
+2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
+2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - # =============================================================================
+# Aegis Rules Configuration - Truist
+# Targeted for Technical Checklist Compliance
+# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
+# Date: 2026-01-18
+# =============================================================================
+
+# =============================================================================
+# RULE TYPES QUICK REFERENCE
+# =============================================================================
+# 
+2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
+2026-01-20 17:24:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Total rules loaded from config: 24
+2026-01-20 17:24:08 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ProjectDiscovery - Found 2 project(s)
+2026-01-20 17:24:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
+2026-01-20 17:24:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - 
+2026-01-20 17:24:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating API: aegisapptest
+2026-01-20 17:24:10 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 8 | Failed: 12
+2026-01-20 17:24:10 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating Config: aegisapptest_config
+2026-01-20 17:24:11 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 8 | Passed: 0 | Failed: 8
+2026-01-20 17:24:11 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 2 | Passed: 8 | Failed: 20
+2026-01-20 17:24:11 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\aegis_java_icca\temp\c42c34bd-88e8-4f7b-8d6d-3419b2104ab8\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-20 17:33:07 [Thread-1] INFO  com.raks.aegis.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
