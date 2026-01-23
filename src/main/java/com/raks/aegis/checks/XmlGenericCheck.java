@@ -5,8 +5,6 @@ import com.raks.aegis.model.CheckResult;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathFactory;
@@ -56,9 +54,6 @@ public class XmlGenericCheck extends AbstractCheck {
         List<String> passedFilesList = new ArrayList<>();
         java.util.Set<String> successDetails = new java.util.LinkedHashSet<>();
 
-        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        factory.setNamespaceAware(true);
-        try { factory.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false); } catch (Exception ignore) {}
 
         java.util.Set<Path> matchedPathsSet = new java.util.HashSet<>();
         for (Path file : matchingFiles) {
@@ -71,8 +66,7 @@ public class XmlGenericCheck extends AbstractCheck {
             if (currentRoot.equals(linkedConfigPath)) { relativePath = "[Config] " + relativePath; }
 
             try {
-                DocumentBuilder builder = factory.newDocumentBuilder();
-                Document doc = builder.parse(file.toFile());
+                Document doc = parseXml(file, params);
                 XPath xpath = XPathFactory.newInstance().newXPath();
 
                 // 1. Required Fields
@@ -211,14 +205,14 @@ public class XmlGenericCheck extends AbstractCheck {
                                 if (expectedValue != null) {
                                     for (String actual : allValues) {
                                         if (compareValues(actual, expectedValue, operator, valueType)) { 
-                                            fileSuccesses.add(xpathExpr + " matches " + expectedValue + " (" + actual + ")"); 
+                                            fileSuccesses.add(String.format("%s matches '%s' (Actual: '%s')", xpathExpr, expectedValue, actual)); 
                                         } else {
                                             filePassed = false;
                                             fileErrors.add("Resolution of " + xpathExpr + " mismatch: '" + actual + "' (Expected: '" + expectedValue + "')");
                                         }
                                     }
                                 } else {
-                                    fileSuccesses.add("Found: " + xpathExpr + " with resolution: " + allValues);
+                                    fileSuccesses.add(String.format("Found %s (Resolution: %s)", xpathExpr, allValues.toString()));
                                 }
                             }
                         }
