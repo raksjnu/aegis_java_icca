@@ -1,142 +1,35 @@
-2026-01-20 10:22:14 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Attempting to generate Rule Guide at: C:\raks\aegis_java_icca\temp\rule_guide.html
-2026-01-20 10:22:15 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide generated successfully at: C:\raks\aegis_java_icca\temp\rule_guide.html
-2026-01-20 10:22:15 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide also written to resources: C:\raks\aegis_java_icca\src\main\resources\web\aegis\rule_guide.html
-2026-01-20 10:22:15 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\aegis_java_icca\temp
-2026-01-20 10:22:15 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
-2026-01-20 10:22:15 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
-2026-01-20 10:27:15 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Attempting to generate Rule Guide at: C:\raks\aegis_java_icca\temp\rule_guide.html
-2026-01-20 10:27:15 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide generated successfully at: C:\raks\aegis_java_icca\temp\rule_guide.html
-2026-01-20 10:27:15 [main] INFO  c.raks.aegis.engine.ReportGenerator - DEBUG: Rule Guide also written to resources: C:\raks\aegis_java_icca\src\main\resources\web\aegis\rule_guide.html
-2026-01-20 10:27:15 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\aegis_java_icca\temp
-2026-01-20 10:27:15 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
-2026-01-20 10:27:15 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
-2026-01-20 10:29:51 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\aegis_java_icca\temp
-2026-01-20 10:29:51 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
-2026-01-20 10:29:51 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
-2026-01-20 10:30:14 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - Extracting ZIP file: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-15201390461513537099aegisapptest.zip
-2026-01-20 10:30:14 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ZIP extracted successfully to: C:\raks\aegis_java_icca\temp\95ffd492-666e-4eeb-a7e2-4eb51ed25483
-2026-01-20 10:30:14 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ProjectDiscovery will scan for all projects in this directory
-2026-01-20 10:30:14 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Running validation on: C:\raks\aegis_java_icca\temp\95ffd492-666e-4eeb-a7e2-4eb51ed25483
-2026-01-20 10:30:15 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\aegis_java_icca\temp\95ffd492-666e-4eeb-a7e2-4eb51ed25483
-2026-01-20 10:30:15 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Total rules loaded from config: 43
-2026-01-20 10:30:15 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ProjectDiscovery - Found 2 project(s)
-2026-01-20 10:30:15 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 10:30:15 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 10:30:15 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating API: aegisapptest
-2026-01-20 10:30:18 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 25 | Passed: 15 | Failed: 10
-2026-01-20 10:30:18 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating Config: aegisapptest_config
-2026-01-20 10:30:18 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 25 | Passed: 14 | Failed: 11
-2026-01-20 10:30:18 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 2 | Passed: 29 | Failed: 21
-2026-01-20 10:30:18 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\aegis_java_icca\temp\95ffd492-666e-4eeb-a7e2-4eb51ed25483\Aegis-reports\CONSOLIDATED-REPORT.html
-2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - Extracting ZIP file: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-9494807224359899859aegisapptest.zip
-2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ZIP extracted successfully to: C:\raks\aegis_java_icca\temp\995dabe1-b2a5-4430-b432-4e1b94ede9d1
-2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ProjectDiscovery will scan for all projects in this directory
-2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Running validation on: C:\raks\aegis_java_icca\temp\995dabe1-b2a5-4430-b432-4e1b94ede9d1
-2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\aegis_java_icca\temp\995dabe1-b2a5-4430-b432-4e1b94ede9d1
-2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-9851722893540810726truist_aegis_RK_v1.0.yaml
-2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - # =============================================================================
-# Aegis Rules Configuration - Truist
-# Targeted for Technical Checklist Compliance
-# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
-# Date: 2026-01-18
-# =============================================================================
-
-# =============================================================================
-# RULE TYPES QUICK REFERENCE
-# =============================================================================
-# 
-2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Total rules loaded from config: 24
-2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ProjectDiscovery - Found 2 project(s)
-2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 10:30:36 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating API: aegisapptest
-2026-01-20 10:30:37 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 8 | Failed: 12
-2026-01-20 10:30:37 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating Config: aegisapptest_config
-2026-01-20 10:30:37 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 8 | Passed: 0 | Failed: 8
-2026-01-20 10:30:38 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 2 | Passed: 8 | Failed: 20
-2026-01-20 10:30:38 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\aegis_java_icca\temp\995dabe1-b2a5-4430-b432-4e1b94ede9d1\Aegis-reports\CONSOLIDATED-REPORT.html
-2026-01-20 10:31:03 [Thread-1] INFO  com.raks.aegis.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
-2026-01-20 10:31:31 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\aegis_java_icca\temp
-2026-01-20 10:31:31 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
-2026-01-20 10:31:31 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
-2026-01-20 10:32:06 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - [GitDiscoveryReposHandler] START. Headers -> Token: gl***, Provider: gitlab
-2026-01-20 10:32:07 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - [GitDiscoveryReposHandler] Resolved Params -> Group: raks-group, Provider: gitlab, Filter: repo1
-2026-01-20 10:32:07 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] listRepositories: Provider=gitlab, Group=raks-group, Filter=repo1
-2026-01-20 10:32:07 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] GitLab API Request: https://gitlab.com/api/v4/groups/raks-group/projects?include_subgroups=true&per_page=100&search=repo1
-2026-01-20 10:32:08 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Found 2 GitLab repos.
-2026-01-20 10:32:18 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Cloning Git Repo: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api_config.git to C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39\repo1-mule-api_config
-2026-01-20 10:32:18 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Cloning repository: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api_config.git (Branch: master) to C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39\repo1-mule-api_config
-2026-01-20 10:32:18 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Using Auth Token: gl***td
-2026-01-20 10:32:18 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Detected GitLab URL. Using 'oauth2' username strategy.
-2026-01-20 10:32:20 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - Clone successful. Enforcing restrictions...
-2026-01-20 10:32:20 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - Restriction check complete. Final Repo Size: 218 bytes
-2026-01-20 10:32:20 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39\repo1-mule-api_config\.git]
-2026-01-20 10:32:20 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Cloning Git Repo: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api.git to C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39\repo1-mule-api
-2026-01-20 10:32:20 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Cloning repository: https://gitlab.com/raks-group/raks-group-legacy/repo1-mule-api.git (Branch: master) to C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39\repo1-mule-api
-2026-01-20 10:32:20 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Using Auth Token: gl***td
-2026-01-20 10:32:20 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Detected GitLab URL. Using 'oauth2' username strategy.
-2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - Clone successful. Enforcing restrictions...
-2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - Restriction check complete. Final Repo Size: 2606 bytes
-2026-01-20 10:32:21 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39\repo1-mule-api\.git]
-2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Running validation on: C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39
-2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39
-2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-9128296232847964436truist_aegis_RK_v1.0.yaml
-2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - # =============================================================================
-# Aegis Rules Configuration - Truist
-# Targeted for Technical Checklist Compliance
-# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
-# Date: 2026-01-18
-# =============================================================================
-
-# =============================================================================
-# RULE TYPES QUICK REFERENCE
-# =============================================================================
-# 
-2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Total rules loaded from config: 24
-2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ProjectDiscovery - Found 2 project(s)
-2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 10:32:21 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating API: repo1-mule-api
-2026-01-20 10:32:23 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 14 | Failed: 6
-2026-01-20 10:32:23 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating Config: repo1-mule-api_config
-2026-01-20 10:32:23 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 8 | Passed: 6 | Failed: 2
-2026-01-20 10:32:23 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 2 | Passed: 20 | Failed: 8
-2026-01-20 10:32:23 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\aegis_java_icca\temp\9be94311-8c31-47e1-b1bd-1d34f9f6cb39\Aegis-reports\CONSOLIDATED-REPORT.html
-2026-01-20 10:33:08 [Thread-1] INFO  com.raks.aegis.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
-2026-01-20 17:23:52 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\aegis_java_icca\temp
-2026-01-20 17:23:52 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
-2026-01-20 17:23:52 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
-2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - Extracting ZIP file: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-14286390306505364118aegisapptest.zip
-2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ZIP extracted successfully to: C:\raks\aegis_java_icca\temp\c42c34bd-88e8-4f7b-8d6d-3419b2104ab8
-2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ArchiveExtractor - ProjectDiscovery will scan for all projects in this directory
-2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Running validation on: C:\raks\aegis_java_icca\temp\c42c34bd-88e8-4f7b-8d6d-3419b2104ab8
-2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\aegis_java_icca\temp\c42c34bd-88e8-4f7b-8d6d-3419b2104ab8
-2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-7857332074941571704truist_aegis_RK_v1.0.yaml
-2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - --- YAML CONTENT PREVIEW (First 500 chars) ---
-2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - # =============================================================================
-# Aegis Rules Configuration - Truist
-# Targeted for Technical Checklist Compliance
-# Author: Rakesh Kumar (Rakesh.Kumar@ibm.com)
-# Date: 2026-01-18
-# =============================================================================
-
-# =============================================================================
-# RULE TYPES QUICK REFERENCE
-# =============================================================================
-# 
-2026-01-20 17:24:07 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - ----------------------------------------------
-2026-01-20 17:24:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Total rules loaded from config: 24
-2026-01-20 17:24:08 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ProjectDiscovery - Found 2 project(s)
-2026-01-20 17:24:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
-2026-01-20 17:24:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - 
-2026-01-20 17:24:08 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating API: aegisapptest
-2026-01-20 17:24:10 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 20 | Passed: 8 | Failed: 12
-2026-01-20 17:24:10 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating Config: aegisapptest_config
-2026-01-20 17:24:11 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 8 | Passed: 0 | Failed: 8
-2026-01-20 17:24:11 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 2 | Passed: 8 | Failed: 20
-2026-01-20 17:24:11 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\aegis_java_icca\temp\c42c34bd-88e8-4f7b-8d6d-3419b2104ab8\Aegis-reports\CONSOLIDATED-REPORT.html
-2026-01-20 17:33:07 [Thread-1] INFO  com.raks.aegis.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
+2026-01-26 12:16:27 [main] INFO  com.raks.aegis.gui.AegisGUI - Rule Guide generated at startup in: C:\raks\aegis_java_icca\temp
+2026-01-26 12:16:27 [main] INFO  com.raks.aegis.gui.AegisGUI - Aegis GUI started at http://localhost:8080
+2026-01-26 12:16:27 [main] INFO  com.raks.aegis.gui.AegisGUI - Press Ctrl+C to stop
+2026-01-26 12:16:46 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - [GitDiscoveryReposHandler] START. Headers -> Token: gh***, Provider: github
+2026-01-26 12:16:46 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - [GitDiscoveryReposHandler] Resolved Params -> Group: raksjnu, Provider: github, Filter: aegisa
+2026-01-26 12:16:46 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] listRepositories: Provider=github, Group=raksjnu, Filter=aegisa
+2026-01-26 12:16:48 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Found 6 GitHub repos.
+2026-01-26 12:17:07 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Cloning Git Repo: https://github.com/raksjnu/aegisapptest.git to C:\raks\aegis_java_icca\temp\ff43c41a-2f03-47e0-9e71-1a4e2eec8491\aegisapptest
+2026-01-26 12:17:07 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Cloning repository: https://github.com/raksjnu/aegisapptest.git (Branch: main) to C:\raks\aegis_java_icca\temp\ff43c41a-2f03-47e0-9e71-1a4e2eec8491\aegisapptest
+2026-01-26 12:17:07 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Using Auth Token: gh***Ex
+2026-01-26 12:17:07 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Detected GitHub URL. Using token-as-username strategy.
+2026-01-26 12:17:08 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-26 12:17:08 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - Restriction check complete. Final Repo Size: 36237 bytes
+2026-01-26 12:17:08 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\aegis_java_icca\temp\ff43c41a-2f03-47e0-9e71-1a4e2eec8491\aegisapptest\.git]
+2026-01-26 12:17:08 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Cloning Git Repo: https://github.com/raksjnu/aegisapptest_config.git to C:\raks\aegis_java_icca\temp\ff43c41a-2f03-47e0-9e71-1a4e2eec8491\aegisapptest_config
+2026-01-26 12:17:08 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Cloning repository: https://github.com/raksjnu/aegisapptest_config.git (Branch: main) to C:\raks\aegis_java_icca\temp\ff43c41a-2f03-47e0-9e71-1a4e2eec8491\aegisapptest_config
+2026-01-26 12:17:08 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Using Auth Token: gh***Ex
+2026-01-26 12:17:08 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - [GitHelper] Detected GitHub URL. Using token-as-username strategy.
+2026-01-26 12:17:09 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - Clone successful. Enforcing restrictions...
+2026-01-26 12:17:09 [HTTP-Dispatcher] INFO  com.raks.aegis.util.GitHelper - Restriction check complete. Final Repo Size: 4980 bytes
+2026-01-26 12:17:09 [HTTP-Dispatcher] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\raks\aegis_java_icca\temp\ff43c41a-2f03-47e0-9e71-1a4e2eec8491\aegisapptest_config\.git]
+2026-01-26 12:17:09 [HTTP-Dispatcher] INFO  com.raks.aegis.gui.AegisGUI - Running validation on: C:\raks\aegis_java_icca\temp\ff43c41a-2f03-47e0-9e71-1a4e2eec8491
+2026-01-26 12:17:09 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis started for project: C:\raks\aegis_java_icca\temp\ff43c41a-2f03-47e0-9e71-1a4e2eec8491
+2026-01-26 12:17:09 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Loaded custom config from: C:\Users\raksj\AppData\Local\Temp\Aegis-upload-5346439295958266897truist_aegis_RK_v1.5.yaml
+2026-01-26 12:17:09 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Total rules loaded from config: 38
+2026-01-26 12:17:09 [HTTP-Dispatcher] INFO  c.raks.aegis.util.ProjectDiscovery - Found 2 project(s)
+2026-01-26 12:17:09 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Project type filtering enabled with 2 type(s): CODE, CONFIG
+2026-01-26 12:17:09 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - 
+2026-01-26 12:17:09 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating API: aegisapptest
+2026-01-26 12:17:12 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 24 | Passed: 8 | Failed: 16
+2026-01-26 12:17:12 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Validating Config: aegisapptest_config
+2026-01-26 12:17:13 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain -    FAIL | Files Scanned: 17 | Passed: 10 | Failed: 7
+2026-01-26 12:17:13 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Aegis Validation Complete | Total APIs: 2 | Passed: 18 | Failed: 23
+2026-01-26 12:17:13 [HTTP-Dispatcher] INFO  com.raks.aegis.AegisMain - Consolidated report: C:\raks\aegis_java_icca\temp\ff43c41a-2f03-47e0-9e71-1a4e2eec8491\Aegis-reports\CONSOLIDATED-REPORT.html
+2026-01-26 12:18:07 [Thread-1] INFO  com.raks.aegis.util.SessionManager - Shutdown hook triggered - cleaning up all sessions
