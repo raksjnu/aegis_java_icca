@@ -179,6 +179,18 @@
     </dependencies>
 
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+            <resource>
+                <directory>.</directory>
+                <includes>
+                    <include>LICENSE_MODE_ENABLED</include>
+                    <include>PROTECTED_MODE_ENABLED</include>
+                </includes>
+            </resource>
+        </resources>
         <plugins>
             <!-- Compiler plugin (important for Java 17) -->
             <plugin>
@@ -256,10 +268,17 @@
                             <options>
                                 <option>-allowaccessmodification</option>
                                 <option>-ignorewarnings</option>
+                                <option>-keep class !com.raks.** { *; }</option>
                                 <option>-keep public class com.raks.aegis.AegisMain { public static void main(java.lang.String[]); }</option>
                                 <option>-keep public class com.raks.aegis.** { *; }</option>
                                 <option>-keep class com.raks.aegis.license.LicenseValidator { public static void validate(java.lang.String); }</option>
-                                <option>-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod</option>
+
+                                <!-- Keep all Annotations, Enums, and Reflection Metadata -->
+                                <option>-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod,SourceFile,LineNumberTable,Exceptions</option>
+                                <option>-keepclassmembers enum * { *; }</option>
+                                <option>-keep interface * extends java.lang.annotation.Annotation { *; }</option>
+                                
+                                <option>-keepdirectories</option>
                                 <option>-dontwarn **</option>
                                 <option>-dontnote **</option>
                             </options>
@@ -275,8 +294,42 @@
                                 <lib>${java.home}/jmods/java.sql.jmod</lib>
                                 <lib>${java.home}/jmods/java.scripting.jmod</lib>
                                 <lib>${java.home}/jmods/java.net.http.jmod</lib>
+                                <lib>${java.home}/jmods/jdk.httpserver.jmod</lib>
+                                <lib>${java.home}/jmods/jdk.charsets.jmod</lib>
+                                <lib>${java.home}/jmods/jdk.crypto.ec.jmod</lib>
+                                <lib>${java.home}/jmods/jdk.unsupported.jmod</lib>
                             </libs>
                         </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>license-mode</id>
+            <activation>
+                <file>
+                    <exists>LICENSE_MODE_ENABLED</exists>
+                </file>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-antrun-plugin</artifactId>
+                        <version>3.1.0</version>
+                        <executions>
+                            <execution>
+                                <phase>generate-resources</phase>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                                <configuration>
+                                    <target>
+                                        <copy file="C:\raks\apiguard\rakslicensemanager\generated.license" tofile="${project.build.outputDirectory}/license.key" failonerror="false" />
+                                    </target>
+                                </configuration>
+                            </execution>
+                        </executions>
                     </plugin>
                 </plugins>
             </build>
