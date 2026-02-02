@@ -371,7 +371,7 @@ public class ReportGenerator {
         try (Workbook workbook = new XSSFWorkbook()) {
             Sheet sheet = workbook.createSheet("Validation Results");
 
-            // --- Styles ---
+             
             CellStyle titleStyle = workbook.createCellStyle();
             Font titleFont = workbook.createFont();
             titleFont.setBold(true);
@@ -407,7 +407,7 @@ public class ReportGenerator {
             failStyle.setBorderLeft(BorderStyle.THIN);
             failStyle.setBorderRight(BorderStyle.THIN);
 
-            // --- Metadata Header ---
+             
             Row titleRow = sheet.createRow(0);
             Cell titleCell = titleRow.createCell(0);
             titleCell.setCellValue("AEGIS VALIDATION REPORT");
@@ -445,7 +445,7 @@ public class ReportGenerator {
             statusStyle.setFont(statusFont);
             statusVal.setCellStyle(statusStyle);
 
-            // --- Results Table ---
+             
             int startRow = 7;
             Row header = sheet.createRow(startRow);
             String[] columns = { "Rule ID", "Name", "Severity", "Status", "Details" };
@@ -487,7 +487,7 @@ public class ReportGenerator {
             }
             for (int i = 0; i < columns.length; i++) {
                 sheet.autoSizeColumn(i);
-                // Cap width to avoid extremely wide columns for long details
+                 
                 if (sheet.getColumnWidth(i) > 20000) {
                     sheet.setColumnWidth(i, 20000);
                 }
@@ -770,6 +770,24 @@ public class ReportGenerator {
                     mdContent = "# " + ruleName + "\n\nDocumentation not found for " + ruleName;
                 }
 
+                 
+                java.util.List<String> codeBlocks = new java.util.ArrayList<>();
+                 
+                 
+                java.util.regex.Matcher codeBlockMatcher = java.util.regex.Pattern.compile("```([^\\r\\n]*)(?:\\r?\\n|\\r)([\\s\\S]*?)```").matcher(mdContent);
+                StringBuffer sb = new StringBuffer();
+                while (codeBlockMatcher.find()) {
+                    String language = codeBlockMatcher.group(1).trim();
+                    String code = codeBlockMatcher.group(2);
+
+                    code = escape(code);
+                    String placeholder = "___CODE_BLOCK_" + codeBlocks.size() + "___";
+                    codeBlocks.add("<pre><code class='language-" + (language.isEmpty() ? "text" : language) + "'>" + code + "</code></pre>");
+                    codeBlockMatcher.appendReplacement(sb, placeholder);
+                }
+                codeBlockMatcher.appendTail(sb);
+                mdContent = sb.toString();
+
                 StringBuilder subNav = new StringBuilder();
                 java.util.regex.Pattern headerPattern = java.util.regex.Pattern.compile("(?m)^## (.*)$");
                 java.util.regex.Matcher matcher = headerPattern.matcher(mdContent);
@@ -803,7 +821,8 @@ public class ReportGenerator {
                 }
                 sidebar.append("</li>");
 
-                String htmlContent = convertMdToHtml(mdContent);
+                 
+                String htmlContent = convertMdToHtml(mdContent, codeBlocks);
 
                 content.append(String.format("<div id=\"%s\" class=\"rule-content\" style=\"display: %s;\">%s</div>", 
                         ruleName, (index == 0 ? "block" : "none"), htmlContent));
@@ -1280,26 +1299,16 @@ public class ReportGenerator {
             logger.error("Failed to generate rule guide: {}", e.getMessage(), e);
         }
     }
-    private static String convertMdToHtml(String md) {
+    private static String convertMdToHtml(String md, java.util.List<String> codeBlocks) {
 
-        java.util.List<String> codeBlocks = new java.util.ArrayList<>();
-        java.util.regex.Matcher codeBlockMatcher = java.util.regex.Pattern.compile("(?s)```(.*?)\\n([\\s\\S]*?)```").matcher(md);
-        StringBuffer sb = new StringBuffer();
-        while (codeBlockMatcher.find()) {
-            String language = codeBlockMatcher.group(1).trim();
-            String code = codeBlockMatcher.group(2);
-
-            code = escape(code);
-            String placeholder = "___CODE_BLOCK_" + codeBlocks.size() + "___";
-            codeBlocks.add("<pre><code class='language-" + (language.isEmpty() ? "text" : language) + "'>" + code + "</code></pre>");
-            codeBlockMatcher.appendReplacement(sb, placeholder);
-        }
-        codeBlockMatcher.appendTail(sb);
-        String html = sb.toString();
+         
+        
+        String html = md;
 
         java.util.List<String> inlineCode = new java.util.ArrayList<>();
-        java.util.regex.Matcher inlineMatcher = java.util.regex.Pattern.compile("`([^`]+)`").matcher(html);
-        sb = new StringBuffer();
+         
+        java.util.regex.Matcher inlineMatcher = java.util.regex.Pattern.compile("`([^`\\r\\n]+)`").matcher(html);
+        StringBuffer sb = new StringBuffer();
         while (inlineMatcher.find()) {
             String code = inlineMatcher.group(1);
             code = escape(code);
@@ -1313,27 +1322,27 @@ public class ReportGenerator {
         html = html.replaceAll("(?i)(?m)^#{1,6}\\s*Version History[\\s\\S]*$", "");
         html = html.replaceAll("\\[([^\\]]+)\\]\\((?:CODE_|CONFIG_)?([^)]+)\\.md\\)", "<a href=\"#\" onclick=\"showRule(event, '$2')\">$1</a>");
         
-        // Horizontal Rules
+         
         html = html.replaceAll("(?m)^\\s*---+$", "<hr>");
 
-        // GitHub style alerts
+         
         html = html.replaceAll("(?m)^\\s*> \\[!TIP\\]\\s*(.*)$", "<div class='alert tip'><strong>TIP:</strong> $1</div>");
         html = html.replaceAll("(?m)^\\s*> \\[!IMPORTANT\\]\\s*(.*)$", "<div class='alert important'><strong>IMPORTANT:</strong> $1</div>");
         html = html.replaceAll("(?m)^\\s*> \\[!NOTE\\]\\s*(.*)$", "<div class='alert note'><strong>NOTE:</strong> $1</div>");
         html = html.replaceAll("(?m)^\\s*> \\[!WARNING\\]\\s*(.*)$", "<div class='alert warning'><strong>WARNING:</strong> $1</div>");
         html = html.replaceAll("(?m)^\\s*> \\[!CAUTION\\]\\s*(.*)$", "<div class='alert caution'><strong>CAUTION:</strong> $1</div>");
         
-        // Headers
+         
         html = html.replaceAll("(?m)^\\s*# (.*)$", "<h1>$1</h1>");
         html = html.replaceAll("(?m)^\\s*## (.*)$", "<h2>$1</h2>");
         html = html.replaceAll("(?m)^\\s*### (.*)$", "<h3>$1</h3>");
         html = html.replaceAll("(?m)^\\s*#### (.*)$", "<h4>$1</h4>");
         
-        // Formatting
+         
         html = html.replaceAll("\\*\\*(.*?)\\*\\*", "<strong>$1</strong>");
         html = html.replaceAll("(?m)^\\s*- (.*)$", "<li>$1</li>");
         
-        // Tables
+         
         html = html.replaceAll("(?m)^\\s*\\|(.+)\\|$", "<tr><td>$1</td></tr>");
         html = html.replaceAll("\\|", "</td><td>");
         html = html.replaceAll("<tr><td></td><td>", "<tr><td>");
@@ -1344,7 +1353,7 @@ public class ReportGenerator {
         html = html.replaceAll("(?s)(<tr>.*?</tr>)", "<table>$1</table>");
         html = html.replaceAll("</table>\\s*<table>", "");
 
-        // Blockquotes (generic - if not an alert)
+         
         html = html.replaceAll("(?m)^\\s*> (?!\\s*\\[!)(.*)$", "<blockquote>$1</blockquote>");
 
         html = html.replaceAll("(?m)^$", "<br>");
@@ -1362,7 +1371,7 @@ public class ReportGenerator {
         try (Workbook workbook = new XSSFWorkbook()) {
             Sheet sheet = workbook.createSheet("Aegis Summary");
             
-            // --- Styles ---
+             
             CellStyle titleStyle = workbook.createCellStyle();
             Font titleFont = workbook.createFont();
             titleFont.setBold(true);
@@ -1398,7 +1407,7 @@ public class ReportGenerator {
             failStyle.setBorderLeft(BorderStyle.THIN);
             failStyle.setBorderRight(BorderStyle.THIN);
 
-            // --- Stats Calculation ---
+             
             int totalRules = 0, totalPassed = 0, totalFailed = 0;
             for (ApiResult r : results) {
                 if (r == null || r.name == null) continue;
@@ -1407,7 +1416,7 @@ public class ReportGenerator {
                 totalFailed += r.failed;
             }
 
-            // --- Metadata Header ---
+             
             Row titleRow = sheet.createRow(0);
             Cell titleCell = titleRow.createCell(0);
             titleCell.setCellValue("AEGIS CONSOLIDATED REPORT");
@@ -1441,7 +1450,7 @@ public class ReportGenerator {
             statusStyle.setFont(statusFont);
             statusVal.setCellStyle(statusStyle);
 
-            // --- Results Table ---
+             
             int startRow = 7;
             Row header = sheet.createRow(startRow);
             String[] columns = { "API Name", "Total Rules", "Passed", "Failed", "Status", "Report Path" };
@@ -1496,7 +1505,7 @@ public class ReportGenerator {
                       .replace("Items Found:", "<strong>Items Found:</strong>")
                       .replace("Items Matched:", "<strong>Items Matched:</strong>")
                       .replace("Details:", "<strong>Details:</strong>")
-                      .replace("Failures:", "<strong>Failures:</strong>") // Bold 'Failures:' for failed checks
+                      .replace("Failures:", "<strong>Failures:</strong>")  
                       .replace("Properties Resolved:", "<strong>Properties Resolved:</strong>")
                       .replace("CONFIG - ", "<span class='config-label'>CONFIG - </span>")
                       .replace("[Config] ", "<span class='config-label'>CONFIG - </span>");

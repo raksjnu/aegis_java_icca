@@ -123,6 +123,7 @@ Only require production metadata if the `PROD` environment is active in the conf
             params:
               filePattern: "metadata.json"
               requiredElements: ["ops_contact", "sla_tier"]
+```
 
 ### Example 4: Global Policy Consistency (Advanced)
 **Scenario**: "If a policy is enabled in ANY file (e.g. `valid_test.policy`), it must be enabled in ALL policy files within the project."

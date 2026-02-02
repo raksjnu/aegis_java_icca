@@ -35,7 +35,7 @@ public class PomValidationRequiredCheck extends AbstractCheck {
             failures.addAll(fileFailures);
             successes.addAll(fileSuccesses);
         }
-        // Generate file list for reporting (used in both pass and fail scenarios)
+         
         String fileList = pomFiles.stream()
                 .map(projectRoot::relativize)
                 .map(Path::toString)

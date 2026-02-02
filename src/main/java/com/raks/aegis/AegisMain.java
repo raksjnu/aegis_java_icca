@@ -41,11 +41,32 @@ public class AegisMain implements Callable<Integer> {
     @Option(names = {"-g", "--gui"}, description = "Start the Aegis GUI server", required = false)
     private boolean startGui;
 
-    @Option(names = {"--port"}, description = "Port for the GUI server (default: 8080)", defaultValue = "8080")
+    @Option(names = {"--port"}, description = "Port for the GUI server (default: 8081)", defaultValue = "8081")
     private int guiPort;
 
     @Option(names = {"-l", "--linkedConfig"}, description = "Path to the linked configuration project root", required = false)
     private Path linkedConfigPath;
+
+    @Option(names = {"-e", "--email"}, description = "Comma-separated email addresses to send the report to", required = false)
+    private String emailRecipients;
+
+    @Option(names = {"--smtp-host"}, description = "SMTP server host")
+    private String smtpHost;
+
+    @Option(names = {"--smtp-port"}, description = "SMTP server port")
+    private Integer smtpPort;
+
+    @Option(names = {"--smtp-user"}, description = "SMTP username")
+    private String smtpUser;
+
+    @Option(names = {"--smtp-pass"}, description = "SMTP password")
+    private String smtpPass;
+
+    @Option(names = {"--email-from"}, description = "Email from address")
+    private String emailFrom;
+
+    @Option(names = {"--email-from-name"}, description = "Email from display name (default: Aegis)", defaultValue = "Aegis")
+    private String emailFromName;
 
     public static class AegisConfigurationException extends RuntimeException {
         public AegisConfigurationException(String message) {
@@ -69,15 +90,45 @@ public class AegisMain implements Callable<Integer> {
 
     @Override
     public Integer call() throws Exception {
+         
+        if (!Files.exists(Paths.get("rules.yaml"))) {
+            logger.info("rules.yaml not found in CWD. Bootstrapping default configuration...");
+            bootstrapRules();
+        }
+
         if (startGui) {
             String[] guiArgs = {String.valueOf(guiPort)};
             com.raks.aegis.gui.AegisGUI.main(guiArgs);
-            // Keep the process alive while the server is running
+             
             System.out.println("Aegis GUI is running. Press Ctrl+C to stop.");
             while (true) {
                 Thread.sleep(1000);
             }
         }
+
+         
+        Properties emailProps = new Properties();
+        try (InputStream is = getClass().getClassLoader().getResourceAsStream("aegis-email.properties")) {
+            if (is != null) emailProps.load(is);
+            
+             
+            Path externalProps = Paths.get("aegis-email.properties");
+            if (Files.exists(externalProps)) {
+                try (InputStream fis = Files.newInputStream(externalProps)) {
+                    emailProps.load(fis);
+                }
+            }
+        } catch (IOException e) {
+            logger.warn("Failed to load aegis-email.properties: {}", e.getMessage());
+        }
+
+         
+        if (smtpHost == null) smtpHost = emailProps.getProperty("aegis.smtp.host", "smtp.gmail.com");
+        if (smtpPort == null) smtpPort = Integer.parseInt(emailProps.getProperty("aegis.smtp.port", "587"));
+        if (smtpUser == null) smtpUser = emailProps.getProperty("aegis.smtp.user", "rakkuma8@gmail.com");
+        if (smtpPass == null) smtpPass = emailProps.getProperty("aegis.smtp.pass", "fjuqjxckvosjummv");
+        if (emailFrom == null) emailFrom = emailProps.getProperty("aegis.smtp.from", "apiguard-noreply@raks.com");
+        if (emailFromName == null || "Aegis".equals(emailFromName)) emailFromName = emailProps.getProperty("aegis.smtp.fromName", "Aegis");
 
         if (parentFolder == null) {
             parentFolder = showFolderDialog();
@@ -137,7 +188,7 @@ public class AegisMain implements Callable<Integer> {
             if (prefixes != null) ignoredPrefixes.addAll(prefixes);
         }
 
-        // Parse ignoredFiles configuration
+         
         @SuppressWarnings("unchecked")
         Map<String, Object> ignoredFilesConfig = (Map<String, Object>) projectIdConfig.get("ignoredFiles");
         List<String> ignoredFileNames = new ArrayList<>();
@@ -181,7 +232,7 @@ public class AegisMain implements Callable<Integer> {
                 exactIgnoredNames,
                 ignoredPrefixes);
 
-        // Initialize ProjectTypeClassifier if projectTypes are defined
+         
         com.raks.aegis.util.ProjectTypeClassifier projectTypeClassifier = null;
         Map<String, ProjectTypeDefinition> projectTypes = configWrapper.getConfig().getProjectTypes();
         if (projectTypes != null && !projectTypes.isEmpty()) {
@@ -264,6 +315,26 @@ public class AegisMain implements Callable<Integer> {
         logger.info("Aegis Validation Complete | Total APIs: {} | Passed: {} | Failed: {}", results.size(), totalPassed, totalFailed);
         logger.info("Consolidated report: {}", reportsRoot.resolve("CONSOLIDATED-REPORT.html"));
 
+        if (emailRecipients != null && !emailRecipients.isEmpty()) {
+            try {
+                logger.info("Email notification requested. Preparing report ZIP...");
+                Path reportsZip = reportsRoot.resolveSibling(reportDirName + ".zip");
+                com.raks.aegis.util.ZipCreator.createZip(reportsRoot.toString(), reportsZip.toString());
+                
+                com.raks.aegis.util.EmailService.SMTPConfig smtpConfig = new com.raks.aegis.util.EmailService.SMTPConfig();
+                smtpConfig.host = smtpHost;
+                smtpConfig.port = smtpPort;
+                smtpConfig.username = smtpUser;
+                smtpConfig.password = smtpPass;
+                smtpConfig.from = emailFrom;
+                smtpConfig.fromName = emailFromName;
+                
+                com.raks.aegis.util.EmailService.sendReportEmail(results, emailRecipients, reportsZip, smtpConfig);
+            } catch (Exception e) {
+                logger.error("Failed to process email notification: {}", e.getMessage());
+            }
+        }
+
         return 0;
     }
     public static Map<String, Object> validateAndReturnResults(String projectPath, String customRulesPath) {
@@ -273,11 +344,16 @@ public class AegisMain implements Callable<Integer> {
         return validateAndReturnResults(projectPath, customRulesPath, displayName, "Aegis-reports", null);
     }
     public static Map<String, Object> validateAndReturnResults(String projectPath, String customRulesPath, String displayName, String reportDirName) {
-        return validateAndReturnResults(projectPath, customRulesPath, displayName, reportDirName, null);
+        return validateAndReturnResults(projectPath, customRulesPath, displayName, reportDirName, null, null);
     }
     @SuppressWarnings("unchecked")
     public static Map<String, Object> validateAndReturnResults(String projectPath, String customRulesPath,
             String displayName, String reportDirName, String licenseKey) {
+        return validateAndReturnResults(projectPath, customRulesPath, displayName, reportDirName, licenseKey, null);
+    }
+    @SuppressWarnings("unchecked")
+    public static Map<String, Object> validateAndReturnResults(String projectPath, String customRulesPath,
+            String displayName, String reportDirName, String licenseKey, String emailRecipients) {
         Map<String, Object> result = new HashMap<>();
         try {
             com.raks.aegis.license.LicenseValidator.validate(licenseKey);
@@ -331,7 +407,7 @@ public class AegisMain implements Callable<Integer> {
             }
             List<String> globalEnvironments = activeConfig.getConfig().getEnvironments();
 
-            // Initialize ProjectTypeClassifier if projectTypes are defined
+             
             com.raks.aegis.util.ProjectTypeClassifier projectTypeClassifier = null;
             Map<String, ProjectTypeDefinition> projectTypes = activeConfig.getConfig().getProjectTypes();
             if (projectTypes != null && !projectTypes.isEmpty()) {
@@ -501,6 +577,11 @@ public class AegisMain implements Callable<Integer> {
             result.put("reportsPath", reportsRoot.toString());
             result.put("customRulesUsed", customRulesPath != null);
             logger.info("Aegis Validation Complete | Total APIs: {} | Passed: {} | Failed: {} | Status: {}", results.size(), totalPassed, totalFailed, overallStatus);
+
+             
+            if (emailRecipients != null && !emailRecipients.trim().isEmpty()) {
+                sendNotificationEmail(results, reportsRoot, reportDirName, emailRecipients);
+            }
         } catch (Exception e) {
             result.put("status", "ERROR");
             result.put("passed", new ArrayList<>());
@@ -548,6 +629,33 @@ public class AegisMain implements Callable<Integer> {
                 throw new AegisConfigurationException("Custom config file not found or unreadable: " + Paths.get(configFilePath).toAbsolutePath());
             }
         } else {
+             
+            Path cwdRules = Paths.get("rules.yaml");
+            if (Files.exists(cwdRules)) {
+                logger.info("Loading config from CWD: {}", cwdRules.toAbsolutePath());
+                try {
+                     String content = new String(Files.readAllBytes(cwdRules), StandardCharsets.UTF_8);
+                     content = sanitizeYamlContent(content);
+                     return yaml.loadAs(content, RootWrapper.class);
+                } catch (Exception e) {
+                    logger.error("Failed to load rules.yaml from CWD: {}. Falling back to embedded default.", e.getMessage());
+                     
+                }
+            } else {
+                logger.info("rules.yaml not found in CWD. Bootstrapping default configuration...");
+                bootstrapRules();
+                if (Files.exists(cwdRules)) {
+                    try {
+                         String content = new String(Files.readAllBytes(cwdRules), StandardCharsets.UTF_8);
+                         content = sanitizeYamlContent(content);
+                         return yaml.loadAs(content, RootWrapper.class);
+                    } catch (Exception e) {
+                        logger.error("Failed to load bootstrapped rules.yaml: {}. Falling back to embedded default.", e.getMessage());
+                    }
+                }
+            }
+            
+             
             input = AegisMain.class.getClassLoader().getResourceAsStream("rules/rules.yaml");
         }
         if (input == null) {
@@ -563,6 +671,19 @@ public class AegisMain implements Callable<Integer> {
         }
     }
 
+    private static void bootstrapRules() {
+        try (InputStream is = AegisMain.class.getClassLoader().getResourceAsStream("rules/rules.yaml")) {
+            if (is == null) {
+                logger.error("Embedded rules/rules.yaml not found! Cannot bootstrap.");
+                return;
+            }
+            Files.copy(is, Paths.get("rules.yaml"), StandardCopyOption.REPLACE_EXISTING);
+            logger.info("Bootstrapped default rules.yaml to current Working Directory.");
+        } catch (IOException e) {
+            logger.error("Failed to bootstrap rules.yaml: {}", e.getMessage());
+        }
+    }
+
     private static String sanitizeYamlContent(String content) {
         if (content == null) return null;
         
@@ -570,35 +691,35 @@ public class AegisMain implements Callable<Integer> {
         for (int i = 0; i < content.length(); i++) {
             char ch = content.charAt(i);
             
-            // Normalize non-breaking space (0xA0) to regular space
+             
             if (ch == 0xA0) {
                 sb.append(' ');
                 continue;
             }
 
-            // Strip Byte Order Mark (BOM) 0xFEFF
+             
             if (ch == '\uFEFF') {
                  continue;
             }
 
-            // Strip Next Line (NEL) 0x85 - Treat as invalid/control to force standard newlines
+             
             if (ch == 0x85) {
-                // Optionally replace with \n if it was acting as newline, but usually better to let existing \n handle it.
-                // If the file uses purely NEL newlines, stripping it breaks lines.
-                // But normally we have CRLF or LF. Let's assume standard files. 
-                // Replacing with \n is safer if it IS a newline.
+                 
+                 
+                 
+                 
                 sb.append('\n'); 
                 continue; 
             }
 
-            // Allow:
-            // 0x09 (Tab), 0x0A (LF), 0x0D (CR)
-            // 0x20-0x7E (Printable ASCII)
-            // 0xA0-0xD7FF (Unicode printable) - handled above for A0
-            // 0xE000-0xFFFD
+             
+             
+             
+             
+             
             
             boolean isControl = (ch <= 0x1F && ch != 0x09 && ch != 0x0A && ch != 0x0D) || 
-                                (ch >= 0x7F && ch <= 0x9F); // 0x85 checked specifically above
+                                (ch >= 0x7F && ch <= 0x9F);  
             
             if (!isControl) {
                 sb.append(ch);
@@ -625,7 +746,7 @@ public class AegisMain implements Callable<Integer> {
     }
     public static class ConfigSection {
         private Map<String, Object> projectIdentification;
-        private Map<String, ProjectTypeDefinition> projectTypes;  // NEW: Centralized project type definitions
+        private Map<String, ProjectTypeDefinition> projectTypes;   
         private Map<String, Integer> rules;
         private List<String> environments;
         private String folderPattern;
@@ -684,6 +805,43 @@ public class AegisMain implements Callable<Integer> {
             this.rules = rules;
         }
     }
+
+    private static void sendNotificationEmail(List<ApiResult> results, Path reportsRoot, String reportDirName, String recipients) {
+        try {
+             
+            Properties emailProps = new Properties();
+            try (InputStream is = AegisMain.class.getClassLoader().getResourceAsStream("aegis-email.properties")) {
+                if (is != null) emailProps.load(is);
+                Path externalProps = Paths.get("aegis-email.properties");
+                if (Files.exists(externalProps)) {
+                    try (InputStream fis = Files.newInputStream(externalProps)) {
+                        emailProps.load(fis);
+                    }
+                }
+            }
+            
+            logger.info("Email notification requested for: {}. Zen-mode zipping initiated...", recipients);
+            Path reportsZip = reportsRoot.resolveSibling((reportDirName != null ? reportDirName : "Aegis-reports") + ".zip");
+            com.raks.aegis.util.ZipCreator.createZip(reportsRoot.toString(), reportsZip.toString());
+
+            com.raks.aegis.util.EmailService.SMTPConfig smtpConfig = new com.raks.aegis.util.EmailService.SMTPConfig();
+            smtpConfig.host = emailProps.getProperty("aegis.smtp.host", "smtp.gmail.com");
+            smtpConfig.port = Integer.parseInt(emailProps.getProperty("aegis.smtp.port", "587"));
+            smtpConfig.username = emailProps.getProperty("aegis.smtp.user", "rakkuma8@gmail.com");
+            smtpConfig.password = emailProps.getProperty("aegis.smtp.pass", "fjuqjxckvosjummv");
+            smtpConfig.from = emailProps.getProperty("aegis.smtp.from", "apiguard-noreply@raks.com");
+            smtpConfig.fromName = emailProps.getProperty("aegis.smtp.fromName", "Aegis");
+            smtpConfig.headerTitle = emailProps.getProperty("aegis.email.title", "Aegis Validation Report");
+            smtpConfig.footerText = emailProps.getProperty("aegis.email.footer", "&copy; 2026 RAKS - Enterprise API Solution Suite");
+            smtpConfig.logoPath = emailProps.getProperty("aegis.email.logo.path");
+
+            com.raks.aegis.util.EmailService.sendReportEmail(results, recipients, reportsZip, smtpConfig);
+            logger.info("Email sent successfully to {}", recipients);
+        } catch (Exception e) {
+            logger.error("Failed to send notification email: {}", e.getMessage());
+        }
+    }
+
     public static class ApiResult {
         public final String name;
         public final String repository;

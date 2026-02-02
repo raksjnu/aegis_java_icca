@@ -2,16 +2,13 @@ package com.raks.aegis.model;
 
 import java.util.List;
 
-/**
- * Defines criteria for detecting and classifying a project type.
- * Used to determine if a project matches a specific type (e.g., CODE, CONFIG).
- */
+ 
 public class DetectionCriteria {
-    private List<String> markerFiles;      // Files that must exist (e.g., ["pom.xml"])
-    private String namePattern;             // Regex pattern for project folder name
-    private List<String> nameContains;      // Substrings the project name must contain
-    private List<String> excludePatterns;   // Regex patterns to exclude projects
-    private String logic;                   // "AND" or "OR" (default: OR)
+    private List<String> markerFiles;       
+    private String namePattern;              
+    private List<String> nameContains;       
+    private List<String> excludePatterns;    
+    private String logic;                    
 
     public List<String> getMarkerFiles() {
         return markerFiles;

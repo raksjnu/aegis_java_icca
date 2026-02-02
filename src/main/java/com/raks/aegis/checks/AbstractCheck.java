@@ -37,9 +37,7 @@ public abstract class AbstractCheck {
         this.fileFilter = fileFilter;
     }
 
-    /**
-     * Additive helper to find files across project and linked config roots.
-     */
+     
     protected List<Path> findFiles(Path projectRoot, List<String> filePatterns, boolean includeLinked) {
         List<Path> searchRoots = com.raks.aegis.util.ProjectContextHelper.getEffectiveSearchRoots(projectRoot, this.linkedConfigPath, includeLinked);
         List<Path> allMatching = new ArrayList<>();
@@ -275,11 +273,11 @@ public abstract class AbstractCheck {
         if (template != null) {
             return formatMessage(template, defaultMsg, null, checkedFiles, foundItems, matchingFiles);
         }
-        // If no template, use {DEFAULT_MESSAGE} as template for pass case too to get auto-append
+         
         return formatMessage("{DEFAULT_MESSAGE}", defaultMsg, null, checkedFiles, foundItems, matchingFiles);
     }
 
-    // New helper methods to finalize results in a segregated way
+     
     protected CheckResult finalizePass(Check check, String defaultMsg, String checkedFiles, String matchingFiles) {
         return finalizePass(check, defaultMsg, checkedFiles, null, matchingFiles, null);
     }
@@ -309,14 +307,14 @@ public abstract class AbstractCheck {
         String result = template;
         String effectiveDetails = coreDetails != null ? coreDetails : (failures != null ? failures : "");
         
-        // Define standard tokens
+         
         String cf = (checkedFiles != null && !checkedFiles.trim().isEmpty()) ? checkedFiles : "N/A";
         String fi = (foundItems != null && !foundItems.trim().isEmpty()) ? foundItems : "N/A";
         String mf = (matchingFiles != null && !matchingFiles.trim().isEmpty()) ? matchingFiles : "N/A";
         String propertyResolved = getPropertyResolutionsString();
         String pr = !propertyResolved.isEmpty() ? "Properties Resolved:\n" + propertyResolved : "Properties Resolved: N/A";
 
-        // Check if template uses tokens. If not, we will append them automatically.
+         
         boolean usesTokens = template.contains("{CHECKED_FILES}") || template.contains("{FOUND_ITEMS}") || 
                              template.contains("{MATCHING_FILES}") || template.contains("{PROPERTY_RESOLVED}") ||
                              template.contains("{DEFAULT_MESSAGE}") || template.contains("{CORE_DETAILS}") ||
@@ -331,12 +329,12 @@ public abstract class AbstractCheck {
         result = result.replace("{MATCHING_FILES}", mf);
         result = result.replace("{PROPERTY_RESOLVED}", pr);
 
-        // Innovation: Automatically append tokens if they are not explicitly mentioned in the template
+         
         if (!usesTokens) {
             StringBuilder autoAppend = new StringBuilder();
             if (result.equals(effectiveDetails)) {
-                // If the result is just the default message, we prefix it to separate from tokens
-                // But normally we want the original message at the top
+                 
+                 
             }
             autoAppend.append("\nFiles Checked: ").append(cf);
             autoAppend.append("\nItems Found: ").append(fi);
@@ -428,7 +426,7 @@ public abstract class AbstractCheck {
         String content = readFileContent(file, params);
         javax.xml.parsers.DocumentBuilderFactory factory = javax.xml.parsers.DocumentBuilderFactory.newInstance();
         factory.setNamespaceAware(true);
-        // Security features to prevent XXE
+         
         try {
             factory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
             factory.setFeature("http://xml.org/sax/features/external-general-entities", false);
@@ -446,12 +444,12 @@ public abstract class AbstractCheck {
         if (fileName.endsWith(".xml") || fileName.endsWith(".html") || fileName.endsWith(".mule")) {
             return content.replaceAll("(?s)<!--.*?-->", "");
         } else if (fileName.endsWith(".java") || fileName.endsWith(".js") || fileName.endsWith(".c") || fileName.endsWith(".cpp")) {
-            // Multi-line and single-line
+             
             return content.replaceAll("(?s)/\\*.*?\\*/", "").replaceAll("(?m)//.*$", "");
         } else if (fileName.endsWith(".properties") || fileName.endsWith(".yaml") || fileName.endsWith(".yml") || fileName.endsWith(".sh") || fileName.endsWith(".policy")) {
             return content.replaceAll("(?m)^\\s*#.*$", "");
         } else if (fileName.endsWith(".json")) {
-            // JSON theoretically doesn't have comments, but many tools allow them
+             
             return content.replaceAll("(?s)/\\*.*?\\*/", "").replaceAll("(?m)//.*$", "");
         }
         return content;

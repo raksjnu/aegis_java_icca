@@ -47,7 +47,7 @@ public class ProjectDiscovery {
             return;
         }
         
-        // Check if this directory should be ignored BEFORE checking if it's a project
+         
         if (isIgnoredDirectory(directory, exactIgnoredNames, ignoredPrefixes)) {
             return;
         }
@@ -94,12 +94,12 @@ public class ProjectDiscovery {
         String name = path.getFileName().toString();
         String nameLower = name.toLowerCase();
         
-        // Case-insensitive exact name matching
+         
         if (exactNames.stream().anyMatch(exactName -> exactName.equalsIgnoreCase(name))) {
             return true;
         }
         
-        // Case-insensitive prefix matching
+         
         for (String prefix : prefixes) {
             if (nameLower.startsWith(prefix.toLowerCase())) {
                 return true;

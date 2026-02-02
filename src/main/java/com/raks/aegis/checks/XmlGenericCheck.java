@@ -32,7 +32,7 @@ public class XmlGenericCheck extends AbstractCheck {
              return failConfig(check, "filePatterns required");
         }
         
-        // Relaxed validation: allow elementContentPairs, forbiddenTokens, or xpathExpressions
+         
         if (xpathExpr == null && 
             !params.containsKey("minVersions") && 
             !params.containsKey("exactVersions") && 
@@ -69,7 +69,7 @@ public class XmlGenericCheck extends AbstractCheck {
                 Document doc = parseXml(file, params);
                 XPath xpath = XPathFactory.newInstance().newXPath();
 
-                // 1. Required Fields
+                 
                 @SuppressWarnings("unchecked")
                 Map<String, String> requiredFields = (Map<String, String>) params.get("requiredFields");
                 if (requiredFields != null) {
@@ -101,7 +101,7 @@ public class XmlGenericCheck extends AbstractCheck {
                     }
                 }
 
-                // 2. Min Versions
+                 
                 @SuppressWarnings("unchecked")
                 Map<String, String> minVersions = (Map<String, String>) params.get("minVersions");
                 if (minVersions != null) {
@@ -128,7 +128,7 @@ public class XmlGenericCheck extends AbstractCheck {
                     }
                 }
 
-                // 3. Element Content Pairs
+                 
                 @SuppressWarnings("unchecked")
                 List<Map<String, Object>> contentPairs = (List<Map<String, Object>>) params.get("elementContentPairs");
                 if (contentPairs != null) {
@@ -181,7 +181,7 @@ public class XmlGenericCheck extends AbstractCheck {
                         }
                     }
                 }
-                // 4. Legacy/Xpath logic
+                 
                 if (xpathExpr != null) {
                     NodeList nodes = (NodeList) xpath.evaluate(xpathExpr, doc, XPathConstants.NODESET);
                     String forbiddenValue = (String) params.get("forbiddenValue");
@@ -216,9 +216,9 @@ public class XmlGenericCheck extends AbstractCheck {
                                 }
                             }
                         }
-                    } else { // NOT_EXISTS / FORBIDDEN
+                    } else {  
                         if (nodes.getLength() > 0) {
-                            // If no specific content/token values are forbidden, then the EXISTENCE of the node itself is forbidden.
+                             
                             if (forbiddenValue == null && forbiddenTokens == null) {
                                 filePassed = false;
                                 fileErrors.add("Forbidden XPath found: " + xpathExpr);
@@ -253,9 +253,9 @@ public class XmlGenericCheck extends AbstractCheck {
             if (filePassed) {
                 passedFileCount++; passedFilesList.add(relativePath); successDetails.addAll(fileSuccesses);
                 if (xpathExpr != null) {
-                    // Re-evaluate or just use a flag? It's easier to just add it here if it passed and wasn't the "optional but missing" case.
-                    // If filePassed is true and it's OPTIONAL_MATCH, it could be missing.
-                    // But if fileSuccesses is not empty, it means we found something or it passed.
+                     
+                     
+                     
                     if (!fileSuccesses.isEmpty()) {
                         matchedPathsSet.add(file);
                     }

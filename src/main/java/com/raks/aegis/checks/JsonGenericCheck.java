@@ -72,7 +72,7 @@ public class JsonGenericCheck extends AbstractCheck {
                             allFoundItems.add(jsonPath + " exists");
                         }
                     } else if ("NOT_EXISTS".equalsIgnoreCase(mode)) {
-                        // ... existing logic for NOT_EXISTS
+                         
                         if (result != null) { 
                             String forbiddenValue = (String) params.get("forbiddenValue");
                             if (forbiddenValue == null) {
@@ -111,7 +111,7 @@ public class JsonGenericCheck extends AbstractCheck {
                     }
                 }
 
-                // Required Elements (Existence only)
+                 
                 @SuppressWarnings("unchecked")
                 List<String> requiredElements = (List<String>) params.get("requiredElements");
                 if (requiredElements != null && jsonContext instanceof Map) {
@@ -127,7 +127,7 @@ public class JsonGenericCheck extends AbstractCheck {
                     }
                 }
 
-                // Exact Versions (Value matching)
+                 
                 @SuppressWarnings("unchecked")
                 Map<String, String> exactVersions = (Map<String, String>) params.get("exactVersions");
                 if (exactVersions != null && jsonContext instanceof Map) {
@@ -151,7 +151,7 @@ public class JsonGenericCheck extends AbstractCheck {
                     }
                 }
 
-                // Required Fields (Value matching with resolution)
+                 
                 @SuppressWarnings("unchecked")
                 Map<String, String> requiredFields = (Map<String, String>) params.get("requiredFields");
                 if (requiredFields != null && jsonContext instanceof Map) {

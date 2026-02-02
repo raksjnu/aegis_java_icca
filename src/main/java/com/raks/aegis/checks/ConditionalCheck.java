@@ -54,12 +54,12 @@ public class ConditionalCheck extends AbstractCheck {
             StringBuilder details = new StringBuilder("Conditions met. Executing nested checks:\n");
             boolean allPassed = true;
             java.util.Set<String> aggregatedFiles = new java.util.HashSet<>();
-            java.util.Set<String> aggregatedItems = new java.util.LinkedHashSet<>(); // Failures (found items)
-            java.util.Set<String> aggregatedMatchingItems = new java.util.LinkedHashSet<>(); // Success matches
+            java.util.Set<String> aggregatedItems = new java.util.LinkedHashSet<>();  
+            java.util.Set<String> aggregatedMatchingItems = new java.util.LinkedHashSet<>();  
 
             boolean disableFiltering = Boolean.parseBoolean(String.valueOf(params.getOrDefault("disableFiltering", "false")));
             for (Check nested : onSuccess) {
-                // Pass the collected matched paths from preconditions as a filter to success checks, unless disabled
+                 
                 CheckResult res = evaluateAtomic(projectRoot, nested, disableFiltering ? null : preconditionMatchedPaths);
                 details.append("- ").append(res.ruleId != null ? res.ruleId : "Check").append(": ").append(res.message).append("\n");
 
@@ -75,7 +75,7 @@ public class ConditionalCheck extends AbstractCheck {
                     }
                 }
                 
-                // Aggregate specific success matches
+                 
                 if (res.matchingFiles != null && !res.matchingFiles.isEmpty()) {
                     for (String item : res.matchingFiles.split(", ")) {
                          if (!item.trim().isEmpty()) aggregatedMatchingItems.add(item.trim());

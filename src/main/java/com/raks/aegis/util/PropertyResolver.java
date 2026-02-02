@@ -20,7 +20,7 @@ import java.util.stream.Stream;
 public class PropertyResolver {
     private static final Logger logger = LoggerFactory.getLogger(PropertyResolver.class);
     
-    // Cache: ProjectRoot -> { PropertyKey -> { SourceFileName -> Value } }
+     
     private static final Map<Path, Map<String, Map<String, String>>> projectPropertiesCache = new HashMap<>();
 
     private static List<Pattern> resolutionPatterns = new ArrayList<>();
@@ -81,17 +81,13 @@ public class PropertyResolver {
         return resolve(val, projectRoot, null);
     }
 
-    /**
-     * The single source of truth for resolving project-level properties with priority and labeling.
-     */
+     
     public static String resolveProjectProperty(String value, Path projectRoot, Path linkedConfigPath, boolean includeLinked, List<String> resolutionCollector) {
         java.util.Set<String> all = resolveProjectPropertyAll(value, projectRoot, linkedConfigPath, includeLinked, resolutionCollector);
         return all.isEmpty() ? value : all.iterator().next(); 
     }
 
-    /**
-     * Resolves all possible unique combinations of placeholders in the value.
-     */
+     
     public static java.util.Set<String> resolveProjectPropertyAll(String value, Path projectRoot, Path linkedConfigPath, boolean includeLinked, List<String> resolutionCollector) {
         if (value == null) return java.util.Collections.emptySet();
 
@@ -105,7 +101,7 @@ public class PropertyResolver {
 
         if (rootsWithLabels.isEmpty()) return java.util.Collections.singleton(value);
 
-        // Ensure all roots are loaded
+         
         for (Path root : rootsWithLabels.keySet()) {
             loadProperties(root);
         }
@@ -130,7 +126,7 @@ public class PropertyResolver {
                         String key = m.group(1);
                         java.util.Set<String> replacements = new java.util.HashSet<>();
 
-                        // Search in all prioritized roots
+                         
                         for (Map.Entry<Path, String> entry : rootsWithLabels.entrySet()) {
                             Path root = entry.getKey();
                             String label = entry.getValue();
@@ -161,7 +157,7 @@ public class PropertyResolver {
                         }
 
                         if (replacements.isEmpty()) {
-                            // Mark as NOT RESOLVED if no root has this property
+                             
                             if (resolutionCollector != null) {
                                 String mapping = fullPlaceholder + " → NOT RESOLVED";
                                 if (!resolutionCollector.contains(mapping)) {
@@ -175,7 +171,7 @@ public class PropertyResolver {
                                 nextValues.add(val.replace(fullPlaceholder, r));
                             }
                         }
-                        break; // Process one placeholder at a time per value
+                        break;  
                     }
                 }
                 if (!valModified) {
@@ -188,7 +184,7 @@ public class PropertyResolver {
         return currentValues;
     }
 
-    // Deprecated methods linked to resolveProjectProperty to avoid code duplication
+     
     public static String resolve(String val, Path projectRoot, List<String> resolutions) {
         return resolveProjectProperty(val, projectRoot, null, false, resolutions);
     }

@@ -78,7 +78,7 @@ public class PropertyGenericCheck extends AbstractCheck {
                     }
                 }
                 
-                // Support for 'properties' list (List of Maps)
+                 
                 @SuppressWarnings("unchecked")
                 List<Map<String, Object>> propList = (List<Map<String, Object>>) params.get("properties");
                 if (propList != null) {
@@ -89,11 +89,11 @@ public class PropertyGenericCheck extends AbstractCheck {
                         String propOperator = (String) propMap.getOrDefault("operator", "EQ");
                         String propType = (String) propMap.getOrDefault("valueType", "STRING");
                         
-                        // Handle multiple allowed values
+                         
                         @SuppressWarnings("unchecked")
                         List<String> allowedValues = (List<String>) propMap.get("values");
                         
-                        // Find matching keys in the properties file
+                         
                         List<String> matchingKeys = new ArrayList<>();
                         boolean isRegexPattern = namePattern.contains("*") || namePattern.contains(".") || namePattern.contains("?");
                         
@@ -105,7 +105,7 @@ public class PropertyGenericCheck extends AbstractCheck {
                                     if (p.matcher(key).matches()) matchingKeys.add(key);
                                 }
                             } catch (Exception e) {
-                                // Fallback to literal if regex is invalid
+                                 
                                 if (props.containsKey(namePattern)) matchingKeys.add(namePattern);
                             }
                         } else {
@@ -132,7 +132,7 @@ public class PropertyGenericCheck extends AbstractCheck {
                                             }
                                         }
                                     } else {
-                                        // If no allowed values provided, treat it as existence check
+                                         
                                         match = true;
                                     }
 
@@ -148,7 +148,7 @@ public class PropertyGenericCheck extends AbstractCheck {
                     }
                 }
 
-                // Single property check (Existing logic kept for backward compatibility)
+                 
                 if (params.containsKey("property")) {
                     String key = (String) params.get("property");
                     String val = props.getProperty(key);

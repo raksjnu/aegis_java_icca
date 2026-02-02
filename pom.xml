@@ -176,6 +176,18 @@
             <version>4.5.14</version>
         </dependency>
 
+        <!-- Jakarta Mail for Email Notifications -->
+        <dependency>
+            <groupId>jakarta.mail</groupId>
+            <artifactId>jakarta.mail-api</artifactId>
+            <version>2.1.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.angus</groupId>
+            <artifactId>jakarta.mail</artifactId>
+            <version>2.0.3</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -269,14 +281,16 @@
                                 <option>-allowaccessmodification</option>
                                 <option>-ignorewarnings</option>
                                 <option>-keep class !com.raks.** { *; }</option>
-                                <option>-keep public class com.raks.aegis.AegisMain { public static void main(java.lang.String[]); }</option>
-                                <option>-keep public class com.raks.aegis.** { *; }</option>
+                                <option>-keep public class com.raks.aegis.AegisMain { *; }</option>
+                                <option>-keep public class com.raks.aegis.AegisMain$* { *; }</option>
+                                <option>-keep public class com.raks.aegis.model.** { *; }</option>
                                 <option>-keep class com.raks.aegis.license.LicenseValidator { public static void validate(java.lang.String); }</option>
 
                                 <!-- Keep all Annotations, Enums, and Reflection Metadata -->
-                                <option>-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod,SourceFile,LineNumberTable,Exceptions</option>
+                                <option>-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod,Exceptions</option>
                                 <option>-keepclassmembers enum * { *; }</option>
                                 <option>-keep interface * extends java.lang.annotation.Annotation { *; }</option>
+                                <option>-repackageclasses 'com.raks.aegis.internal'</option>
                                 
                                 <option>-keepdirectories</option>
                                 <option>-dontwarn **</option>
@@ -325,7 +339,7 @@
                                 </goals>
                                 <configuration>
                                     <target>
-                                        <copy file="C:\raks\apiguard\rakslicensemanager\generated.license" tofile="${project.build.outputDirectory}/license.key" failonerror="false" />
+                                        <copy file="../rakslicensemanager/generated.license" tofile="${project.build.outputDirectory}/license.key" failonerror="false" />
                                     </target>
                                 </configuration>
                             </execution>

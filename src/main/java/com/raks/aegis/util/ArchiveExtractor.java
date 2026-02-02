@@ -35,7 +35,7 @@ public class ArchiveExtractor {
             }
         }
 
-        // Return the extraction directory - let ProjectDiscovery find all projects within it
+         
         logger.info("ZIP extracted successfully to: {}", tempDir);
         logger.info("ProjectDiscovery will scan for all projects in this directory");
         return tempDir.toString();
@@ -102,7 +102,7 @@ public class ArchiveExtractor {
             throw new IOException("Invalid Mule JAR file: No source code found in META-INF/mule-src/");
         }
 
-        // Return the extraction directory - let ProjectDiscovery find all projects within it
+         
         logger.info("JAR extracted successfully to: {}", tempDir);
         logger.info("ProjectDiscovery will scan for all projects in this directory");
         return tempDir.toString();

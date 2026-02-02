@@ -44,6 +44,7 @@ public class AegisGUI {
 
     public void start() {
         try {
+            logger.info("Attempting to bind GUI server to port: {}", PORT);
             HttpServer server = HttpServer.create(new InetSocketAddress(PORT), 0);
 
             Path appTempDir = Paths.get("temp").toAbsolutePath();
@@ -80,7 +81,7 @@ public class AegisGUI {
                 Desktop.getDesktop().browse(new URI(url));
             }
         } catch (Exception e) {
-            logger.error("Failed to start GUI server", e);
+            logger.error("Failed to start GUI server on port: {}", PORT, e);
         }
     }
 
@@ -229,10 +230,15 @@ public class AegisGUI {
                         }
 
                         Path reportDir = Paths.get(appTempDir, sessionId, "Aegis-reports");
-                        args.add("-o");
-                        args.add(reportDir.toAbsolutePath().toString());
+                        String emailRecipients = (String) params.get("emailRecipients");
 
-                        AegisMain.execute(args.toArray(new String[0]));
+                        AegisMain.validateAndReturnResults(projectPath, 
+                            customRulesFile != null ? customRulesFile.getAbsolutePath() : (customRulesPath != null ? customRulesPath.trim() : null),
+                            null, 
+                            reportDir.toAbsolutePath().toString(), 
+                            null, 
+                            emailRecipients);
+
                         if (!Files.exists(reportDir)) reportDir = Paths.get("Aegis-reports");
 
                         if (Files.exists(reportDir)) {

@@ -1,9 +1,6 @@
 package com.raks.aegis.model;
 
-/**
- * Defines a project type with its description and detection criteria.
- * Examples: CODE, CONFIG, API, INTEGRATION
- */
+ 
 public class ProjectTypeDefinition {
     private String description;
     private DetectionCriteria detectionCriteria;

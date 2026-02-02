@@ -151,6 +151,7 @@ Identify potential hardcoded secrets in properties or XML configuration files.
         filePatterns: ["**/*.xml", "**/*.properties", "**/*.yaml"]
         tokens: ["password=", "pwd=", "aws_secret="]
         caseSensitive: false
+```
 
 ### Example 3: Exact Word Match (Whole Word)
 Prevent false positives by ensuring only exact words are matched (e.g., match "admin" but not "administrator").

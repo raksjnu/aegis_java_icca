@@ -69,7 +69,7 @@ public class TokenSearchCheck extends AbstractCheck {
             String failureReason = "";
             java.util.Set<String> fileFound = new java.util.HashSet<>();
             
-            // Relativization logic with source labeling
+             
             Path currentRoot = searchRoots.stream().filter(file::startsWith).findFirst().orElse(projectRoot);
             String relativePath = currentRoot.relativize(file).toString().replace("\\", "/");
             if (currentRoot.equals(linkedConfigPath)) {
@@ -101,7 +101,7 @@ public class TokenSearchCheck extends AbstractCheck {
                             failureReason = "Missing: " + missing;
                         }
                     }
-                } else { // FORBIDDEN
+                } else {  
                     if ("AND".equalsIgnoreCase(logic)) {
                         if (thisFileMatchedTokens.size() == tokens.size()) { filePassed = false; failureReason = "Found all forbidden tokens"; }
                     } else {

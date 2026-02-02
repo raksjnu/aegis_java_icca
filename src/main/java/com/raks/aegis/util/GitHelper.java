@@ -246,13 +246,13 @@ public class GitHelper {
 
         HttpClient client = HttpClient.newHttpClient();
         
-        // Try with "token" prefix first (for Personal Access Tokens)
+         
         HttpRequest.Builder reqBuilder = HttpRequest.newBuilder().uri(URI.create(apiUrl)).GET();
         if (token != null && !token.isBlank()) reqBuilder.header("Authorization", "token " + token);
 
         HttpResponse<String> response = client.send(reqBuilder.build(), HttpResponse.BodyHandlers.ofString());
         
-        // If 401, try with Bearer prefix (for OAuth tokens)
+         
         if (response.statusCode() == 401 && token != null && !token.isBlank()) {
             reqBuilder = HttpRequest.newBuilder().uri(URI.create(apiUrl)).GET();
             reqBuilder.header("Authorization", "Bearer " + token);
@@ -265,7 +265,7 @@ public class GitHelper {
             if (token != null && !token.isBlank()) userReqBuilder.header("Authorization", "token " + token);
             response = client.send(userReqBuilder.build(), HttpResponse.BodyHandlers.ofString());
             
-            // If still 401, try Bearer for users endpoint
+             
             if (response.statusCode() == 401 && token != null && !token.isBlank()) {
                 userReqBuilder = HttpRequest.newBuilder().uri(URI.create(apiUrl)).GET();
                 userReqBuilder.header("Authorization", "Bearer " + token);
@@ -337,13 +337,13 @@ public class GitHelper {
 
         HttpClient client = HttpClient.newHttpClient();
         
-        // Try with "token" prefix first (for Personal Access Tokens)
+         
         HttpRequest.Builder reqBuilder = HttpRequest.newBuilder().uri(URI.create(apiUrl)).GET();
         if (token != null && !token.isBlank()) reqBuilder.header("Authorization", "token " + token);
 
         HttpResponse<String> response = client.send(reqBuilder.build(), HttpResponse.BodyHandlers.ofString());
         
-        // If 401, try with Bearer prefix (for OAuth tokens)
+         
         if (response.statusCode() == 401 && token != null && !token.isBlank()) {
             reqBuilder = HttpRequest.newBuilder().uri(URI.create(apiUrl)).GET();
             reqBuilder.header("Authorization", "Bearer " + token);

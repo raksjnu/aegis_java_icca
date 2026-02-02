@@ -96,7 +96,7 @@
 
 <body>
     <div class="report-container">
-        <!-- Buttons container to manage absolute positioning easily -->
+         
         <div class="header-buttons">
             <a href="CONSOLIDATED-REPORT.html" id="dashboardBtn" class="dashboard-button"
                 title="Return to main dashboard">← Dashboard</a>
@@ -339,9 +339,9 @@
             var isInAegisWrapper = path.includes('/apiguard/');
             var basePath = isInAegisWrapper ? '/apiguard/aegis' : '/aegis';
 
-            // Session Handling
+             
             var sessionId = new URLSearchParams(window.location.search).get('session');
-            // If in report path, extract sessionId from path
+             
             if (!sessionId && isAegisReport) {
                 var reportPath = basePath + '/reports/';
                 var parts = path.split(reportPath);
@@ -352,24 +352,24 @@
             }
 
             if (isAegisStatic || isAegisReport) {
-                // We are in Aegis Wrapper Environment
+                 
                 if (mainPageBtn) {
                     mainPageBtn.style.display = 'inline-block';
-                    // Build Main Page URL with correct base path
+                     
                     var mainPageUrl = basePath + '/main';
                     if (sessionId) mainPageUrl += '?session=' + sessionId;
                     mainPageBtn.href = mainPageUrl;
 
                     if (isAegisStatic) {
                         mainPageBtn.style.right = '40px';
-                        if (dashboardBtn) dashboardBtn.style.display = 'none'; // No dashboard in static view
+                        if (dashboardBtn) dashboardBtn.style.display = 'none';  
                     } else {
-                        // In Aegis Report
+                         
                         mainPageBtn.style.right = '180px';
                     }
                 }
             } else {
-                // Standalone Java or Local File - Main Page button stays hidden
+                 
                 if (dashboardBtn) dashboardBtn.style.display = 'inline-block';
             }
         });

@@ -8,9 +8,7 @@ import java.util.Collections;
 
 public class CheckHelper {
 
-    /**
-     * Centralized value comparison logic.
-     */
+     
     public static boolean compareValues(String actual, String expected, String operator, String type) {
         if (actual == null || expected == null) return false;
         if (operator == null) operator = "EQ";
@@ -72,14 +70,12 @@ public class CheckHelper {
                 default: return result == 0;
             }
         } catch (Exception e) {
-            // Fallback to simple comparison if parsing fails
+             
             return compareString(v1, v2, op);
         }
     }
 
-    /**
-     * Evaluates if the count of matching files satisfies the match mode.
-     */
+     
     public static boolean evaluateMatchMode(String matchMode, int totalFiles, int matchingFiles) {
         if (matchMode == null || matchMode.isEmpty()) return matchingFiles == totalFiles; 
         switch (matchMode.toUpperCase()) {
@@ -91,9 +87,7 @@ public class CheckHelper {
         }
     }
 
-    /**
-     * Resolves properties and records details into the provided collector.
-     */
+     
     public static Set<String> resolveAndRecord(String value, Path projectRoot, Path linkedConfigPath, List<String> searchTokens, boolean alwaysRecord, List<String> resolutionCollector, boolean includeLinked) {
         if (value == null) return Collections.emptySet();
         List<String> tempCollector = new ArrayList<>();
@@ -125,9 +119,7 @@ public class CheckHelper {
         
         return allValues;
     }
-    /**
-     * Checks if a token is present in the content, supporting whole word and case sensitivity.
-     */
+     
     public static boolean isTokenPresent(String content, String token, boolean wholeWord, boolean isRegex, boolean caseSensitive) {
         if (content == null || token == null) return false;
         

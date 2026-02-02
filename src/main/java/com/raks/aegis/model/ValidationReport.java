@@ -6,7 +6,7 @@ public class ValidationReport {
     public List<RuleResult> passed = new ArrayList<>();
     public List<RuleResult> failed = new ArrayList<>();
     public List<String> skipped = new ArrayList<>();
-    public List<String> notApplicable = new ArrayList<>();  // NEW: Rules not applicable to this project type
+    public List<String> notApplicable = new ArrayList<>();   
     public void addPassed(String id, String name, String severity, List<CheckResult> checks, String ruleConfig, String scope) {
         passed.add(new RuleResult(id, name, severity, true, checks, ruleConfig, scope));
     }

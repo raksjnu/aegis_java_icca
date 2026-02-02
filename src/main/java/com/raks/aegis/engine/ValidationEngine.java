@@ -45,7 +45,7 @@ public class ValidationEngine {
             throw new IllegalArgumentException("Project root does not exist: " + projectRoot);
         }
         
-        // Classify this project (if classifier is available)
+         
         Set<String> projectTypes = null;
         if (projectTypeClassifier != null) {
             projectTypes = projectTypeClassifier.classifyProject(projectRoot);
@@ -60,13 +60,13 @@ public class ValidationEngine {
                 continue;
             }
             
-            // Check if rule applies to this project type
+             
             if (projectTypes != null && rule.getAppliesTo() != null && !rule.getAppliesTo().isEmpty()) {
                 boolean applicable = rule.getAppliesTo().stream()
                     .anyMatch(projectTypes::contains);
                 
                 if (!applicable) {
-                    // Rule doesn't apply to this project type - skip it
+                     
                     report.addNotApplicable(rule.getId(), rule.getName(), rule.getSeverity());
                     continue;
                 }
@@ -79,9 +79,9 @@ public class ValidationEngine {
                     check.setRuleId(rule.getId());
                     check.setRule(rule);  
                     AbstractCheck validator = CheckFactory.create(check);
-                    // validator.init(check.getParams()); // Removed: CheckFactory already calls init with synthesized params
-                    validator.setIgnoredFiles(ignoredFileNames, ignoredFilePrefixes); // Pass global ignore config
-                    validator.setLinkedConfigPath(this.linkedConfigPath); // Pass linked config context
+                     
+                    validator.setIgnoredFiles(ignoredFileNames, ignoredFilePrefixes);  
+                    validator.setLinkedConfigPath(this.linkedConfigPath);  
                     CheckResult result = validator.execute(projectRoot, check);
                     results.add(result);
                     if (!result.passed)
